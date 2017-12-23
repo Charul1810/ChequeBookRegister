@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Cheque Book Register</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_cheque">AddCheque</string>
+    <string name="Choose_bank">Choose Bank</string>
+    <string-array name="bank_names">
+        <item>Select Bank</item>
+        <item>Kotak</item>
+        <item>ICICI</item>
+        <item>HDFC</item>
+    </string-array>
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>Debit</item>
+        <item>Credit</item>
+    </string-array>
+    <string-array name="status">
+        <item>Select Status</item>
+        <item>Success</item>
+        <item>Hold</item>
+        <item>Cancel</item>
+    </string-array>
+</resources>
