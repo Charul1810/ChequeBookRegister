@@ -13,6 +13,7 @@ import android.text.Selection;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -32,7 +33,7 @@ public class Add_activity extends AppCompatActivity {
     Button save;
     TextView id;
     DatabaseHandler db;
-    String sp1,sp2,sp3;
+    String sp1,sp2,sp3,rem_status;
     private Calendar cdate;
     private String mTime, mDate;
     private static final DateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yy");
@@ -89,6 +90,28 @@ public class Add_activity extends AppCompatActivity {
         });
 
 
+        //////set the switch to ON
+        reminder.setChecked(false);
+
+//////attach a listener to check for changes in state
+        reminder.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
+
+                if(isChecked){
+                    rem_status="true"; //edit here
+
+                }else{
+                    rem_status="false";
+                }
+
+            }
+
+        });
+
+
+
+
 
 
 
@@ -115,13 +138,12 @@ public class Add_activity extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(givento.getText().toString().trim().length()<0)
-                {
-                    givento.setEnabled(true);
-                    givento.setError("You need to enter a name");
-                }
+
                 Toast.makeText(getApplicationContext(),"Button pressed",Toast.LENGTH_SHORT).show();
-                //db.add_cheque();
+                db.add_cheque(new cheque(sp1,sp2,givento.getText().toString(),date.getText().toString(),amount.getText().toString(),
+                        chequeno.getText().toString(),sp3,notes.getText().toString(),rem_status));
+
+         Toast.makeText(getApplicationContext(),givento.getText().toString(),Toast.LENGTH_SHORT).show();
             }
         });
 

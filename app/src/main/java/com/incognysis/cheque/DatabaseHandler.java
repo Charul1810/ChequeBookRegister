@@ -77,7 +77,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_CHEQUENO, c.get_chequeNo());
         values.put(KEY_STATUS, c.get_status());
         values.put(KEY_NOTES, c.get_notes());
-        values.put(KEY_REMINDER, "false");
+        values.put(KEY_REMINDER,c.get_reminder());
         db.insert(TABLE_CHEQUE, null, values);
         db.close();
     }
