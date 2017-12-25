@@ -29,7 +29,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     private static final String KEY_TYPE = "type";
     private static final String KEY_BANK = "bank";
     private static final String KEY_GIVENTO = "givento";
-    private static final String KEY_DATE = "date";
+    private static final String KEY_ENTRY_DATE = "date";
+    private static final String KEY_ISSUE_DATE = "date";
     private static final String KEY_AMOUNT = "amount";
     private static final String KEY_CHEQUENO = "chequeno";
     private static final String KEY_STATUS = "status";
@@ -50,7 +51,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 + KEY_TYPE + " TEXT,"
                 + KEY_BANK + " TEXT,"
                 + KEY_GIVENTO + " TEXT,"
-                + KEY_DATE + " TEXT,"
+                + KEY_ENTRY_DATE + " TEXT,"
+                + KEY_ISSUE_DATE + " TEXT,"
                 + KEY_AMOUNT + " TEXT,"
                 + KEY_CHEQUENO + " TEXT,"
                 + KEY_STATUS + " TEXT,"
@@ -72,7 +74,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_TYPE, c.get_type());
         values.put(KEY_BANK, c.get_bank());
         values.put(KEY_GIVENTO, c.get_givenTo());
-        values.put(KEY_DATE, c.get_date());
+        values.put(KEY_ENTRY_DATE, c.get_entry_date());
+        values.put(KEY_ISSUE_DATE,c.get_issue_date());
         values.put(KEY_AMOUNT, c.get_amount());
         values.put(KEY_CHEQUENO, c.get_chequeNo());
         values.put(KEY_STATUS, c.get_status());
@@ -100,13 +103,14 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 c.set_type(cursor.getString(1));
                 c.set_bank(cursor.getString(2));
                 c.set_givenTo(cursor.getString(3));
-                c.set_date(cursor.getString(4));
-                c.set_amount(cursor.getString(5));
-                c.set_chequeNo(cursor.getString(6));
-                c.set_status(cursor.getString(7));
+                c.set_entry_date(cursor.getString(4));
+                c.set_entry_date(cursor.getString(5));
+                c.set_amount(cursor.getString(6));
+                c.set_chequeNo(cursor.getString(7));
                 c.set_status(cursor.getString(8));
-                c.set_notes(cursor.getString(9));
-               c.set_reminder(cursor.getString(10));
+                c.set_status(cursor.getString(9));
+                c.set_notes(cursor.getString(10));
+               c.set_reminder(cursor.getString(11));
 
 
                 // Adding contact to list

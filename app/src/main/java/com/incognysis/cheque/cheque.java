@@ -11,50 +11,69 @@ public class cheque {
     String _type;
     String _bank;
     String _givenTo;
-    String _date;
+    String _entry_date;
+    String _issue_date;
     String _amount;
     String _chequeNo;
     String _status;
     String _notes;
     String _reminder;
 
-    public cheque(int id, String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
+//    public cheque(int id, String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
+//        this.id = id;
+//        this._type = _type;
+//        this._bank = _bank;
+//        this._givenTo = _givenTo;
+//        this._date = _date;
+//        this._amount = _amount;
+//        this._chequeNo = _chequeNo;
+//        this._status = _status;
+//        this._notes = _notes;
+//        this._reminder = _reminder;
+//   }
+
+//    public cheque(String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
+//        this._type = _type;
+//        this._bank = _bank;
+//        this._givenTo = _givenTo;
+//        this._date = _date;
+//        this._amount = _amount;
+//        this._chequeNo = _chequeNo;
+//        this._status = _status;
+//        this._notes = _notes;
+////        this._reminder = _reminder;
+//    }
+
+    public cheque() {
+    }
+
+
+
+    public cheque(int id, String _type, String _bank, String _givenTo, String _entry_date, String _issue_date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
         this.id = id;
         this._type = _type;
         this._bank = _bank;
         this._givenTo = _givenTo;
-        this._date = _date;
+        this._entry_date = _entry_date;
+        this._issue_date = _issue_date;
         this._amount = _amount;
         this._chequeNo = _chequeNo;
         this._status = _status;
         this._notes = _notes;
         this._reminder = _reminder;
-   }
+    }
 
-    public cheque(String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
+    public cheque(String _type, String _bank, String _givenTo, String _entry_date, String _issue_date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
         this._type = _type;
         this._bank = _bank;
         this._givenTo = _givenTo;
-        this._date = _date;
+        this._entry_date = _entry_date;
+        this._issue_date = _issue_date;
         this._amount = _amount;
         this._chequeNo = _chequeNo;
         this._status = _status;
         this._notes = _notes;
-//        this._reminder = _reminder;
-    }
-
-    public cheque() {
-    }
-
-    public cheque(String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes) {
-        this._type = _type;
-        this._bank = _bank;
-        this._givenTo = _givenTo;
-        this._date = _date;
-        this._amount = _amount;
-        this._chequeNo = _chequeNo;
-        this._status = _status;
-        this._notes = _notes;
+        this._reminder = _reminder;
     }
 
 //    public cheque(int id, String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes) {
@@ -102,14 +121,6 @@ public class cheque {
         this._givenTo = _givenTo;
     }
 
-    public String get_date() {
-        return _date;
-    }
-
-    public void set_date(String _date) {
-        this._date = _date;
-    }
-
     public String get_amount() {
         return _amount;
     }
@@ -148,5 +159,21 @@ public class cheque {
 
     public void set_reminder(String _reminder) {
         this._reminder = _reminder;
+    }
+
+    public String get_entry_date() {
+        return _entry_date;
+    }
+
+    public void set_entry_date(String _entry_date) {
+        this._entry_date = _entry_date;
+    }
+
+    public String get_issue_date() {
+        return _issue_date;
+    }
+
+    public void set_issue_date(String _issue_date) {
+        this._issue_date = _issue_date;
     }
 }
