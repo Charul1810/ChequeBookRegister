@@ -29,7 +29,7 @@ public class cheque {
         this._status = _status;
         this._notes = _notes;
         this._reminder = _reminder;
-    }
+   }
 
     public cheque(String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes, String _reminder) {
         this._type = _type;
@@ -40,15 +40,34 @@ public class cheque {
         this._chequeNo = _chequeNo;
         this._status = _status;
         this._notes = _notes;
-        this._reminder = _reminder;
+//        this._reminder = _reminder;
     }
 
     public cheque() {
     }
 
-    public cheque(String sp1, String sp2, String s, String s1, String s2, String s3, String sp3, Spinner status) {
-
+    public cheque(String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes) {
+        this._type = _type;
+        this._bank = _bank;
+        this._givenTo = _givenTo;
+        this._date = _date;
+        this._amount = _amount;
+        this._chequeNo = _chequeNo;
+        this._status = _status;
+        this._notes = _notes;
     }
+
+//    public cheque(int id, String _type, String _bank, String _givenTo, String _date, String _amount, String _chequeNo, String _status, String _notes) {
+//        this.id = id;
+//        this._type = _type;
+//        this._bank = _bank;
+//        this._givenTo = _givenTo;
+//        this._date = _date;
+//        this._amount = _amount;
+//        this._chequeNo = _chequeNo;
+//        this._status = _status;
+//        this._notes = _notes;
+//    }
 
 
     public int getId() {

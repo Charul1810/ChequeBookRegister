@@ -12,6 +12,7 @@ import android.text.Editable;
 import android.text.Selection;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.DatePicker;
@@ -23,6 +24,7 @@ import android.widget.Toast;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.HashSet;
 
 public class Add_activity extends AppCompatActivity {
 
@@ -34,9 +36,8 @@ public class Add_activity extends AppCompatActivity {
     TextView id;
     DatabaseHandler db;
     String sp1,sp2,sp3,rem_status;
-    private Calendar cdate;
-    private String mTime, mDate;
-    private static final DateFormat DATE_FORMAT = new SimpleDateFormat("dd/MM/yy");
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +55,10 @@ public class Add_activity extends AppCompatActivity {
         status=(Spinner) findViewById(R.id.status_spinner);
         reminder=(SwitchCompat) findViewById(R.id.switch_toggle);
         save=(Button) findViewById(R.id.save);
-        sp1=String.valueOf(type.getSelectedItem());
-        sp2=String.valueOf(bank.getSelectedItem());
-        sp3=String.valueOf(status.getSelectedItem());
+        db= new DatabaseHandler(this);
+//        sp1=String.valueOf(type.getSelectedItem());
+//        sp2=String.valueOf(bank.getSelectedItem());
+//        sp3=String.valueOf(status.getSelectedItem());
        // cdate=Calendar.getInstance();
 
         amount.setText("₹ ");
@@ -90,40 +92,66 @@ public class Add_activity extends AppCompatActivity {
         });
 
 
-        //////set the switch to ON
+        ////set the switch to ON
         reminder.setChecked(false);
 
-//////attach a listener to check for changes in state
+////attach a listener to check for changes in state
         reminder.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
+                    if(isChecked) {
+                        rem_status = "true"; //edit here
+                    }
+                    else
+                    {
 
-                if(isChecked){
-                    rem_status="true"; //edit here
+                        rem_status="false";
+                    }
 
-                }else{
-                    rem_status="false";
-                }
 
             }
 
         });
 
+        type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
+                 sp1 = parent.getItemAtPosition(pos).toString();
+                // make insertion into database
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+
+        bank.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
+                sp2 = parent.getItemAtPosition(pos).toString();
+                // make insertion into database
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+        status.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
+                sp3 = parent.getItemAtPosition(pos).toString();
+                // make insertion into database
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
 
 
-
-
-
-//        if(sp1=="debit")
-//        {
-//            givento.setHint("Given To");
-//        }
-//        else
-//        {
-//            givento.setHint("Recieved From");
-//
-//        }
 
         date.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -140,6 +168,7 @@ public class Add_activity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Toast.makeText(getApplicationContext(),"Button pressed",Toast.LENGTH_SHORT).show();
+
                 db.add_cheque(new cheque(sp1,sp2,givento.getText().toString(),date.getText().toString(),amount.getText().toString(),
                         chequeno.getText().toString(),sp3,notes.getText().toString(),rem_status));
 
@@ -149,25 +178,7 @@ public class Add_activity extends AppCompatActivity {
 
     }
 
-    // mDate picker
-//    public DatePickerDialog datePicker() {
-//        DatePickerDialog datePicker = new DatePickerDialog(Add_activity.this,
-//                new DatePickerDialog.OnDateSetListener() {
-//                    @Override
-//                    public void onDateSet(DatePicker datePicker, int year, int month, int day) {
-//
-//                        cdate.set(Calendar.YEAR, year);
-//                        cdate.set(Calendar.MONTH, month);
-//                        cdate.set(Calendar.DAY_OF_MONTH, day);
-//                        mDate = DATE_FORMAT.format(cdate.getTime());
-////                        mAlarmDate.put("subtext", mDate);
-////                        mAdapter.notifyDataSetChanged();
-//                    }
-//                }, cdate.get(Calendar.YEAR), cdate.get(Calendar.MONTH),
-//                cdate.get(Calendar.DAY_OF_MONTH));
-//        datePicker.getDatePicker().setMinDate(System.currentTimeMillis() - 1000);
-//        return datePicker;
-//    }
+
 
     @SuppressLint("ValidFragment")
     public static class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {

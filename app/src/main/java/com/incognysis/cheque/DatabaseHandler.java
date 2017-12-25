@@ -54,8 +54,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 + KEY_AMOUNT + " TEXT,"
                 + KEY_CHEQUENO + " TEXT,"
                 + KEY_STATUS + " TEXT,"
-                + KEY_NOTES + " TEXT,"
-                + KEY_REMINDER + " TEXT "
+                + KEY_NOTES + " TEXT, "
+               + KEY_REMINDER + " TEXT "
                 + ")";
 
         db.execSQL(CREATE_CHEQUE_TABLE);
@@ -77,7 +77,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         values.put(KEY_CHEQUENO, c.get_chequeNo());
         values.put(KEY_STATUS, c.get_status());
         values.put(KEY_NOTES, c.get_notes());
-        values.put(KEY_REMINDER,c.get_reminder());
+       values.put(KEY_REMINDER,c.get_reminder());
         db.insert(TABLE_CHEQUE, null, values);
         db.close();
     }
@@ -106,7 +106,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 c.set_status(cursor.getString(7));
                 c.set_status(cursor.getString(8));
                 c.set_notes(cursor.getString(9));
-                c.set_reminder(cursor.getString(10));
+               c.set_reminder(cursor.getString(10));
 
 
                 // Adding contact to list

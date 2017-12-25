@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +18,11 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    SlidingTabLayout tabs;
+    int Numboftabs =2;
+    CharSequence Titles[]={"Debit","Credit"};
+    HomeAdapter adapter;
+    ViewPager pager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +48,30 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        {
+            adapter =  new HomeAdapter(getSupportFragmentManager(),Titles,Numboftabs);
+            // Assigning ViewPager View and setting the adapter
+            pager = (ViewPager) findViewById(R.id.pager);
+            pager.setAdapter(adapter);
+            pager.setOffscreenPageLimit(7);
+
+            // Assiging the Sliding Tab Layout View
+            tabs = (SlidingTabLayout) findViewById(R.id.tabs);
+            tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
+
+            // Setting Custom Color for the Scroll bar indicator of the Tab View
+            tabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
+                @Override
+                public int getIndicatorColor(int position) {
+                    return getResources().getColor(R.color.white);
+                }
+            });
+
+            tabs.setDistributeEvenly(false);// remove multiple lines in tab
+            // Setting the ViewPager For the SlidingTabsLayout
+            tabs.setViewPager(pager);
+        }
     }
 
     @Override
