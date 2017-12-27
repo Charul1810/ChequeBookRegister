@@ -103,7 +103,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 c.setId(Integer.parseInt(cursor.getString(0)));
 //                c.set_type(cursor.getString(1));
 //                c.set_bank(cursor.getString(2));
-                c.set_givenTo(cursor.getString(1));
+                c.set_givenTo(cursor.getString(3));
                 c.set_entry_date(cursor.getString(4));
 //                c.set_issue_date(cursor.getString(5));
                 c.set_amount(cursor.getString(6));
