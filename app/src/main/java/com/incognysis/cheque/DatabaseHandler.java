@@ -71,16 +71,16 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     void add_cheque(cheque c) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put(KEY_TYPE, c.get_type());
-        values.put(KEY_BANK, c.get_bank());
-        values.put(KEY_GIVENTO, c.get_givenTo());
-        values.put(KEY_ENTRY_DATE, c.get_entry_date());
-        values.put(KEY_ISSUE_DATE,c.get_issue_date());
-        values.put(KEY_AMOUNT, c.get_amount());
-        values.put(KEY_CHEQUENO, c.get_chequeNo());
-        values.put(KEY_STATUS, c.get_status());
-        values.put(KEY_NOTES, c.get_notes());
-       values.put(KEY_REMINDER,c.get_reminder());
+        values.put(KEY_TYPE, c.get_type());//1
+        values.put(KEY_BANK, c.get_bank());//2
+        values.put(KEY_GIVENTO, c.get_givenTo());//3
+        values.put(KEY_ENTRY_DATE, c.get_entry_date());//4
+        values.put(KEY_ISSUE_DATE,c.get_issue_date());//5
+        values.put(KEY_AMOUNT, c.get_amount());//6
+        values.put(KEY_CHEQUENO, c.get_chequeNo());//7
+        values.put(KEY_STATUS, c.get_status());//8
+        values.put(KEY_NOTES, c.get_notes());//9
+        values.put(KEY_REMINDER,c.get_reminder());//10
         db.insert(TABLE_CHEQUE, null, values);
         db.close();
     }
@@ -90,7 +90,8 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     public List<cheque> getAllCheques() {
         List<cheque> chequeList = new ArrayList<cheque>();
         // Select All Query
-        String selectQuery = "SELECT  * FROM " + TABLE_CHEQUE;
+        String selectQuery = "SELECT  * FROM " + TABLE_CHEQUE ;
+//        +"WHERE" +KEY_TYPE+"="+"Debit"
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
 
@@ -100,17 +101,17 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 cheque c = new cheque();
 
                 c.setId(Integer.parseInt(cursor.getString(0)));
-                c.set_type(cursor.getString(1));
-                c.set_bank(cursor.getString(2));
-                c.set_givenTo(cursor.getString(3));
+//                c.set_type(cursor.getString(1));
+//                c.set_bank(cursor.getString(2));
+                c.set_givenTo(cursor.getString(1));
                 c.set_entry_date(cursor.getString(4));
-                c.set_entry_date(cursor.getString(5));
+//                c.set_issue_date(cursor.getString(5));
                 c.set_amount(cursor.getString(6));
                 c.set_chequeNo(cursor.getString(7));
-                c.set_status(cursor.getString(8));
-                c.set_status(cursor.getString(9));
-                c.set_notes(cursor.getString(10));
-               c.set_reminder(cursor.getString(11));
+//                c.set_status(cursor.getString(8));
+//                c.set_status(cursor.getString(9));
+//                c.set_notes(cursor.getString(10));
+//                c.set_reminder(cursor.getString(11));
 
 
                 // Adding contact to list

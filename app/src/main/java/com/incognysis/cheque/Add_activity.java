@@ -5,6 +5,7 @@ import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SwitchCompat;
@@ -121,17 +122,17 @@ public class Add_activity extends AppCompatActivity {
 
             public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
                  sp1 = parent.getItemAtPosition(pos).toString();
-                    if(sp1.equalsIgnoreCase("debit"))
+                    if(sp1.equalsIgnoreCase("credit"))
                     {
-                        givento.setVisibility(View.VISIBLE);
-                        takenfrom.setVisibility(View.GONE);
-                        given_or_taken=givento.getText().toString();
-                    }
-                    else {
-
                         givento.setVisibility(View.GONE);
                         takenfrom.setVisibility(View.VISIBLE);
                         given_or_taken=takenfrom.getText().toString();
+                    }
+                    else if(sp1.equalsIgnoreCase("debit")) {
+
+                        givento.setVisibility(View.VISIBLE);
+                        takenfrom.setVisibility(View.GONE);
+                        given_or_taken=givento.getText().toString();
                     }
 
                 // make insertion into database
@@ -192,12 +193,13 @@ public class Add_activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(getApplicationContext(),"Button pressed",Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"Button pressed",Toast.LENGTH_SHORT).show();
+                    db.add_cheque(new cheque(sp1, sp2, given_or_taken, entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
-                db.add_cheque(new cheque(sp1,sp2,given_or_taken,entry_date.getText().toString(),issued_date.getText().toString(),amount.getText().toString(),
-                        chequeno.getText().toString(),sp3,notes.getText().toString(),rem_status));
+                    Toast.makeText(getApplicationContext(), givento.getText().toString(), Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
-         Toast.makeText(getApplicationContext(),givento.getText().toString(),Toast.LENGTH_SHORT).show();
             }
         });
 
