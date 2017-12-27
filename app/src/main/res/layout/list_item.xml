@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/row">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="4.3"
-    android:orientation="vertical">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:src="@mipmap/ic_launcher_round" />
-        <!--android:scaleType="centerCrop"-->
+    android:layout_height="match_parent">
 
-</LinearLayout>
-    <LinearLayout
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/logo_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@mipmap/ic_launcher_round" />
+            <!--android:scaleType="centerCrop"-->
+
+        </RelativeLayout>
+
+
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:padding="5dp">
-        <TextView
-            android:id="@+id/id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"/>
+        android:paddingLeft="82dp"
+        android:paddingTop="2dp">
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:textStyle="bold"
-            android:hint="Name"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:hint="Name"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="82dp"
+            android:paddingTop="19dp">
         <TextView
             android:id="@+id/chq_no"
             android:layout_width="wrap_content"
@@ -42,15 +58,32 @@
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
-            android:hint="Cheque No:"/>
+            android:hint="Cheque No:"
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="82dp"
+            android:paddingTop="38dp">
+
         <TextView
-            android:id="@+id/d_date"
+            android:id="@+id/e_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
-            android:hint="Deposite Date:"/>
+            android:hint="Deposited Date:"
+            />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="82dp"
+            android:paddingTop="56dp">
         <TextView
             android:id="@+id/amt"
             android:layout_width="wrap_content"
@@ -59,5 +92,9 @@
             android:textStyle="bold"
             android:textColor="@android:color/black"
             android:hint="Amount:"/>
-    </LinearLayout>
-</LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+
