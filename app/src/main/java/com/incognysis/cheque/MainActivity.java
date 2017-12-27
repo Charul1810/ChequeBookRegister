@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        {
+
             adapter =  new HomeAdapter(getSupportFragmentManager(),Titles,Numboftabs);
             // Assigning ViewPager View and setting the adapter
             pager = (ViewPager) findViewById(R.id.pager);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity
             tabs.setDistributeEvenly(false);// remove multiple lines in tab
             // Setting the ViewPager For the SlidingTabsLayout
             tabs.setViewPager(pager);
-        }
+
     }
 
     @Override
