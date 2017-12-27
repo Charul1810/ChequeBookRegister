@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -189,7 +190,7 @@ public class Tab_Credit extends Fragment {
             TextView tv_chq_no;
             TextView tv_dep_date;
             TextView tv_amt;
-            LinearLayout row;
+            RelativeLayout row;
 
 
             public ViewHolder(View view) {
@@ -198,7 +199,7 @@ public class Tab_Credit extends Fragment {
                 tv_chq_no = (TextView) view.findViewById(R.id.chq_no);
                 tv_dep_date = (TextView) view.findViewById(R.id.d_date);
                 tv_amt = (TextView) view.findViewById(R.id.amt);
-                row = (LinearLayout) view.findViewById(R.id.row);
+                row = (RelativeLayout) view.findViewById(R.id.row);
                 view.setTag(this);
             }
         }
