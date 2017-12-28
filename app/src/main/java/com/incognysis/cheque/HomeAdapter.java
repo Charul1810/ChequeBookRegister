@@ -19,6 +19,8 @@ public class HomeAdapter extends FragmentStatePagerAdapter {
         this.NumbOfTabs = mNumbOfTabsumb;
     }
 
+
+
     // This method return the titles for the Tabs in the Tab Strip
 
     @Override

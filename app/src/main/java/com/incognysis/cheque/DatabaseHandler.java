@@ -16,21 +16,21 @@ import java.util.List;
 public class DatabaseHandler extends SQLiteOpenHelper {
     // All Static variables
 // Database Version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 5;
 
     // Database Name
-    private static final String DATABASE_NAME = "cheque_manager";
+    private static final String DATABASE_NAME = "chequebook_manager";
 
     // Contacts table name
-    private static final String TABLE_CHEQUE = "cheque";
+    private static final String TABLE_CHEQUE = "chequebook";
 
     // Contacts Table Columns names
     private static final String KEY_ID = "id";
     private static final String KEY_TYPE = "type";
     private static final String KEY_BANK = "bank";
     private static final String KEY_GIVENTO = "givento";
-    private static final String KEY_ENTRY_DATE = "date";
-    private static final String KEY_ISSUE_DATE = "date";
+    private static final String KEY_ENTRY_DATE = "edate";
+    private static final String KEY_ISSUE_DATE = "idate";
     private static final String KEY_AMOUNT = "amount";
     private static final String KEY_CHEQUENO = "chequeno";
     private static final String KEY_STATUS = "status";
@@ -101,17 +101,17 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 cheque c = new cheque();
 
                 c.setId(Integer.parseInt(cursor.getString(0)));
-//                c.set_type(cursor.getString(1));
-//                c.set_bank(cursor.getString(2));
+                c.set_type(cursor.getString(1));
+               c.set_bank(cursor.getString(2));
                 c.set_givenTo(cursor.getString(3));
                 c.set_entry_date(cursor.getString(4));
-//                c.set_issue_date(cursor.getString(5));
+                c.set_issue_date(cursor.getString(5));
                 c.set_amount(cursor.getString(6));
                 c.set_chequeNo(cursor.getString(7));
-//                c.set_status(cursor.getString(8));
-//                c.set_status(cursor.getString(9));
-//                c.set_notes(cursor.getString(10));
-//                c.set_reminder(cursor.getString(11));
+                c.set_status(cursor.getString(8));
+
+                c.set_notes(cursor.getString(9));
+                c.set_reminder(cursor.getString(10));
 
 
                 // Adding contact to list
@@ -122,6 +122,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // return note list
         return chequeList;
     }
+
 
 /*
     // Updating single contact
@@ -142,15 +143,15 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         return db.update(TABLE_NOTES, values, KEY_ID + " = ?",
                 new String[]{String.valueOf(n.get_id())});
     }
-
+*/
 
     // Deleting single contact
-    public void deleteNote(note n) {
+    public void deleteNote(cheque c) {
         SQLiteDatabase db = this.getWritableDatabase();
-        db.delete(TABLE_NOTES, KEY_ID + " = ?",
-                new String[]{String.valueOf(n.get_id())});
+        db.delete(TABLE_CHEQUE, KEY_ID + " = ?",
+                new String[]{String.valueOf(c.getId())});
         db.close();
     }
 
-*/
+
 }
