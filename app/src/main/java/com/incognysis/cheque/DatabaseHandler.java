@@ -87,13 +87,15 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
 
     // Getting All Contacts
-    public List<cheque> getAllCheques() {
+    public List<cheque> getAllDebitCheques() {
         List<cheque> chequeList = new ArrayList<cheque>();
         // Select All Query
-        String selectQuery = "SELECT  * FROM " + TABLE_CHEQUE ;
-//        +"WHERE" +KEY_TYPE+"="+"Debit"
+        String selectQuery = "SELECT  * FROM " + TABLE_CHEQUE;
+        String debit="Debit";
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery, null);
+
+
+        Cursor cursor = db.rawQuery(" SELECT * FROM " + TABLE_CHEQUE + " WHERE type = '" + debit + "'",null);
 
         // looping through all rows and adding to list
         if (cursor.moveToFirst()) {
@@ -102,14 +104,13 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
                 c.setId(Integer.parseInt(cursor.getString(0)));
                 c.set_type(cursor.getString(1));
-               c.set_bank(cursor.getString(2));
+                c.set_bank(cursor.getString(2));
                 c.set_givenTo(cursor.getString(3));
                 c.set_entry_date(cursor.getString(4));
                 c.set_issue_date(cursor.getString(5));
                 c.set_amount(cursor.getString(6));
                 c.set_chequeNo(cursor.getString(7));
                 c.set_status(cursor.getString(8));
-
                 c.set_notes(cursor.getString(9));
                 c.set_reminder(cursor.getString(10));
 
@@ -122,6 +123,45 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         // return note list
         return chequeList;
     }
+
+    public List<cheque> getAllCreditCheques() {
+        List<cheque> chequeList = new ArrayList<cheque>();
+        // Select All Query
+        String selectQuery = "SELECT  * FROM " + TABLE_CHEQUE;
+        String credit="Credit";
+        SQLiteDatabase db = this.getWritableDatabase();
+
+
+        Cursor cursor = db.rawQuery(" SELECT * FROM " + TABLE_CHEQUE + " WHERE type = '" + credit + "'",null);
+
+        // looping through all rows and adding to list
+        if (cursor.moveToFirst()) {
+            do {
+                cheque c = new cheque();
+
+                c.setId(Integer.parseInt(cursor.getString(0)));
+                c.set_type(cursor.getString(1));
+                c.set_bank(cursor.getString(2));
+                c.set_givenTo(cursor.getString(3));
+                c.set_entry_date(cursor.getString(4));
+                c.set_issue_date(cursor.getString(5));
+                c.set_amount(cursor.getString(6));
+                c.set_chequeNo(cursor.getString(7));
+                c.set_status(cursor.getString(8));
+                c.set_notes(cursor.getString(9));
+                c.set_reminder(cursor.getString(10));
+
+
+                // Adding contact to list
+                chequeList.add(c);
+            } while (cursor.moveToNext());
+        }
+
+        // return note list
+        return chequeList;
+    }
+
+
 
 
 /*

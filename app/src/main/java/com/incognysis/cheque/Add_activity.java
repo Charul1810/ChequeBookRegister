@@ -31,7 +31,7 @@ import java.util.HashSet;
 public class Add_activity extends AppCompatActivity {
 
     EditText givento,amount,chequeno,notes,takenfrom;
-    public static EditText issued_date,entry_date;
+     EditText issued_date,entry_date;
     Spinner type,bank,status;
     SwitchCompat reminder;
     Button save;
@@ -67,6 +67,9 @@ public class Add_activity extends AppCompatActivity {
 //        sp2=String.valueOf(bank.getSelectedItem());
 //        sp3=String.valueOf(status.getSelectedItem());
        // cdate=Calendar.getInstance();
+
+
+
 
         amount.setText("₹ ");
         Selection.setSelection(amount.getText(), amount.getText().length());
@@ -225,7 +228,7 @@ public class Add_activity extends AppCompatActivity {
 
 
     @SuppressLint("ValidFragment")
-    public static class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+    public  class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -248,7 +251,7 @@ public class Add_activity extends AppCompatActivity {
     }
 
     @SuppressLint("ValidFragment")
-    public static class SelectDateFragments extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+    public  class SelectDateFragments extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {

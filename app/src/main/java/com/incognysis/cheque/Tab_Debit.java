@@ -1,8 +1,11 @@
 package com.incognysis.cheque;
 
+import android.content.DialogInterface;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.BaseAdapter;
+import android.widget.Toast;
+
 import java.util.List;
 
 /**
@@ -31,7 +36,7 @@ public class Tab_Debit extends Fragment {
     TextView id;
     DatabaseHandler db;
     ListView listView;
-    //AppAdapter adapter;
+    AppAdapter adapter;
     String sp1,sp2,sp3,rem_status,given_or_taken;
 
 
@@ -55,163 +60,188 @@ public class Tab_Debit extends Fragment {
         db= new DatabaseHandler(v.getContext());
         listView=(ListView) v.findViewById(R.id.debit_list_view);
 
-//        load();
+       load();
 
         return v;
     }
 
-//    public void load() {
-//
-//        List<cheque> list = db.getAllCheques();
-//        mylist = list;
-//        adapter = new AppAdapter();
-//        listView.setAdapter(adapter);
-//
-//
-//
-//    }
+    public void load() {
 
-//    class AppAdapter extends BaseAdapter {
+        List<cheque> list = db.getAllDebitCheques();
+        mylist = list;
+        adapter = new AppAdapter();
+        listView.setAdapter(adapter);
+
+
+
+    }
 //
-//        @Override
-//        public int getCount() {
-//            return mylist.size();
-//        }
+    class AppAdapter extends BaseAdapter {
+
+        @Override
+        public int getCount() {
+            return mylist.size();
+        }
+
+        @Override
+        public String getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+
+        @Override
+        public View getView(final int position, View convertView, final ViewGroup parent) {
+            if (convertView == null) {
+                convertView = View.inflate(getActivity().getApplicationContext(),
+                        R.layout.list_item, null);
+                new ViewHolder(convertView);
+            }
+
+
+            final ViewHolder holder = (ViewHolder) convertView.getTag();
+
+
+
+                holder.tv_id.setText(mylist.get(position).getId() + "");
+                holder.tv_name.setText(mylist.get(position).get_givenTo());
+                holder.tv_chq_no.setText(mylist.get(position).get_chequeNo());
+                holder.tv_dep_date.setText(mylist.get(position).get_entry_date());
+                holder.tv_amt.setText(mylist.get(position).get_amount());
+
+
+            holder.row.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    final AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
+
 //
-//        @Override
-//        public String getItem(int position) {
-//            return null;
-//        }
-//
-//        @Override
-//        public long getItemId(int position) {
-//            return position;
-//        }
-//
-//
-//        @Override
-//        public View getView(final int position, View convertView, final ViewGroup parent) {
-//            if (convertView == null) {
-//                convertView = View.inflate(getActivity().getApplicationContext(),
-//                        R.layout.list_item, null);
-//                new ViewHolder(convertView);
-//            }
-//
-//
-//            final ViewHolder holder = (ViewHolder) convertView.getTag();
-//
-//            if(mylist.get(position).get_type().equalsIgnoreCase("debit")) {
-//
-//                holder.tv_id.setText(mylist.get(position).getId() + "");
-//                holder.tv_name.setText(mylist.get(position).get_givenTo());
-//                holder.tv_chq_no.setText(mylist.get(position).get_chequeNo());
-//                holder.tv_dep_date.setText(mylist.get(position).get_entry_date());
-//                holder.tv_amt.setText(mylist.get(position).get_amount());
-//
-//            }
-//
-//            else{
-//
-//                holder.tv_id.setText(mylist.get(position).getId() + "");
-//                holder.tv_name.setText(mylist.get(position).get_givenTo());
-//                holder.tv_chq_no.setText(mylist.get(position).get_chequeNo());
-//                holder.tv_dep_date.setText(mylist.get(position).get_entry_date());
-//                holder.tv_amt.setText(mylist.get(position).get_amount());
-//
-//
-//            }
-//
-//            //holder.tv_time.setText(mylist.get(position).getDateTime().toString());
-//
-//            //  This code is working but temporary disables to try something
-//
-////            holder.row.setOnClickListener(new View.OnClickListener() {
-////                @Override
-////                public void onClick(View v) {
-////
-////                    Intent i = new Intent(getActivity().getApplicationContext(), ViewNote.class);
-////                    i.putExtra("id", mylist.get(position).get_id() + "");
-////                    i.putExtra("title", mylist.get(position).get_title().toString());
-////                    i.putExtra("note", mylist.get(position).get_note().toString());
-////                    i.putExtra("time", mylist.get(position).get_time().toString());
-////                    startActivity(i);
-////
-////                }
-////            });
-//
-//
-////            holder.row.setOnLongClickListener(new View.OnLongClickListener() {
-////                @Override
-////                public boolean onLongClick(View view) {
-////
-////                    AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
-////
-////                    // Setting Dialog Title
-////                    alertDialog.setTitle("Confirm Delete...");
-////
-////                    // Setting Dialog Message
-////                    alertDialog.setMessage("Are you sure you want delete this?");
-////
-////                    // Setting Icon to Dialog
-////                    //alertDialog.setIcon(R.drawable.delete);
-////
-////                    // Setting Positive "Yes" Button
-////                    alertDialog.setPositiveButton("YES", new DialogInterface.OnClickListener() {
-////                        public void onClick(DialogInterface dialog, int which) {
-////
-////                            // Write your code here to invoke YES event
-////                            //Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
-////                            db.deleteNote(new note(mylist.get(position).get_id(), mylist.get(position).get_title(), mylist.get(position).get_note()));
-////                            load();
-////                            Toast.makeText(getApplicationContext(), "Deleted", Toast.LENGTH_SHORT).show();
-////
-////                        }
-////                    });
-////
-////                    // Setting Negative "NO" Button
-////                    alertDialog.setNegativeButton("NO", new DialogInterface.OnClickListener() {
-////                        public void onClick(DialogInterface dialog, int which) {
-////                            // Write your code here to invoke NO event
-////                            // Toast.makeText(getApplicationContext(), "You clicked on NO", Toast.LENGTH_SHORT).show();
-////                            dialog.cancel();
-////                        }
-////                    });
-////
-////                    // Showing Alert Message
-////                    alertDialog.show();
-////
-////                    //Toast.makeText(getApplicationContext(),mylist.get(position).get_id() + "",Toast.LENGTH_LONG).show();
-//////                    txtid.setText(mylist.get(position).get_id() + "");
-//////                    txttitle.setText(mylist.get(position).get_title());
-//////                    txtnote.setText(mylist.get(position).get_note());
-////                    return true;
-////                }
-////            });
-//
-//
-//            return convertView;
-//
-//        }
-//
-//
-//        class ViewHolder {
-//            TextView tv_id;
-//            TextView tv_name;
-//            TextView tv_chq_no;
-//            TextView tv_dep_date;
-//            TextView tv_amt;
-//            RelativeLayout row;
-//
-//
-//            public ViewHolder(View view) {
-//                tv_id = (TextView) view.findViewById(R.id.id);
-//                tv_name = (TextView) view.findViewById(R.id.name);
-//                tv_chq_no = (TextView) view.findViewById(R.id.chq_no);
-//                tv_dep_date = (TextView) view.findViewById(R.id.d_date);
-//                tv_amt = (TextView) view.findViewById(R.id.amt);
-//                row = (RelativeLayout) view.findViewById(R.id.row);
-//                view.setTag(this);
-//            }
-//        }
-//    }
+                    // Setting Dialog Title
+                    alertDialog.setTitle("Details");
+
+                    String alert1 = "Name : " + mylist.get(position).get_givenTo();
+                    String alert2 = "Amount : " + mylist.get(position).get_amount();
+                    String alert3 = "Bank Name : " + mylist.get(position).get_bank();
+                    String alert4 = "Cheque Number : " + mylist.get(position).get_chequeNo();
+                    String alert5 = "Status : " + mylist.get(position).get_status();
+                    String alert6 = "Deposited Date : " + mylist.get(position).get_entry_date();
+                    String alert7 = "Notes : " + mylist.get(position).get_notes();
+                    alertDialog.setMessage(alert1 + "\n\n" + alert2 + "\n\n" + alert3 + "\n\n" + alert4 + "\n\n" + alert5 + "\n\n" + alert6 + "\n\n" + alert7);
+
+
+
+                    // Setting Icon to Dialog
+                    alertDialog.setIcon(R.drawable.ic_info_outline_black_24dp);
+
+                    // Setting Positive "Yes" Button
+                    alertDialog.setPositiveButton("Update", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+
+
+
+                            // Write your code here to invoke YES event
+                            //Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(alertDialog.getContext(), "Checking", Toast.LENGTH_SHORT).show();
+
+
+                        }
+                    });
+
+                    // Setting Negative "NO" Button
+                    alertDialog.setNegativeButton("Delete", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            // Write your code here to invoke NO event
+                            // Toast.makeText(getApplicationContext(), "You clicked on NO", Toast.LENGTH_SHORT).show();
+                            AlertDialog.Builder alertDialog = new AlertDialog.Builder(getActivity());
+
+                            // Setting Dialog Title
+                            alertDialog.setTitle("Confirm Delete...");
+
+                            // Setting Dialog Message
+                            alertDialog.setMessage("Are you sure you want delete this?");
+
+                            // Setting Icon to Dialog
+                            //alertDialog.setIcon(R.drawable.delete);
+
+                            // Setting Positive "Yes" Button
+                            alertDialog.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+
+                                    // Write your code here to invoke YES event
+                                    //Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
+                                    db.deleteNote(new cheque(mylist.get(position).getId(), mylist.get(position).get_type(), mylist.get(position).get_bank(), mylist.get(position).get_givenTo(),
+                                            mylist.get(position).get_entry_date(), mylist.get(position).get_issue_date(),
+                                            mylist.get(position).get_amount(), mylist.get(position).get_chequeNo(),
+                                            mylist.get(position).get_status(), mylist.get(position).get_notes(),
+                                            mylist.get(position).get_reminder()));
+                                    load();
+                                    Toast.makeText(getContext(), "Deleted", Toast.LENGTH_SHORT).show();
+
+                                }
+                            });
+
+                            // Setting Negative "NO" Button
+                            alertDialog.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // Write your code here to invoke NO event
+
+                                    dialog.cancel();
+                                }
+                            });
+
+                            // Showing Alert Message
+                            alertDialog.show();
+
+
+                        }
+                    });
+
+                    // Showing Alert Message
+                    AlertDialog alertDialog1 = alertDialog.create();
+                    alertDialog1.show();
+                    TextView textView = ((TextView) alertDialog1.findViewById(android.R.id.message));
+                    textView.setTextColor(Color.BLACK);
+                    textView.setTextAppearance(R.style.TextAppearance_AppCompat_Title);
+                    textView.setTextSize(16);
+                    //  textView.setGravity(Gravity.CENTER);
+                }
+            });
+
+
+
+
+
+
+
+
+            return convertView;
+
+        }
+
+
+        class ViewHolder {
+            TextView tv_id;
+            TextView tv_name;
+            TextView tv_chq_no;
+            TextView tv_dep_date;
+            TextView tv_amt;
+            RelativeLayout row;
+
+
+            public ViewHolder(View view) {
+                tv_id = (TextView) view.findViewById(R.id.id);
+                tv_name = (TextView) view.findViewById(R.id.name);
+                tv_chq_no = (TextView) view.findViewById(R.id.chq_no);
+                tv_dep_date = (TextView) view.findViewById(R.id.d_date);
+                tv_amt = (TextView) view.findViewById(R.id.amt);
+                row = (RelativeLayout) view.findViewById(R.id.row);
+                view.setTag(this);
+            }
+        }
+ }
 }
