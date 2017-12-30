@@ -164,26 +164,25 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
 
 
-/*
-    // Updating single contact
-    public int updateNote(note n) {
+    public int updateCheque(cheque c) {
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
-        values.put(KEY_TITLE, n.get_title());
-        values.put(KEY_NOTE, n.get_note());
-        values.put(KEY_DAY, n.get_day());
-        values.put(KEY_TIME, n.get_reminder_time());
-        //************************
-//        values.put(KEY_DATE, n.get_created().getTime());
-        //************************
 
-
-        // updating row
-        return db.update(TABLE_NOTES, values, KEY_ID + " = ?",
-                new String[]{String.valueOf(n.get_id())});
+        values.put(KEY_TYPE, c.get_type());//1
+        values.put(KEY_BANK, c.get_bank());//2
+        values.put(KEY_GIVENTO, c.get_givenTo());//3
+        values.put(KEY_ENTRY_DATE, c.get_entry_date());//4
+        values.put(KEY_ISSUE_DATE,c.get_issue_date());//5
+        values.put(KEY_AMOUNT, c.get_amount());//6
+        values.put(KEY_CHEQUENO, c.get_chequeNo());//7
+        values.put(KEY_STATUS, c.get_status());//8
+        values.put(KEY_NOTES, c.get_notes());//9
+        values.put(KEY_REMINDER,c.get_reminder());//10
+        return db.update(TABLE_CHEQUE, values, KEY_ID + " = ?",
+                new String[]{String.valueOf(c.getId())});
     }
-*/
+
 
     // Deleting single contact
     public void deleteNote(cheque c) {

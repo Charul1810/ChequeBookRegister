@@ -14,25 +14,27 @@ import android.text.Selection;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
 public class Update extends AppCompatActivity {
 
     EditText givento,amount,chequeno,notes,takenfrom;
-     EditText issued_date,entry_date;
+    public static EditText issued_date,entry_date;
     Spinner type,bank,status;
     SwitchCompat reminder;
     Button save;
     TextView id;
     DatabaseHandler db;
-    String sp1,sp2,sp3,rem_status,given_or_taken;
+    String sp1="",sp2="",sp3="",rem_status="",given_or_taken="";
     TextInputLayout textInputLayout1,textInputLayout2;
 
     @Override
@@ -60,18 +62,58 @@ public class Update extends AppCompatActivity {
         Selection.setSelection(amount.getText(), amount.getText().length());
 
         Bundle b = getIntent().getExtras();
-        id.setText(b.getString("id", "1"));
-        type.setSelection(b.getInt("type"));
-        bank.setSelection(b.getInt("bank"));
+        id.setText(b.getString("id","1"));
+        //type.setSelection(b.getInt("type"));
+      //  bank.setSelection(b.getInt("bank"));
         givento.setText(b.getString("takenfrom"));
+        takenfrom.setText(b.getString("takenfrom"));
         entry_date.setText(b.getString("e_date"));
         issued_date.setText(b.getString("i_date"));
         amount.setText(b.getString("amount"));
         chequeno.setText(b.getString("chequeNo"));
-        status.setSelection(b.getInt("note"));
+    //    status.setSelection(b.getInt("status"));
         notes.setText(b.getString("notes"));
-        //reminder.setChecked();
+        reminder.setChecked(false);
 
+        //for type spinner
+        String compareValue1 = b.getString("type");
+        ArrayAdapter<String> spinnerArrayAdapter1 = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        getResources().getStringArray(R.array.type));
+        spinnerArrayAdapter1.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        type.setAdapter(spinnerArrayAdapter1);
+        if (!compareValue1.equals(null)) {
+            int spinnerPosition = spinnerArrayAdapter1.getPosition(compareValue1);
+            type.setSelection(spinnerPosition);
+        }
+
+
+        //for bank spinner
+        String compareValue2 = b.getString("bank");
+        ArrayAdapter<String> spinnerArrayAdapter2 = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        getResources().getStringArray(R.array.bank_names));
+        spinnerArrayAdapter2.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        bank.setAdapter(spinnerArrayAdapter2);
+        if (!compareValue2.equals(null)) {
+            int spinnerPosition = spinnerArrayAdapter2.getPosition(compareValue2);
+            bank.setSelection(spinnerPosition);
+        }
+
+        //for status spinner
+        String compareValue3 = b.getString("status");
+        ArrayAdapter<String> spinnerArrayAdapter3 = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        getResources().getStringArray(R.array.status));
+        spinnerArrayAdapter3.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        status.setAdapter(spinnerArrayAdapter3);
+        if (!compareValue3.equals(null)) {
+            int spinnerPosition = spinnerArrayAdapter3.getPosition(compareValue3);
+            status.setSelection(spinnerPosition);
+        }
 
 
         amount.addTextChangedListener(new TextWatcher() {
@@ -126,6 +168,7 @@ public class Update extends AppCompatActivity {
         type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
+
                 sp1 = parent.getItemAtPosition(pos).toString();
                 if(sp1.equalsIgnoreCase("credit"))
                 {
@@ -204,12 +247,13 @@ public class Update extends AppCompatActivity {
 
                 if(sp1.equalsIgnoreCase("debit"))
                 {
+                    Toast.makeText(getApplicationContext(), id.getText().toString(), Toast.LENGTH_SHORT).show();
                     db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()),sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
                 }
                 else if(sp1.equalsIgnoreCase("credit")) {
-//                Toast.makeText(getApplicationContext(),"Button pressed",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),id.getText().toString(),Toast.LENGTH_SHORT).show();
                     db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()),sp1, sp2, takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
                 }
@@ -229,7 +273,7 @@ public class Update extends AppCompatActivity {
 
 
     @SuppressLint("ValidFragment")
-    public  class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+    public static class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -252,7 +296,7 @@ public class Update extends AppCompatActivity {
     }
 
     @SuppressLint("ValidFragment")
-    public  class SelectDateFragments extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+    public static class SelectDateFragments extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {

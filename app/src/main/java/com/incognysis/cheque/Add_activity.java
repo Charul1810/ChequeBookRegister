@@ -15,6 +15,7 @@ import android.text.Selection;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.DatePicker;
@@ -25,13 +26,15 @@ import android.widget.Toast;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashSet;
+import java.util.List;
 
 public class Add_activity extends AppCompatActivity {
 
     EditText givento,amount,chequeno,notes,takenfrom;
-     EditText issued_date,entry_date;
+    public static EditText issued_date,entry_date;
     Spinner type,bank,status;
     SwitchCompat reminder;
     Button save;
@@ -39,7 +42,9 @@ public class Add_activity extends AppCompatActivity {
     DatabaseHandler db;
     String sp1,sp2,sp3,rem_status,given_or_taken;
     TextInputLayout textInputLayout1,textInputLayout2;
-
+    String table;
+    List<String> list;
+    String selectedItem="";
 
 
     @Override
@@ -63,10 +68,31 @@ public class Add_activity extends AppCompatActivity {
         db= new DatabaseHandler(this);
         textInputLayout1 = (TextInputLayout) findViewById(R.id.text_input_layout1);
         textInputLayout2 = (TextInputLayout) findViewById(R.id.text_input_layout2);
-//        sp1=String.valueOf(type.getSelectedItem());
-//        sp2=String.valueOf(bank.getSelectedItem());
-//        sp3=String.valueOf(status.getSelectedItem());
-       // cdate=Calendar.getInstance();
+
+
+        //for type spinner
+        ArrayAdapter<String> spinnerArrayAdapter1 = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        getResources().getStringArray(R.array.type)); //selected item will look like a spinner set from XML
+        spinnerArrayAdapter1.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        type.setAdapter(spinnerArrayAdapter1);
+
+        //for bank spinner
+        ArrayAdapter<String> spinnerArrayAdapter2 = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        getResources().getStringArray(R.array.bank_names)); //selected item will look like a spinner set from XML
+        spinnerArrayAdapter2.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        bank.setAdapter(spinnerArrayAdapter2);
+
+        //for status spinner
+        ArrayAdapter<String> spinnerArrayAdapter3 = new ArrayAdapter<String>
+                (this, android.R.layout.simple_spinner_item,
+                        getResources().getStringArray(R.array.status)); //selected item will look like a spinner set from XML
+        spinnerArrayAdapter3.setDropDownViewResource(android.R.layout
+                .simple_spinner_dropdown_item);
+        status.setAdapter(spinnerArrayAdapter3);
 
 
 
@@ -228,7 +254,7 @@ public class Add_activity extends AppCompatActivity {
 
 
     @SuppressLint("ValidFragment")
-    public  class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+    public static class SelectDateFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -251,7 +277,7 @@ public class Add_activity extends AppCompatActivity {
     }
 
     @SuppressLint("ValidFragment")
-    public  class SelectDateFragments extends DialogFragment implements DatePickerDialog.OnDateSetListener {
+    public static class SelectDateFragments extends DialogFragment implements DatePickerDialog.OnDateSetListener {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {

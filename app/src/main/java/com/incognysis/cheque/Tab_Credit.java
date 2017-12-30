@@ -39,6 +39,7 @@ public class Tab_Credit extends Fragment {
     DatabaseHandler db;
     ListView listView;
     AppAdapter adapter;
+
     String sp1, sp2, sp3, rem_status, given_or_taken;
 
 
@@ -61,6 +62,7 @@ public class Tab_Credit extends Fragment {
         save = (Button) v.findViewById(R.id.save);
         db = new DatabaseHandler(v.getContext());
         listView = (ListView) v.findViewById(R.id.credit_list_view);
+
 
         load();
 
@@ -150,6 +152,22 @@ public class Tab_Credit extends Fragment {
                     alertDialog.setPositiveButton("Update", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
 
+                            Intent i = new Intent(getContext(), Update.class);
+                           // i.putExtra("id", id.getText() + "");
+
+                            i.putExtra("id", mylist.get(position).getId()+"");
+                            i.putExtra("type", mylist.get(position).get_type());
+                            i.putExtra("bank", mylist.get(position).get_bank());
+                            i.putExtra("takenfrom", mylist.get(position).get_givenTo());
+                            i.putExtra("e_date", mylist.get(position).get_entry_date());
+                            i.putExtra("i_date", mylist.get(position).get_issue_date());
+                            i.putExtra("amount", mylist.get(position).get_amount());
+                            i.putExtra("chequeNo", mylist.get(position).get_chequeNo());
+                            i.putExtra("status", mylist.get(position).get_status());
+                            i.putExtra("notes",mylist.get(position).get_notes());
+                            i.putExtra("reminder", mylist.get(position).get_reminder());
+
+                            startActivity(i);
 
 
                             // Write your code here to invoke YES event
