@@ -29,9 +29,9 @@ import java.util.List;
 public class Tab_Debit extends Fragment {
 
     List<cheque> mylist;
-    EditText givento,amount,chequeno,notes,takenfrom;
-    public static EditText issued_date,entry_date;
-    Spinner type,bank,status;
+    EditText givento, amount, chequeno, notes, takenfrom;
+    public static EditText issued_date, entry_date;
+    Spinner type, bank, status;
     SwitchCompat reminder;
     Button save;
     TextView id;
@@ -42,25 +42,25 @@ public class Tab_Debit extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.tab_debit, container,false);
+        View v = inflater.inflate(R.layout.tab_debit, container, false);
 
-        id=(TextView) v.findViewById(R.id.text_id);
-        givento=(EditText) v.findViewById(R.id.givenOrTaken_Edit_text1);
-        takenfrom=(EditText) v.findViewById(R.id.givenOrTaken_Edit_text2);
-        amount=(EditText) v.findViewById(R.id.amount_Edit_Text);
-        issued_date=(EditText) v.findViewById(R.id.date_issued_edit_text);
-        entry_date=(EditText) v.findViewById(R.id.entry_date_edit_text);
-        chequeno=(EditText) v.findViewById(R.id.cheque_no_edit_text);
-        notes=(EditText) v.findViewById(R.id.notes_edit_text);
-        type=(Spinner) v.findViewById(R.id.type_spinner);
-        bank=(Spinner) v.findViewById(R.id.bank_spinner);
-        status=(Spinner) v.findViewById(R.id.status_spinner);
-        reminder=(SwitchCompat) v.findViewById(R.id.switch_toggle);
-        save=(Button) v.findViewById(R.id.save);
-        db= new DatabaseHandler(v.getContext());
-        listView=(ListView) v.findViewById(R.id.debit_list_view);
+        id = (TextView) v.findViewById(R.id.text_id);
+        givento = (EditText) v.findViewById(R.id.givenOrTaken_Edit_text1);
+        takenfrom = (EditText) v.findViewById(R.id.givenOrTaken_Edit_text2);
+        amount = (EditText) v.findViewById(R.id.amount_Edit_Text);
+        issued_date = (EditText) v.findViewById(R.id.date_issued_edit_text);
+        entry_date = (EditText) v.findViewById(R.id.entry_date_edit_text);
+        chequeno = (EditText) v.findViewById(R.id.cheque_no_edit_text);
+        notes = (EditText) v.findViewById(R.id.notes_edit_text);
+        type = (Spinner) v.findViewById(R.id.type_spinner);
+        bank = (Spinner) v.findViewById(R.id.bank_spinner);
+        status = (Spinner) v.findViewById(R.id.status_spinner);
+        reminder = (SwitchCompat) v.findViewById(R.id.switch_toggle);
+        save = (Button) v.findViewById(R.id.save);
+        db = new DatabaseHandler(v.getContext());
+        listView = (ListView) v.findViewById(R.id.debit_list_view);
 
-       load();
+        load();
 
         return v;
     }
@@ -73,9 +73,9 @@ public class Tab_Debit extends Fragment {
         listView.setAdapter(adapter);
 
 
-
     }
-//
+
+    //
     class AppAdapter extends BaseAdapter {
 
         @Override
@@ -106,12 +106,11 @@ public class Tab_Debit extends Fragment {
             final ViewHolder holder = (ViewHolder) convertView.getTag();
 
 
-
-                holder.tv_id.setText(mylist.get(position).getId() + "");
-                holder.tv_name.setText(mylist.get(position).get_givenTo());
-                holder.tv_chq_no.setText(mylist.get(position).get_chequeNo());
-                holder.tv_dep_date.setText(mylist.get(position).get_entry_date());
-                holder.tv_amt.setText(mylist.get(position).get_amount());
+            holder.tv_id.setText(mylist.get(position).getId() + "");
+            holder.tv_name.setText(mylist.get(position).get_givenTo());
+            holder.tv_chq_no.setText(mylist.get(position).get_chequeNo());
+            holder.tv_dep_date.setText(mylist.get(position).get_entry_date());
+            holder.tv_amt.setText(mylist.get(position).get_amount());
 
 
             holder.row.setOnClickListener(new View.OnClickListener() {
@@ -134,7 +133,6 @@ public class Tab_Debit extends Fragment {
                     alertDialog.setMessage(alert1 + "\n\n" + alert2 + "\n\n" + alert3 + "\n\n" + alert4 + "\n\n" + alert5 + "\n\n" + alert6 + "\n\n" + alert7);
 
 
-
                     // Setting Icon to Dialog
                     alertDialog.setIcon(R.drawable.ic_info_outline_black_24dp);
 
@@ -152,12 +150,10 @@ public class Tab_Debit extends Fragment {
                             i.putExtra("amount", mylist.get(position).get_amount());
                             i.putExtra("chequeNo", mylist.get(position).get_chequeNo());
                             i.putExtra("status", mylist.get(position).get_status());
-                            i.putExtra("notes",mylist.get(position).get_notes());
+                            i.putExtra("notes", mylist.get(position).get_notes());
                             i.putExtra("reminder", mylist.get(position).get_reminder());
 
                             startActivity(i);
-
-
 
                             // Write your code here to invoke YES event
                             //Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
@@ -228,12 +224,6 @@ public class Tab_Debit extends Fragment {
             });
 
 
-
-
-
-
-
-
             return convertView;
 
         }
@@ -258,5 +248,5 @@ public class Tab_Debit extends Fragment {
                 view.setTag(this);
             }
         }
- }
+    }
 }

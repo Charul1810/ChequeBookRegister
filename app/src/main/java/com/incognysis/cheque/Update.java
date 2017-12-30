@@ -27,34 +27,34 @@ import java.util.Calendar;
 
 public class Update extends AppCompatActivity {
 
-    EditText givento,amount,chequeno,notes,takenfrom;
-    public static EditText issued_date,entry_date;
-    Spinner type,bank,status;
+    EditText givento, amount, chequeno, notes, takenfrom;
+    public static EditText issued_date, entry_date;
+    Spinner type, bank, status;
     SwitchCompat reminder;
     Button save;
     TextView id;
     DatabaseHandler db;
-    String sp1="",sp2="",sp3="",rem_status="",given_or_taken="";
-    TextInputLayout textInputLayout1,textInputLayout2;
+    String sp1 = "", sp2 = "", sp3 = "", rem_status = "", given_or_taken = "";
+    TextInputLayout textInputLayout1, textInputLayout2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_activity);
-        id=(TextView) findViewById(R.id.text_id);
-        givento=(EditText) findViewById(R.id.givenOrTaken_Edit_text1);
-        takenfrom=(EditText) findViewById(R.id.givenOrTaken_Edit_text2);
-        amount=(EditText) findViewById(R.id.amount_Edit_Text);
-        issued_date=(EditText) findViewById(R.id.date_issued_edit_text);
-        entry_date=(EditText) findViewById(R.id.entry_date_edit_text);
-        chequeno=(EditText) findViewById(R.id.cheque_no_edit_text);
-        notes=(EditText) findViewById(R.id.notes_edit_text);
-        type=(Spinner) findViewById(R.id.type_spinner);
-        bank=(Spinner) findViewById(R.id.bank_spinner);
-        status=(Spinner) findViewById(R.id.status_spinner);
-        reminder=(SwitchCompat) findViewById(R.id.switch_toggle);
-        save=(Button) findViewById(R.id.save);
-        db= new DatabaseHandler(this);
+        id = (TextView) findViewById(R.id.text_id);
+        givento = (EditText) findViewById(R.id.givenOrTaken_Edit_text1);
+        takenfrom = (EditText) findViewById(R.id.givenOrTaken_Edit_text2);
+        amount = (EditText) findViewById(R.id.amount_Edit_Text);
+        issued_date = (EditText) findViewById(R.id.date_issued_edit_text);
+        entry_date = (EditText) findViewById(R.id.entry_date_edit_text);
+        chequeno = (EditText) findViewById(R.id.cheque_no_edit_text);
+        notes = (EditText) findViewById(R.id.notes_edit_text);
+        type = (Spinner) findViewById(R.id.type_spinner);
+        bank = (Spinner) findViewById(R.id.bank_spinner);
+        status = (Spinner) findViewById(R.id.status_spinner);
+        reminder = (SwitchCompat) findViewById(R.id.switch_toggle);
+        save = (Button) findViewById(R.id.save);
+        db = new DatabaseHandler(this);
         textInputLayout1 = (TextInputLayout) findViewById(R.id.text_input_layout1);
         textInputLayout2 = (TextInputLayout) findViewById(R.id.text_input_layout2);
 
@@ -62,16 +62,16 @@ public class Update extends AppCompatActivity {
         Selection.setSelection(amount.getText(), amount.getText().length());
 
         Bundle b = getIntent().getExtras();
-        id.setText(b.getString("id","1"));
+        id.setText(b.getString("id", "1"));
         //type.setSelection(b.getInt("type"));
-      //  bank.setSelection(b.getInt("bank"));
+        //  bank.setSelection(b.getInt("bank"));
         givento.setText(b.getString("takenfrom"));
         takenfrom.setText(b.getString("takenfrom"));
         entry_date.setText(b.getString("e_date"));
         issued_date.setText(b.getString("i_date"));
         amount.setText(b.getString("amount"));
         chequeno.setText(b.getString("chequeNo"));
-    //    status.setSelection(b.getInt("status"));
+        //    status.setSelection(b.getInt("status"));
         notes.setText(b.getString("notes"));
         reminder.setChecked(false);
 
@@ -133,7 +133,7 @@ public class Update extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if(!s.toString().startsWith("₹ ")){
+                if (!s.toString().startsWith("₹ ")) {
                     amount.setText("₹ ");
                     Selection.setSelection(amount.getText(), amount.getText().length());
 
@@ -149,14 +149,12 @@ public class Update extends AppCompatActivity {
 ////attach a listener to check for changes in state
         reminder.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton buttonView,boolean isChecked) {
-                if(isChecked) {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
                     rem_status = "true"; //edit here
-                }
-                else
-                {
+                } else {
 
-                    rem_status="false";
+                    rem_status = "false";
                 }
 
 
@@ -170,15 +168,13 @@ public class Update extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
 
                 sp1 = parent.getItemAtPosition(pos).toString();
-                if(sp1.equalsIgnoreCase("credit"))
-                {
+                if (sp1.equalsIgnoreCase("credit")) {
                     givento.setVisibility(View.GONE);
                     takenfrom.setVisibility(View.VISIBLE);
                     textInputLayout1.setVisibility(View.GONE);
                     textInputLayout2.setVisibility(View.VISIBLE);
                     // given_or_taken=takenfrom.getText().toString();
-                }
-                else if(sp1.equalsIgnoreCase("debit")) {
+                } else if (sp1.equalsIgnoreCase("debit")) {
 
                     givento.setVisibility(View.VISIBLE);
                     takenfrom.setVisibility(View.GONE);
@@ -220,8 +216,6 @@ public class Update extends AppCompatActivity {
         });
 
 
-
-
         issued_date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -240,25 +234,21 @@ public class Update extends AppCompatActivity {
         });
 
 
-
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                if(sp1.equalsIgnoreCase("debit"))
-                {
+                if (sp1.equalsIgnoreCase("debit")) {
                     Toast.makeText(getApplicationContext(), id.getText().toString(), Toast.LENGTH_SHORT).show();
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()),sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
-                }
-                else if(sp1.equalsIgnoreCase("credit")) {
-                Toast.makeText(getApplicationContext(),id.getText().toString(),Toast.LENGTH_SHORT).show();
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()),sp1, sp2, takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                } else if (sp1.equalsIgnoreCase("credit")) {
+                    Toast.makeText(getApplicationContext(), id.getText().toString(), Toast.LENGTH_SHORT).show();
+                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
-                }
-                else {
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()),sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                } else {
+                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
                 }
@@ -269,7 +259,6 @@ public class Update extends AppCompatActivity {
         });
 
     }
-
 
 
     @SuppressLint("ValidFragment")
@@ -285,10 +274,11 @@ public class Update extends AppCompatActivity {
         }
 
         public void onDateSet(DatePicker view, int yy, int mm, int dd) {
-            populateSetDate(yy, mm+1, dd);
+            populateSetDate(yy, mm + 1, dd);
         }
+
         public void populateSetDate(int year, int month, int day) {
-            issued_date.setText(day+"/"+month+"/"+year);
+            issued_date.setText(day + "/" + month + "/" + year);
 
 
         }
@@ -308,17 +298,16 @@ public class Update extends AppCompatActivity {
         }
 
         public void onDateSet(DatePicker view, int yy, int mm, int dd) {
-            populateSetDate(yy, mm+1, dd);
+            populateSetDate(yy, mm + 1, dd);
         }
+
         public void populateSetDate(int year, int month, int day) {
 
-            entry_date.setText(day+"/"+month+"/"+year);
+            entry_date.setText(day + "/" + month + "/" + year);
 
         }
 
     }
-
-
 
 
 }
