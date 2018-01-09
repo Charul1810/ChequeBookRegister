@@ -279,7 +279,13 @@ public class Update extends AppCompatActivity {
         }
 
         public void populateSetDate(int year, int month, int day) {
-            issued_date.setText(day + "/" + month + "/" + year);
+            if(month<10 && day < 10) {
+                issued_date.setText("0"+day + "/0" + month + "/" + year);
+            }
+            else
+            {
+                issued_date.setText(day + "/" + month + "/" + year);
+            }
 
 
         }
@@ -304,7 +310,13 @@ public class Update extends AppCompatActivity {
 
         public void populateSetDate(int year, int month, int day) {
 
-            entry_date.setText(day + "/" + month + "/" + year);
+            if(month<10 && day < 10) {
+                entry_date.setText("0"+day + "/0" + month + "/" + year);
+            }
+            else
+            {
+                entry_date.setText(day + "/" + month + "/" + year);
+            }
 
         }
 

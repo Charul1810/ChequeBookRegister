@@ -14,6 +14,7 @@ import android.support.v7.widget.SwitchCompat;
 import android.text.Editable;
 import android.text.Selection;
 import android.text.TextWatcher;
+import android.text.format.Time;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -207,6 +208,9 @@ public class Add_activity extends AppCompatActivity {
 
 
 
+
+
+
         issued_date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -271,7 +275,13 @@ public class Add_activity extends AppCompatActivity {
             populateSetDate(yy, mm+1, dd);
         }
         public void populateSetDate(int year, int month, int day) {
-            issued_date.setText(day+"/"+month+"/"+year);
+            if(month<10 && day < 10) {
+                issued_date.setText("0"+day + "/0" + month + "/" + year);
+            }
+            else
+            {
+                issued_date.setText(day + "/" + month + "/" + year);
+            }
 
 
         }
@@ -294,9 +304,13 @@ public class Add_activity extends AppCompatActivity {
             populateSetDate(yy, mm+1, dd);
         }
         public void populateSetDate(int year, int month, int day) {
-
-            entry_date.setText(day+"/"+month+"/"+year);
-
+                if(month<10 && day < 10) {
+                    entry_date.setText("0"+day + "/0" + month + "/" + year);
+                }
+                else
+                {
+                    entry_date.setText(day + "/" + month + "/" + year);
+                }
         }
 
     }
