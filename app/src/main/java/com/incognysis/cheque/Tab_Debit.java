@@ -194,7 +194,7 @@ public class Tab_Debit extends Fragment {
                         public void onClick(DialogInterface dialog, int which) {
 
                             Intent i = new Intent(getContext(), Update.class);
-                            i.putExtra("id", mylist.get(position).getId());
+                            i.putExtra("id", mylist.get(position).getId()+"");
                             i.putExtra("type", mylist.get(position).get_type());
                             i.putExtra("bank", mylist.get(position).get_bank());
                             i.putExtra("takenfrom", mylist.get(position).get_givenTo());
