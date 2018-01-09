@@ -247,11 +247,12 @@ public class Update extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), id.getText().toString(), Toast.LENGTH_SHORT).show();
                     db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
-                } else {
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
-                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
-
                 }
+//                else {
+//                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+//                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
+//
+//                }
                 // Toast.makeText(getApplicationContext(), givento.getText().toString(), Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
 

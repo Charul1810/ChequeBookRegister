@@ -65,7 +65,8 @@
         <android.support.design.widget.TextInputLayout
             android:id="@+id/text_input_layout1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+           >
 
             <EditText
                 android:id="@+id/givenOrTaken_Edit_text1"
@@ -73,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/edt_bg_selector"
                 android:hint="Given To"
+                android:inputType="textCapWords"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -250,6 +252,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Notes"
+                android:inputType="textCapWords"
                 android:background="@drawable/edt_bg_selector"/>
         </android.support.design.widget.TextInputLayout>
 

@@ -1,11 +1,14 @@
 package com.incognysis.cheque;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,6 +21,8 @@ import android.view.MenuItem;
 import android.widget.Toast;
 import android.support.v4.app.FragmentManager;
 
+import java.util.Comparator;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     SlidingTabLayout tabs;
@@ -25,6 +30,8 @@ public class MainActivity extends AppCompatActivity
     CharSequence Titles[]={"Debit","Credit"};
     HomeAdapter adapter;
     ViewPager pager;
+    private boolean doubleBackToExitPressedOnce;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,10 +88,23 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
+        } else if(doubleBackToExitPressedOnce) {
+            
             super.onBackPressed();
         }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -104,6 +124,9 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.action_settings) {
             return true;
         }
+
+
+
 
         return super.onOptionsItemSelected(item);
     }

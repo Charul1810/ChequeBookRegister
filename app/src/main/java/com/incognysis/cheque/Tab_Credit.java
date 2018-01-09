@@ -10,6 +10,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.SwitchCompat;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -22,6 +23,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -46,7 +49,7 @@ public class Tab_Credit extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.tab_credit, container, false);
-
+        setHasOptionsMenu(true);
         id = (TextView) v.findViewById(R.id.text_id);
         givento = (EditText) v.findViewById(R.id.givenOrTaken_Edit_text1);
         takenfrom = (EditText) v.findViewById(R.id.givenOrTaken_Edit_text2);
@@ -69,12 +72,63 @@ public class Tab_Credit extends Fragment {
         return v;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        CharSequence sorting[]= new CharSequence[]{"Alphabet","Date"};
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_filter) {
+            Toast.makeText(getActivity(),"Filter",Toast.LENGTH_SHORT).show();
+            AlertDialog.Builder UnitSelection = new AlertDialog.Builder(getActivity());
+            UnitSelection.setTitle("Sort By");
+            UnitSelection.setItems(sorting, new DialogInterface.OnClickListener() {
+
+
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    if(i==0)
+                    {
+                        mylist.sort(new Comparator<cheque>() {
+                                        @Override
+                                        public int compare(cheque o1, cheque o2) {
+                                            return o1.get_givenTo().toString().compareTo(o2.get_givenTo().toString());
+                                        }
+                                    }
+                        );
+                        adapter.notifyDataSetChanged();
+                        //Toast.makeText(getApplicationContext(),"By alpa",Toast.LENGTH_SHORT).show();
+                    }
+
+                    if(i==1)
+                    {
+                        load();
+                        Toast.makeText(getActivity(),"By alpa",Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+            AlertDialog alert = UnitSelection.create();
+            alert.show();
+            return true;
+        }
+
+
+
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
     public void load() {
 
 
         List<cheque> list = db.getAllCreditCheques();
         mylist = list;
         adapter = new AppAdapter();
+        Collections.reverse(mylist);
         listView.setAdapter(adapter);
 
 
