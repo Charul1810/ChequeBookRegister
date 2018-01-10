@@ -9,10 +9,4569 @@
     <string name="Choose_bank">Choose Bank</string>
 
     <string-array name="bank_names">
-        <item>Select Bank</item>
-        <item>Kotak</item>
-        <item>ICICI</item>
-        <item>HDFC</item>
+        <item>Aareal Banak</item>
+        <item>Aargauische Kantonalbank</item>
+        <item>AB SEB bankas</item>
+        <item>Abanka Vipa</item>
+        <item>ABC Banking Corporation</item>
+        <item>ABC International Bank</item>
+        <item>ABC Islamic Bank</item>
+        <item>ABI Bank</item>
+        <item>ABLV Bank</item>
+        <item>ABN AMRO Bank China</item>
+        <item>ABN AMRO Group</item>
+        <item>Absolut Bank</item>
+        <item>Absolutbank</item>
+        <item>Abu Dhabi Commercial Bank</item>
+        <item>Abu Dhabi Commercial Bank India</item>
+        <item>Abu Dhabi Islamic Bank</item>
+        <item>Abu Dhabi Islamic Bank Egypt</item>
+        <item>ACBA Leasing Credit organization</item>
+        <item>ACBA-Credit Agricole Bank</item>
+        <item>Accent Bank</item>
+        <item>Access Bank Group</item>
+        <item>AccessBank Liberia</item>
+        <item>Access Bank plc</item>
+        <item>Access Bank Ghana</item>
+        <item>Access Bank Rwanda</item>
+        <item>AccessBank Azerbaijan</item>
+        <item>Access Bank Zambia</item>
+        <item>Achmea Bank</item>
+        <item>Achmea Hypotheekbank</item>
+        <item>Acleda Bank</item>
+        <item>Acleda Bank Laos</item>
+        <item>Acleda Bank Myanmar</item>
+        <item>ACNB Corp</item>
+        <item>Adabank</item>
+        <item>Adam Bank Group</item>
+        <item>Adria Bank</item>
+        <item>ABA Bank</item>
+        <item>Aegean Baltic Bank</item>
+        <item>Affin Bank</item>
+        <item>Affin Islamic Bank</item>
+        <item>Afghan United Bank</item>
+        <item>Afghanistan International Bank</item>
+        <item>AFNB Holdings</item>
+        <item>AfrAsia Bank</item>
+        <item>African Bank</item>
+        <item>African Banking Corporation</item>
+        <item>African Banking Corporation Holdings</item>
+        <item>African Banking Corporation Mozambique</item>
+        <item>African Banking Corporation Tanzania</item>
+        <item>African Banking Corporation Uganda</item>
+        <item>African Banking Corporation Zambia</item>
+        <item>African Banking Corporation Zimbabwe</item>
+        <item>African Export–Import Bank (Afreximbank)</item>
+        <item>Afriland First Bank</item>
+        <item>AGBAnk</item>
+        <item>Agrani Bank</item>
+        <item>Agricultural Bank of Libya</item>
+        <item>Agricultural Bank of China</item>
+        <item>Agricultural Bank of Namibia</item>
+        <item>Agricultural Bank of Taiwan</item>
+        <item>Agricultural Bank of Zimbabwe</item>
+        <item>Agricultural Cooperative Bank</item>
+        <item>Agro Bank</item>
+        <item>Agrobank</item>
+        <item>Agrofinanzas</item>
+        <item>Agroindustrijsko Komercijalna Banka</item>
+        <item>Agroinvestbank</item>
+        <item>Ahli Bank Qatar</item>
+        <item>Ahli Bank SAOG</item>
+        <item>Ahli International Bank</item>
+        <item>Ahli United Bank</item>
+        <item>Ahli United Bank Kuwait</item>
+        <item>Ahli United Bank UK</item>
+        <item>Aichi Bank</item>
+        <item>Ajman Bank</item>
+        <item>Ak Bars Bank</item>
+        <item>AKA Export Finance Bank</item>
+        <item>AKB Kyrgyz Kramds Bank</item>
+        <item>Akbank</item>
+        <item>Akiba Commercial Bank</item>
+        <item>Akita Bank</item>
+        <item>Akkobank</item>
+        <item>Aksi-Bank</item>
+        <item>Aktia Bank Group</item>
+        <item>Aktif Yatirim Bankasi</item>
+        <item>Al Ahli Bank of Kuwait</item>
+        <item>Al-Amanah Islamic Investment Bank of the Philippines</item>
+        <item>Al Arafah Islami Bank</item>
+        <item>Al Baraka Bank Egypt</item>
+        <item>Al Baraka Bank Pakistan</item>
+        <item>Al Baraka Bank South Africa</item>
+        <item>Al Baraka Bank Sudan</item>
+        <item>Al Baraka Bank Tunisia</item>
+        <item>Al Baraka Bank Turkey</item>
+        <item>Al Baraka Banking Group</item>
+        <item>Al Baraka Islamic Bank</item>
+        <item>Al Hilal Bank</item>
+        <item>Al Jazeera Sudanese Jordanian Bank</item>
+        <item>Al Khalij Commercial Bank</item>
+        <item>Al Masraf (Arab Bank for Investment and Foreign Trade)</item>
+        <item>Al Rajhi Bank</item>
+        <item>Al Rajhi Bank Malaysia</item>
+        <item>Al Salam Bank</item>
+        <item>Al Salam Bank</item>
+        <item>Al Shamal Islamic Bank</item>
+        <item>Al Watany Bank of Egypt (AWB)</item>
+        <item>Albank Corporation</item>
+        <item>Alef Bank</item>
+        <item>Alerus Financial Corporation</item>
+        <item>AlexBank</item>
+        <item>Alfa-Bank</item>
+        <item>Alfa Bank Belarus</item>
+        <item>Alfa Bank Kazakhstan</item>
+        <item>Alfa Bank Ukraine</item>
+        <item>Alfa-Bank Finance</item>
+        <item>Aliant Financial Corporation</item>
+        <item>AlInma Bank</item>
+        <item>Alior Bank</item>
+        <item>Aljba Alliance Bank</item>
+        <item>Allahabad Bank</item>
+        <item>Allbank Panama</item>
+        <item>Allegheny Valley Bancorp</item>
+        <item>Allgemeine Sparkasse Oberosterreich</item>
+        <item>Alliance Bank JSC</item>
+        <item>Alliance Bank Malaysia Berhad</item>
+        <item>Alliance Investment Bank</item>
+        <item>Alliance Islamic Bank</item>
+        <item>Allianz Bank Bulgaria AD</item>
+        <item>Allied Bank Limited</item>
+        <item>Allied Banking Corporation</item>
+        <item>Allied Bank Zimbabwe Limited</item>
+        <item>Allied Commercial Bank</item>
+        <item>Allied Irish Banks (AIB)</item>
+        <item>Ally Financial</item>
+        <item>Alm Brand Bank</item>
+        <item>Aloqabank</item>
+        <item>Alpha Bank</item>
+        <item>Alpha Bank Albania</item>
+        <item>Alpha Bank Cyprus</item>
+        <item>Alpha Bank Romania</item>
+        <item>Alpha Bank Skopje</item>
+        <item>Alpha Bank UK</item>
+        <item>Alpine Bancorporation</item>
+        <item>Alpine Banks of Colorado</item>
+        <item>Altabank</item>
+        <item>Altai Energo Bank</item>
+        <item>Alternatif bank</item>
+        <item>ALUBAF Arab International Bank</item>
+        <item>Amagasaki Shinkin Bank</item>
+        <item>Amalgamated Bank</item>
+        <item>Amalgamated Bank of Chicago</item>
+        <item>Amana Bank</item>
+        <item>Amanbank</item>
+        <item>Amarillo National Bancorporation</item>
+        <item>Ambank Company</item>
+        <item>AmBank Group</item>
+        <item>Amboy Bancorporation</item>
+        <item>Amegy Corporation</item>
+        <item>Amen Bank</item>
+        <item>Ameriabank</item>
+        <item>American Bancorporation</item>
+        <item>American Bank Holding Corporation</item>
+        <item>American Chartered Bancorp</item>
+        <item>American Express Bank FSB</item>
+        <item>American Express Centurion Bank</item>
+        <item>American Express</item>
+        <item>American First National Bank Holdings</item>
+        <item>American National Bankshares</item>
+        <item>American National Corporation</item>
+        <item>American State Financial Corp</item>
+        <item>AmericanWest Bancorporation</item>
+        <item>Ameris Bancorp</item>
+        <item>Ameriserv Financial</item>
+        <item>Ames National Corporation</item>
+        <item>Amonatbank</item>
+        <item>Amrahbank</item>
+        <item>Amsterdam Trade Bank</item>
+        <item>An Binh Bank</item>
+        <item>Anadolubank</item>
+        <item>ANB Corporation</item>
+        <item>Anchor Bancorp</item>
+        <item>Andbank Panama</item>
+        <item>Andhra Bank</item>
+        <item>Andorra Banc Agrícol Reig</item>
+        <item>Androscoggin Bancorp</item>
+        <item>Anelik Bank</item>
+        <item>Animal Resources Bank</item>
+        <item>Antigua Commercial Bank (ACB)</item>
+        <item>ANZ Amerika Samoa Bank</item>
+        <item>ANZ Bank Fiji</item>
+        <item>ANZ Bank Indonesia</item>
+        <item>ANZ Bank Laos</item>
+        <item>ANZ Bank New Zealand</item>
+        <item>ANZ Bank Samoa</item>
+        <item>Australia and New Zealand Banking Group</item>
+        <item>ANZ Royal</item>
+        <item>Aomori Bank</item>
+        <item>Aozora Bank</item>
+        <item>Apobank</item>
+        <item>Appenzeller Kantonalbank</item>
+        <item>Apple Bank for Savings</item>
+        <item>APS Bank</item>
+        <item>Arab African International Bank</item>
+        <item>Arab Bangladesh Bank</item>
+        <item>Arab Bank</item>
+        <item>Arab Bank Australia</item>
+        <item>Arab Banking Corporation</item>
+        <item>Arab Banking Corporation Algeria</item>
+        <item>Arab Banking Corporation Brasil</item>
+        <item>Arab Banking Corporation Egypt</item>
+        <item>Arab Banking Corporation Jordan</item>
+        <item>Arab Banking Corporation Tunisia</item>
+        <item>Arab International Bank (AIB)</item>
+        <item>Arab Israel Bank</item>
+        <item>Arab National Bank (ANB)</item>
+        <item>Arab Tunisian Bank (ATB)</item>
+        <item>Arab Turkish Bank</item>
+        <item>Araratbank</item>
+        <item>Arbejdernes Landsbank</item>
+        <item>Arbuthnot Latham</item>
+        <item>ArdShinInvestBank</item>
+        <item>Aresbank</item>
+        <item>Areximbank</item>
+        <item>Argenta Group</item>
+        <item>Argenta (bank)</item>
+        <item>Arion Bank</item>
+        <item>Arkada Bank</item>
+        <item>Armbusinessbank</item>
+        <item>Armed Forces Benefit Association</item>
+        <item>Armenian Development Bank (ADB)</item>
+        <item>Armenian Economy Development Bank (AEB)</item>
+        <item>ArmSwissBank</item>
+        <item>Arner Bank</item>
+        <item>Arrow Financial Corporation</item>
+        <item>Artsakhbank</item>
+        <item>Arvest Bank</item>
+        <item>AS SEB Pank</item>
+        <item>Asahi Shinkin Bank</item>
+        <item>Asaka Bank</item>
+        <item>ASB Bancorp</item>
+        <item>ASB Bank</item>
+        <item>Ashikaga Holdings</item>
+        <item>Asia Commercial Bank (ACB)</item>
+        <item>Asia Green Development Bank</item>
+        <item>Asia United Bank</item>
+        <item>AsiaCredit Bank</item>
+        <item>Asian Finance Bank</item>
+        <item>Asian-Pacific Bank</item>
+        <item>Askari Bank</item>
+        <item>ASO Savings and Loans</item>
+        <item>Assabet Valley Bancorp</item>
+        <item>Associated Banc Corp</item>
+        <item>Astoria Bank</item>
+        <item>Astra Bank</item>
+        <item>Asya Katilim Bankasi</item>
+        <item>AT Bancorp</item>
+        <item>Atabank</item>
+        <item>ATBancorp</item>
+        <item>ATFBank</item>
+        <item>Atlantic Bank</item>
+        <item>Atlantic Capital Bancshares</item>
+        <item>Atlantic Security Bank</item>
+        <item>Atlantic Security Bank Panama</item>
+        <item>Atlas Bank</item>
+        <item>AtraBank</item>
+        <item>Attica Bank</item>
+        <item>Attijari Bank Tunisia</item>
+        <item>Attijariwafa Bank</item>
+        <item>Attijariwafa Bank France</item>
+        <item>Auburn National Bancorporation</item>
+        <item>Austin Bancorp</item>
+        <item>Austrian Anadi Bank</item>
+        <item>Austrobank Overseas Panama</item>
+        <item>Avtogradbank</item>
+        <item>Avtovazbank</item>
+        <item>Awa Bank</item>
+        <item>Awash International Bank</item>
+        <item>Axa Bank Europe</item>
+        <item>Axa Banque</item>
+        <item>Axion SWISS Bank SA</item>
+        <item>Axis Bank</item>
+        <item>Ayeyarwady Bank</item>
+        <item>Azania Bank</item>
+        <item>Azer-Turk Bank</item>
+        <item>Azizi Bank</item>
+        <item>BandN Bank</item>
+        <item>BAC Panama</item>
+        <item>Baden Wurttembergische Bank</item>
+        <item>Badische Beamtenbank</item>
+        <item>Bahrain Islamic Bank (BISB)</item>
+        <item>Bahraini Saudi Bank</item>
+        <item>Baiduri Bank</item>
+        <item>Baker Boyer Bancorp</item>
+        <item>Bakhtar Bank</item>
+        <item>Balboa Bank</item>
+        <item>Balkan Investment Bank</item>
+        <item>Baltic Financial Agency Bank</item>
+        <item>Baltic International Bank</item>
+        <item>Baltic Investment Bank</item>
+        <item>Baltica Bank</item>
+        <item>Baltiyskiy Bank</item>
+        <item>Banamex USA Bancorp</item>
+        <item>Banc Ed Corp</item>
+        <item>Banc of California</item>
+        <item>Banca Afirme</item>
+        <item>Banca Apulia</item>
+        <item>Banca Cassa di Risparmio di Firenze</item>
+        <item>Banca Comercială Română</item>
+        <item>Banca Comerciala Română Chișinău (BCR)</item>
+        <item>Banca de Economii</item>
+        <item>Banca de Export Import a României</item>
+        <item>Banca del Ceresio</item>
+        <item>Banca del Piemonte</item>
+        <item>Banca del Sempione</item>
+        <item>Banca delle Marche</item>
+        <item>Banca dello Stato del Cantone Ticino</item>
+        <item>Banca dell Umbria</item>
+        <item>Banca di Credito Cooperativo di Alba Langhe e Roero</item>
+        <item>Banca di Credito Popolare</item>
+        <item>Banca di Credito Sardo</item>
+        <item>Banca di Piacenza</item>
+        <item>Banca di Sassari</item>
+        <item>Banca di Trento e Bolzano</item>
+        <item>Banca Etruria</item>
+        <item>Banca Generali</item>
+        <item>Banca Intesa Russia</item>
+        <item>Banca Intesa Serbia</item>
+        <item>Banca Italease</item>
+        <item>Banca March</item>
+        <item>Banca Mediolanum</item>
+        <item>Banca Monte dei Paschi di Siena</item>
+        <item>Banca Monte Parma</item>
+        <item>Banca Monte Paschi Belgio</item>
+        <item>Banca Nazionale del Lavoro</item>
+        <item>Banca Padovana Credito Cooperativo</item>
+        <item>Banca Passadore</item>
+        <item>Banca Popolare dell Emilia Romagna</item>
+        <item>Banca Popolare di Crema</item>
+        <item>Banca Popolare di Cremona</item>
+        <item>Banca Popolare di Milano</item>
+        <item>Banca Popolare di Novara</item>
+        <item>Banca Popolare di Sondrio</item>
+        <item>Banca Popolare di Sondrio Switzerland</item>
+        <item>Banca Popolare di Vicenza</item>
+        <item>Banca Popolare FriulAdria</item>
+        <item>Banca Privada D Andorra</item>
+        <item>Banca Privada d Andorra Panama</item>
+        <item>Banca Prossima</item>
+        <item>Banca Regionale Europea</item>
+        <item>Banca Romana de Credite si Investitii</item>
+        <item>Banca Romaneasca</item>
+        <item>Banca Sella</item>
+        <item>Banca Sociala</item>
+        <item>Banca Transilvania</item>
+        <item>Bancamiga</item>
+        <item>BancFirst Corp</item>
+        <item>Bancindependent</item>
+        <item>Banco ABC Capital</item>
+        <item>Banco Actinver</item>
+        <item>Banco Activo</item>
+        <item>Banco Agrario de Colombia</item>
+        <item>Banco Agrícola</item>
+        <item>Banco Agrícola de Venezuela</item>
+        <item>Banco Agromercantil de Guatemala</item>
+        <item>Banco Ahorro Famsa</item>
+        <item>Banco Alfa</item>
+        <item>Banco Aliado</item>
+        <item>Banco Amambay</item>
+        <item>Banco Amazonas</item>
+        <item>Banco Angolano de Investimentos</item>
+        <item>Banco Angolano de Negocios e Comercio</item>
+        <item>Banco Arbi</item>
+        <item>Banco Atlantida</item>
+        <item>Banco Atlas</item>
+        <item>Banco AV Villas</item>
+        <item>Banco Azteca</item>
+        <item>Banco Azteca El Salvador</item>
+        <item>Banco Azteca Guatemala</item>
+        <item>Banco Azteca Honduras</item>
+        <item>Banco Azteca Panama</item>
+        <item>Banco Azteca Peru</item>
+        <item>Banco BAI Cabo Verde</item>
+        <item>Banco BAI Europa</item>
+        <item>Banco Bandes</item>
+        <item>Banco Base</item>
+        <item>Banco BBM</item>
+        <item>Banco BDI</item>
+        <item>Banco BHD</item>
+        <item>Banco BIC</item>
+        <item>Banco BIC Portugues</item>
+        <item>Banco Bica</item>
+        <item>Banco BICE</item>
+        <item>Banco Bicentenario</item>
+        <item>Banco Bilbao Vizcaya Argentaria</item>
+        <item>Banco BISA</item>
+        <item>Banco BMG</item>
+        <item>Banco BNP Paribas Brasil</item>
+        <item>Banco Bolivariano</item>
+        <item>Banco Bolivariano Panama</item>
+        <item>Banco Bonsucesso</item>
+        <item>Banco Bradesco</item>
+        <item>Banco Bradesco Argentina</item>
+        <item>Banco BTG Pactual</item>
+        <item>Banco Cabo-Verdiano de Negócios (BCN) Praia</item>
+        <item>Banco Cacique</item>
+        <item>Banco Caixa Geral</item>
+        <item>Banco Caixa Geral Brasil</item>
+        <item>Banco Caixa Geral Totta de Angola</item>
+        <item>Banco Caja Social</item>
+        <item>Banco Capital</item>
+        <item>Banco Caroni</item>
+        <item>Banco Cathay de Costa Rica</item>
+        <item>Banco Cedula</item>
+        <item>Banco Cencosud</item>
+        <item>Banco Cetelem Argentina</item>
+        <item>Banco CMF</item>
+        <item>Banco Cofiec</item>
+        <item>Banco Colpatria</item>
+        <item>Banco Columbia</item>
+        <item>Banco Comafi</item>
+        <item>Banco Comercial Angolano</item>
+        <item>Banco Comercial de Macau</item>
+        <item>Banco Comercial de Manabi</item>
+        <item>Banco Comercial do Atlantico</item>
+        <item>Banco Comercial do Huambo</item>
+        <item>Banco Comercial e de Investimentos</item>
+        <item>Banco Compartamos</item>
+        <item>Banco Consorcio</item>
+        <item>Banco Continental</item>
+        <item>Banco Continental</item>
+        <item>Banco Coomeva</item>
+        <item>Banco Cooperativo do Brasil</item>
+        <item>Banco Cooperativo Espanol</item>
+        <item>Banco Cooperativo Sicredi</item>
+        <item>Banco CoopNacional</item>
+        <item>Banco Corficolombiana Panama</item>
+        <item>Banco CorpBanca Colombia</item>
+        <item>Banco Credicoop</item>
+        <item>Banco Credit Agricole Brasil</item>
+        <item>Banco Crédito Agrícola de Cartago</item>
+        <item>Banco D Miro</item>
+        <item>Banco da Amazonia</item>
+        <item>Banco Davivienda</item>
+        <item>Banco Davivienda Costa Rica</item>
+        <item>Banco Davivienda El Salvador</item>
+        <item>Banco Davivienda Honduras</item>
+        <item>Banco Davivienda Panama</item>
+        <item>Banco Daycoval</item>
+        <item>Banco de America Central Bahamas</item>
+        <item>Banco de America Central El Salvador</item>
+        <item>Banco de America Central Guatemala</item>
+        <item>Banco de America Central Honduras</item>
+        <item>Banco de America Central Nicaragua</item>
+        <item>Banco de America Central Panama</item>
+        <item>Banco de America Central San Jose</item>
+        <item>Banco de Antigua</item>
+        <item>Banco de Bogota</item>
+        <item>Banco de Bogota Panama</item>
+        <item>Banco de Brasilia</item>
+        <item>Banco de Caja Espana de Inversiones</item>
+        <item>Banco de Chile</item>
+        <item>Banco de Comercio</item>
+        <item>Banco de Comercio Exterior</item>
+        <item>Banco de Cordoba</item>
+        <item>Banco de Corrientes</item>
+        <item>Banco de Costa Rica</item>
+        <item>Banco de Crédito</item>
+        <item>Banco de Crédito de Bolivia</item>
+        <item>Banco de Crédito del Perú</item>
+        <item>Banco de Crédito del Perú Panama</item>
+        <item>Banco de Crédito e Inversiones (BCI)</item>
+        <item>Banco de Crédito y Comercio (BANDEC)</item>
+        <item>Banco de Crédito y Securitazacion (BACS)</item>
+        <item>Banco de Desarrollo Rural</item>
+        <item>Banco de Exportacion y Comercio</item>
+        <item>Banco de Finanzas</item>
+        <item>Banco de Fomento a la Produccion</item>
+        <item>Banco de Fomento Agropecuario (BFA)</item>
+        <item>Banco de Fomento Angola (BFA)</item>
+        <item>Banco de Galicia</item>
+        <item>Banco de Honduras</item>
+        <item>Banco de Honduras</item>
+        <item>Banco de Inversion y Comercio Exterior (BICE)</item>
+        <item>Banco de Inversiones</item>
+        <item>Banco de Investimento Imobiliário</item>
+        <item>Banco de la Ciudad de Buenos Aires</item>
+        <item>Banco de la Nacion</item>
+        <item>Banco de la Nacion Argentina</item>
+        <item>Banco de la Nacion Argentina Bolivia</item>
+        <item>Banco de la Nacion Argentina Chile</item>
+        <item>Banco de la Nacion Argentina Panama</item>
+        <item>Banco de la Nacion Argentina Paraguay</item>
+        <item>Banco de la Nacion Argentina Uruguay</item>
+        <item>Banco de La Pampa</item>
+        <item>Banco de la Produccion</item>
+        <item>Banco de la Provincia de Buenos Aires</item>
+        <item>Banco de la Republica</item>
+        <item>Banco de la Republica Oriental del Uruguay</item>
+        <item>Banco de las Microfinanzas</item>
+        <item>Banco de Loja</item>
+        <item>Banco de los Trabajadores</item>
+        <item>Banco de los Trabajadores</item>
+        <item>Banco de Machala</item>
+        <item>Banco de Negocios Internacional</item>
+        <item>Banco de Occidente</item>
+        <item>Banco de Occidente Honduras</item>
+        <item>Banco de Occidente Panama</item>
+        <item>Banco de Poupança e Crédito</item>
+        <item>Banco de Reservas de la Republica Dominicana</item>
+        <item>Banco de Sabadell</item>
+        <item>Banco de San Juan</item>
+        <item>Banco de Servicios y Transacciones (BST)</item>
+        <item>Banco de Soluciones de Costa Rica</item>
+        <item>Banco de Tierra del Fuego</item>
+        <item>Banco de Valores</item>
+        <item>Banco de Venezuela</item>
+        <item>Banco del Ahorro Nacional y Servicios Financieros</item>
+        <item>Banco del Austro</item>
+        <item>Banco del Bajio</item>
+        <item>Banco del Caribe</item>
+        <item>Banco del Chubut</item>
+        <item>Banco del Estado de Chile</item>
+        <item>Banco del Litoral</item>
+        <item>Banco del Pacifico</item>
+        <item>Banco del Pacifico Panama</item>
+        <item>Banco del Pais</item>
+        <item>Banco del Pichincha Spain</item>
+        <item>Banco del Pueblo Soberano</item>
+        <item>Banco del Sol</item>
+        <item>Banco del Sur</item>
+        <item>Banco del Tesoro</item>
+        <item>Banco del Tucuman</item>
+        <item>Banco Delta</item>
+        <item>Banco Delta Asia</item>
+        <item>Banco di Caribe</item>
+        <item>Banco di Desio e della Brianza</item>
+        <item>Banco di Napoli</item>
+        <item>Banco di Sardegna</item>
+        <item>Banco do Brasil</item>
+        <item>Banco do Brasil Argentina</item>
+        <item>Banco do Brasil Bolivia</item>
+        <item>Banco do Brasil Chile</item>
+        <item>Banco do Brasil Paraguay</item>
+        <item>Banco do Estado de Sergipe</item>
+        <item>Banco do Estado do Espirito Santo</item>
+        <item>Banco do Estado do Para</item>
+        <item>Banco do Estado do Rio Grande do Sul</item>
+        <item>Banco do Nordeste do Brasil</item>
+        <item>Banco Dominicano del Progreso</item>
+        <item>Banco Económico</item>
+        <item>Banco Español de Crédito</item>
+        <item>Banco Espírito Santo</item>
+        <item>Banco Espírito Santo Angola</item>
+        <item>Banco Espírito Santo Cape Verde</item>
+        <item>Banco Espírito Santo do Oriente</item>
+        <item>Banco Espírito Santo Venezuela</item>
+        <item>Banco Exterior</item>
+        <item>Banco Exterior de Cuba (BEC)</item>
+        <item>Banco Falabella</item>
+        <item>Banco Falabella Colombia</item>
+        <item>Banco Falabella Peru</item>
+        <item>Banco Familiar</item>
+        <item>Banco Fibra</item>
+        <item>Banco Fichosa Panama</item>
+        <item>Banco Ficohsa Guatemala</item>
+        <item>Banco Financiera Centroamericana</item>
+        <item>Banco Financiero Comercial Hondurena</item>
+        <item>Banco Financiero del Peru</item>
+        <item>Banco Financiero Internacional (BFI)</item>
+        <item>Banco Financiero y de Ahorros Group (Bankia)</item>
+        <item>Banco Finandina</item>
+        <item>Banco Finansur</item>
+        <item>Banco Finantia</item>
+        <item>Banco Finca</item>
+        <item>Banco Fondo Comun (BFC)</item>
+        <item>Banco Forjadores</item>
+        <item>Banco Formosa</item>
+        <item>Banco GandT Continental</item>
+        <item>Banco GandT Continental El Salvador</item>
+        <item>Banco GandT Continental Panama</item>
+        <item>Banco Gallego</item>
+        <item>Banco Ganadero</item>
+        <item>Banco General</item>
+        <item>Banco General Costa Rica</item>
+        <item>Banco General Ruminahui</item>
+        <item>Banco GNB Peru</item>
+        <item>Banco GNB Sudameris</item>
+        <item>Banco Grupo Cajatres</item>
+        <item>Banco Guanabara</item>
+        <item>Banco Hipotecario</item>
+        <item>Banco Hipotecario de El Salvador</item>
+        <item>Banco Hipotecario de la Vivienda</item>
+        <item>Banco Hipotecario del Uruguay (BHU)</item>
+        <item>Banco Hondureno del Cafe</item>
+        <item>Banco IBI</item>
+        <item>Banco Improsa</item>
+        <item>Banco Inbursa</item>
+        <item>Banco Industrial</item>
+        <item>Banco Industrial</item>
+        <item>Banco Industrial de Venezuela</item>
+        <item>Banco Industrial do Brasil</item>
+        <item>Banco Industrial e Comercial</item>
+        <item>Banco Industrial El Salvador</item>
+        <item>Banco Inmobiliario</item>
+        <item>Banco Interamericano de Finanza (BIF)</item>
+        <item>Banco Interatlantico</item>
+        <item>Banco Interfinanzas</item>
+        <item>Banco Intermedium</item>
+        <item>Banco Internacional</item>
+        <item>Banco Internacional</item>
+        <item>Banco Internacional</item>
+        <item>Banco Internacional de Comercio</item>
+        <item>Banco Internacional de Costa Rica</item>
+        <item>Banco Internacional de Costa Rica Panama</item>
+        <item>Banco Internacional de Desarrollo</item>
+        <item>Banco Internacional del Peru</item>
+        <item>Banco Internacional do Funchal</item>
+        <item>Banco International do Funchal Brasil</item>
+        <item>Banco International do Funchal Malta</item>
+        <item>Banco Invest</item>
+        <item>Banco Invex</item>
+        <item>Banco Itapua</item>
+        <item>Banco Itau Argentina</item>
+        <item>Banco Itau BBA</item>
+        <item>Banco Itau Chile</item>
+        <item>Banco Itau Colombia</item>
+        <item>Banco Itau Holding Financeira</item>
+        <item>Banco Itau Luxembourg</item>
+        <item>Banco Itau Paraguay</item>
+        <item>Banco Itau Uruguay</item>
+        <item>Banco JP Morgan Brazil</item>
+        <item>Banco Julio</item>
+        <item>Banco KDB Brasil</item>
+        <item>Banco Keve</item>
+        <item>Banco La Hipotecaria</item>
+        <item>Banco Lafise Bancentro</item>
+        <item>Banco Lafise Costa Rica</item>
+        <item>Banco Lafise Honduras</item>
+        <item>Banco Lafise Panama</item>
+        <item>Banco Latinoamericano de Comercio Exterior</item>
+        <item>Banco Los Andes ProCredit</item>
+        <item>Banco Luso Brasileiro</item>
+        <item>Banco Macro</item>
+        <item>Banco Madesant</item>
+        <item>Banco Mare Nostrum</item>
+        <item>Banco Mariva</item>
+        <item>Banco Masventas</item>
+        <item>Banco Maxima</item>
+        <item>Banco Mediolanum Spain</item>
+        <item>Banco Mercantil</item>
+        <item>Banco Mercantil do Brasil</item>
+        <item>Banco Mercantil e de Investimento</item>
+        <item>Banco Mercantil Panama</item>
+        <item>Banco Mercantil Santa Cruz</item>
+        <item>Banco Mercantil Switzerland</item>
+        <item>Banco Meridian</item>
+        <item>Banco Metropolitano</item>
+        <item>Banco Mifel</item>
+        <item>Banco Millenium Angola</item>
+        <item>Banco Mizuho do Brasil</item>
+        <item>Banco Modal</item>
+        <item>Banco Monex</item>
+        <item>Banco Morgan Stanley Brazil</item>
+        <item>Banco Multiple Caribe</item>
+        <item>Banco Múltiple León</item>
+        <item>Banco Multiva</item>
+        <item>Banco Municipal de Rosario</item>
+        <item>Banco Nacional de Bolivia</item>
+        <item>Banco Nacional de Costa Rica</item>
+        <item>Banco Nacional de Crédito</item>
+        <item>Banco Nacional de Cuba</item>
+        <item>Banco Nacional de Fomento</item>
+        <item>Banco Nacional de Panama</item>
+        <item>Banco Nacional Ultramarino Macau</item>
+        <item>Banco Occidental de Descuento</item>
+        <item>Banco Original</item>
+        <item>Banco Panama</item>
+        <item>Banco Panameno de la Vivienda</item>
+        <item>Banco para el Fomento a Iniciativas Económicas</item>
+        <item>Banco Paris</item>
+        <item>Banco Pastor</item>
+        <item>Banco Patagonia</item>
+        <item>Banco Penta</item>
+        <item>Banco Piano</item>
+        <item>Banco Pichincha Colombia</item>
+        <item>Banco Pichincha Panama</item>
+        <item>Banco Pine</item>
+        <item>Banco Plaza</item>
+        <item>Banco Popolare</item>
+        <item>Banco Popolare Croatia</item>
+        <item>Banco Popolare Hungary</item>
+        <item>Banco Popolare Luxembourg</item>
+        <item>Banco Popular</item>
+        <item>Banco Popular</item>
+        <item>Banco Popular</item>
+        <item>Banco Popular de Ahorro</item>
+        <item>Banco Popular Dominicano</item>
+        <item>Banco Popular Portugal</item>
+        <item>Banco Popular y de Desarrollo Comunal</item>
+        <item>Banco Português de Investimento (BPI)</item>
+        <item>Banco Potencial</item>
+        <item>Banco Privado Atlântico</item>
+        <item>Banco Privado Atlântico Europa</item>
+        <item>Banco ProCredit Colombia</item>
+        <item>Banco ProCredit Ecuador</item>
+        <item>Banco ProCredit El Salvador</item>
+        <item>Banco ProCredit Honduras</item>
+        <item>Banco ProCredit Mozambique</item>
+        <item>Banco ProCredit Nicaragua</item>
+        <item>Banco Promerica Costa Rica</item>
+        <item>Banco Promerica Dominican Republic</item>
+        <item>Banco Promerica Ecuador</item>
+        <item>Banco Promerica El Salvador</item>
+        <item>Banco Promerica Guatemala</item>
+        <item>Banco Promerica Honduras</item>
+        <item>Banco Provincia del Neuquen</item>
+        <item>Banco Reformador</item>
+        <item>Banco Regional</item>
+        <item>Banco Regional de Monterrey (BanRegio)</item>
+        <item>Banco Rendimento</item>
+        <item>Banco Ribeirao Prato</item>
+        <item>Banco Ripley</item>
+        <item>Banco Ripley Peru</item>
+        <item>Banco Roela</item>
+        <item>Banco Saenz</item>
+        <item>Banco Safra</item>
+        <item>Banco Santa Cruz</item>
+        <item>Banco Santa Cruz</item>
+        <item>Banco Santander</item>
+        <item>Banco Santander (México) S.A.</item>
+        <item>Banco Santander Brasil</item>
+        <item>Banco Santander Chile</item>
+        <item>Banco Santander France</item>
+        <item>Banco Santander Panama</item>
+        <item>Banco Santander Peru</item>
+        <item>Banco Santander Puerto Rico</item>
+        <item>Banco Santander Rio</item>
+        <item>Banco Santander Totta</item>
+        <item>Banco Santander Uruguay</item>
+        <item>Banco Santiago del Estero</item>
+        <item>Banco Security</item>
+        <item>Banco Societe Generale Brazil</item>
+        <item>Banco Sofisa</item>
+        <item>Banco Sofitasa</item>
+        <item>Banco Sol</item>
+        <item>Banco Solidario</item>
+        <item>Banco Solidario</item>
+        <item>Banco Standard de Investimentos</item>
+        <item>Banco Sudamericano</item>
+        <item>Banco Sumitomo Mitsui Brasileiro</item>
+        <item>Banco Supervielle</item>
+        <item>Banco Terra</item>
+        <item>Banco Triangulo</item>
+        <item>Banco Tricury</item>
+        <item>Banco Unico</item>
+        <item>Banco Union</item>
+        <item>Banco Universal</item>
+        <item>Banco Valor</item>
+        <item>Banco Ve por Mas</item>
+        <item>Banco Vimenca</item>
+        <item>Banco Votorantim</item>
+        <item>Banco Weng Hang</item>
+        <item>Banco WWB</item>
+        <item>Bancolombia</item>
+        <item>Bancolombia Panama</item>
+        <item>Bancolombia Puerto Rico</item>
+        <item>Bancop</item>
+        <item>Bancoppel</item>
+        <item>Bancoro Banco Universal Regional</item>
+        <item>Bancorp Rhode Island</item>
+        <item>BancorpSouth</item>
+        <item>Bancplus Corporation</item>
+        <item>Bancpost</item>
+        <item>Bancrecer</item>
+        <item>Bancshares of Eastern Arkansas</item>
+        <item>BancWest Corporation</item>
+        <item>Banesco Banco Universal</item>
+        <item>Banesco Panama</item>
+        <item>Bangente</item>
+        <item>Bangkok Bank</item>
+        <item>Bangkok Bank Malasya</item>
+        <item>Bangladesh Commerce Bank</item>
+        <item>Bangor Bancorp</item>
+        <item>Banisi</item>
+        <item>Banistmo</item>
+        <item>Bank Aceh</item>
+        <item>Bank Agris</item>
+        <item>Bank Al Etihad</item>
+        <item>Bank AL Habib</item>
+        <item>Bank Albilad</item>
+        <item>Bank Alfalah</item>
+        <item>Bank AlJazira</item>
+        <item>Bank Alkhair</item>
+        <item>Bank Alliance</item>
+        <item>Bank Artha Graha Internasional</item>
+        <item>Bank Asia</item>
+        <item>Bank Audi</item>
+        <item>Bank Audi Syria</item>
+        <item>Bank Austria</item>
+        <item>Bank Avangard</item>
+        <item>Bank Bakai</item>
+        <item>Bank BFG Credit</item>
+        <item>Bank BJB</item>
+        <item>Bank BPH</item>
+        <item>Bank Bukopin</item>
+        <item>Bank Bumi Arta</item>
+        <item>Bank Capital</item>
+        <item>Bank Cartu</item>
+        <item>Bank CenterCredit</item>
+        <item>Bank Central Asia (BCA)</item>
+        <item>Bank Danamon Indonesia</item>
+        <item>Bank Degroof</item>
+        <item>Bank Degroof Luxembourg</item>
+        <item>Bank Derzhava</item>
+        <item>Bank Devon Credit</item>
+        <item>Bank DKI</item>
+        <item>Bank DnB Nord Polska</item>
+        <item>Bank e Millie Afghan</item>
+        <item>Bank Eghtesad Novin (EN Bank)</item>
+        <item>Bank Ekonomi Raharja</item>
+        <item>Bank Electronika</item>
+        <item>Bank Eshkata</item>
+        <item>Bank for Business (BpB)</item>
+        <item>Bank for Investment and Development Cambodia</item>
+        <item>Bank for Investment and Development of Vietnam (BIDV)</item>
+        <item>Bank for Social Development of Tatarstan</item>
+        <item>Bank Forum</item>
+        <item>Bank Frey</item>
+        <item>Bank fur Arbeit und Wirtschaft und Osterreichische Postsparkasse Aktiengesellschaft (BAWAG PSK)</item>
+        <item>Bank fur Tirol and Vorarlberg (BTV)</item>
+        <item>Bank Gaborone</item>
+        <item>Bank Ganesha</item>
+        <item>Bank Gospodarki Zywnosciowej SA (BGZ)</item>
+        <item>Bank Gospodarstwa Krajowego</item>
+        <item>Bank Handlowy w Warszawie</item>
+        <item>Bank Hapoalim</item>
+        <item>Bank Hapoalim Switzerland</item>
+        <item>Bank Himpunan Saudara 1906</item>
+        <item>Bank Index Selindo</item>
+        <item>Bank Insinger de Beaufort</item>
+        <item>Bank Intercredit</item>
+        <item>Bank Internasional Indonesia Mauritius</item>
+        <item>Bank Internasional Indonesia</item>
+        <item>Bank Iowa Corp</item>
+        <item>Bank Islam Brunei Darussalam</item>
+        <item>Bank Islam Malaysia Berhad</item>
+        <item>Bank Islami</item>
+        <item>Bank J. Safra</item>
+        <item>Bank Jabar Banten Islamic</item>
+        <item>BanK Jacob Safra Gibraltar</item>
+        <item>Bank Jasa Jakarta</item>
+        <item>Bank Kalbar</item>
+        <item>Bank Kerjasama Rakyat Malaysia</item>
+        <item>Bank Keshavarzi (Agri Bank)</item>
+        <item>Bank Khreschatyk</item>
+        <item>Bank Leumi le-Israel</item>
+        <item>Bank Leumi Panama</item>
+        <item>Bank Leumi Romania</item>
+        <item>Bank Leumi UK</item>
+        <item>Bank Leumi US</item>
+        <item>Bank Levoberezhniy</item>
+        <item>Bank Linth</item>
+        <item>Bank Lviv</item>
+        <item>Bank M</item>
+        <item>Bank Mandiri</item>
+        <item>Bank Mandiri Europe</item>
+        <item>Bank Maskan</item>
+        <item>Bank Maspion</item>
+        <item>Bank Massad</item>
+        <item>Bank Mayapada Internasional</item>
+        <item>Bank Maybank Syariah Indonesia</item>
+        <item>Bank Mega</item>
+        <item>Bank Mellat</item>
+        <item>Bank Mellat Turkey</item>
+        <item>Bank Melli Iran</item>
+        <item>Bank Moscow-Minsk</item>
+        <item>Bank Muamalat Indonesia</item>
+        <item>Bank Muamalat Malaysia</item>
+        <item>Bank Nederlandse Gemeenten</item>
+        <item>Bank Negara Indonesia</item>
+        <item>Bank Nizwa</item>
+        <item>Bank Nusantara Parahyangan</item>
+        <item>Bank OCBC NISP</item>
+        <item>Bank Ochrony Srodowiska</item>
+        <item>Bank of Abyssinia</item>
+        <item>Bank of Africa Benin</item>
+        <item>Bank of Africa Burkina Faso</item>
+        <item>Bank of Africa Cote d Ivoire</item>
+        <item>Bank of Africa Ghana</item>
+        <item>Bank of Africa Group</item>
+        <item>Bank of Africa Kenya</item>
+        <item>Bank of Africa Madagascar</item>
+        <item>Bank of Africa Mali</item>
+        <item>Bank of Africa Niger</item>
+        <item>Bank of Africa Senegal</item>
+        <item>Bank of Africa Tanzania</item>
+        <item>Bank of Africa Uganda</item>
+        <item>Bank of Aland</item>
+        <item>Bank of America</item>
+        <item>Bank of America Argentina</item>
+        <item>Bank of America India</item>
+        <item>Bank of America Malaysia</item>
+        <item>Bank of America Merrill Lynch Banco Multiplo</item>
+        <item>Bank of America Mexico</item>
+        <item>Bank of America Thailand</item>
+        <item>Bank of Anshan</item>
+        <item>Bank of Anyang</item>
+        <item>Bank of Ayudhya</item>
+        <item>Bank of Azerbaijan</item>
+        <item>Bank of Bahrain and Kuwait (BBK)</item>
+        <item>Bank of Baku</item>
+        <item>Bank of Baroda</item>
+        <item>Bank of Baroda Botswana</item>
+        <item>Bank of Baroda Fiji</item>
+        <item>Bank of Baroda Ghana</item>
+        <item>Bank of Baroda Guyana</item>
+        <item>Bank of Baroda Kenya</item>
+        <item>Bank of Baroda Mauritius</item>
+        <item>Bank of Baroda New Zealand</item>
+        <item>Bank of Baroda Uganda</item>
+        <item>Bank of Beijing</item>
+        <item>Bank of Beirut</item>
+        <item>Bank of Beirut and the Arab Countries (BBAC)</item>
+        <item>Bank of Bhutan</item>
+        <item>Bank of Cangzhou</item>
+        <item>Bank of Ceylon</item>
+        <item>Bank of Changsha</item>
+        <item>Bank of Chaoyang</item>
+        <item>Bank of Chengde</item>
+        <item>Bank of Chengdu</item>
+        <item>Bank of China</item>
+        <item>Bank of China Brazil</item>
+        <item>Bank of China Hong Kong</item>
+        <item>Bank of China Indonesia</item>
+        <item>Bank of China Kazakhstan</item>
+        <item>Bank of China Malaysia</item>
+        <item>Bank of China Panama</item>
+        <item>Bank of China Thailand</item>
+        <item>Bank of China Zambia</item>
+        <item>Bank of Chongqing</item>
+        <item>Bank of Commerce</item>
+        <item>Bank of Commerce and Development</item>
+        <item>Bank of Commerce Holdings</item>
+        <item>Bank of Communications</item>
+        <item>Bank of Cyprus</item>
+        <item>Bank of Dalian</item>
+        <item>Bank of Dandong</item>
+        <item>Bank of Deyang</item>
+        <item>Bank of Dongguan</item>
+        <item>Bank of Fushun</item>
+        <item>Bank of Fuxin</item>
+        <item>Bank of Gansu</item>
+        <item>Bank of Ganzhou</item>
+        <item>Bank of Georgia</item>
+        <item>Bank of Granite Corporation</item>
+        <item>Bank of Greenland</item>
+        <item>Bank of Guangzhou</item>
+        <item>Bank of Guiyang</item>
+        <item>Bank of Handan</item>
+        <item>Bank of Hangzhou</item>
+        <item>Bank of Hawaii Corporation</item>
+        <item>Bank of Hebei</item>
+        <item>Bank of Highland Park Financial Corp</item>
+        <item>Bank of Huludao</item>
+        <item>Bank of Huzhou</item>
+        <item>Bank of India</item>
+        <item>Bank of India Indonesia</item>
+        <item>Bank of India Kenya</item>
+        <item>Bank of India New Zealand</item>
+        <item>Bank of India Tanzania</item>
+        <item>Bank of Industry and Mine</item>
+        <item>Bank of Inner Mongolia</item>
+        <item>Bank of Ireland</item>
+        <item>Bank of Iwate</item>
+        <item>Bank of Jerusalem</item>
+        <item>Bank of Jiangsu</item>
+        <item>Bank of Jiaxing</item>
+        <item>Bank of Jilin</item>
+        <item>Bank of Jining</item>
+        <item>Bank of Jinzhou</item>
+        <item>Bank of Jiujiang</item>
+        <item>Bank of Jordan</item>
+        <item>Bank of Kaohsiung</item>
+        <item>Bank of Kathmandu</item>
+        <item>Bank of Kentucky Financial Corporation</item>
+        <item>Bank of Khartoum</item>
+        <item>Bank of Kigali</item>
+        <item>Bank of Kochi</item>
+        <item>Bank of Kunlun</item>
+        <item>Bank of Kyoto</item>
+        <item>Bank of Langfang</item>
+        <item>Bank of Lanzhou</item>
+        <item>Bank of Liaoyang</item>
+        <item>Bank of Liuzhou</item>
+        <item>Bank of London and The Middle East</item>
+        <item>Bank of Luoyang</item>
+        <item>Bank of Maharashtra</item>
+        <item>Bank of Maldives</item>
+        <item>Bank of Marin Bancorp</item>
+        <item>Bank of Miami</item>
+        <item>Bank of Montreal</item>
+        <item>Bank of Montserrat</item>
+        <item>Bank of Moscow</item>
+        <item>Bank of Moscow Ukraine</item>
+        <item>Bank of Nagasaki</item>
+        <item>Bank of Nagoya</item>
+        <item>Bank of Nanchang</item>
+        <item>Bank of Nanjing</item>
+        <item>Bank of Nanyang</item>
+        <item>Bank of Nauru</item>
+        <item>Bank of Nevis</item>
+        <item>Bank of New York Mellon</item>
+        <item>Bank of New York Mellon Brazil</item>
+        <item>Bank of New York Mellon Mexico</item>
+        <item>Bank of New Zealand</item>
+        <item>Bank of Ningbo</item>
+        <item>Bank of Ningxia</item>
+        <item>Bank of Okinawa</item>
+        <item>Bank of Panhsin</item>
+        <item>Bank of Punjab</item>
+        <item>Bank of Qingdao</item>
+        <item>Bank of Qinghai</item>
+        <item>Bank of Qinhuangdao</item>
+        <item>Bank of Quanzhou</item>
+        <item>Bank of Queensland</item>
+        <item>Bank of Rizhao</item>
+        <item>Bank of Saga</item>
+        <item>Bank of Shanghai</item>
+        <item>Bank of Shaoxing</item>
+        <item>Bank of Sharjah</item>
+        <item>Bank of Shizuishan</item>
+        <item>Bank of South Pacific</item>
+        <item>Bank of South Pacific Fiji</item>
+        <item>Bank of Southside Virginia Corporation</item>
+        <item>Bank of St Lucia</item>
+        <item>Bank of St. Vincent and the Grenadines</item>
+        <item>Bank of Suzhou</item>
+        <item>Bank of Sydney</item>
+        <item>Bank of Taiwan</item>
+        <item>Bank of Taizhou</item>
+        <item>Bank of the Bahamas</item>
+        <item>Bank of the Ozarks</item>
+        <item>Bank of the Philippine Islands</item>
+        <item>Bank of the Ryukyus</item>
+        <item>Bank of Tianjin</item>
+        <item>Bank of Tokyo Mitsubishi</item>
+        <item>Bank of Tokyo Mitsubishi Argentina</item>
+        <item>Bank of Tokyo Mitsubishi Brazil</item>
+        <item>Bank of Tokyo Mitsubishi Chile</item>
+        <item>Bank of Tokyo Mitsubishi China</item>
+        <item>Bank of Tokyo Mitsubishi Indonesia</item>
+        <item>Bank of Tokyo Mitsubishi Malaysia</item>
+        <item>Bank of Tokyo Mitsubishi Mexico</item>
+        <item>Bank of Tokyo Mitsubishi Netherlands</item>
+        <item>Bank of Tokyo Mitsubishi Thailand</item>
+        <item>Bank of Tokyo Mitsubishi Turkey</item>
+        <item>Bank of Valletta</item>
+        <item>Bank of Weifang</item>
+        <item>Bank of Wenzhou</item>
+        <item>Bank of Western Australia</item>
+        <item>Bank of Xi An</item>
+        <item>Bank of Xinxiang</item>
+        <item>Bank of Yingkou</item>
+        <item>Bank of Yokohama</item>
+        <item>Bank of Zhengzhou</item>
+        <item>Bank One</item>
+        <item>Bank Otkritie</item>
+        <item>Bank Otsar Ha Hayal</item>
+        <item>Bank Pan Indonesia</item>
+        <item>Bank Papua</item>
+        <item>Bank Pasargad</item>
+        <item>Bank Pekao</item>
+        <item>Bank Pembangunan Daerah Riau</item>
+        <item>Bank Pembangunan Daerah Sumatera Barat</item>
+        <item>Bank Permata</item>
+        <item>Bank Petrocommerce</item>
+        <item>Bank Platina</item>
+        <item>Bank Polskiej Spolozielczosci</item>
+        <item>Bank Pundi Indonesia</item>
+        <item>Bank Rakyat Indonesia</item>
+        <item>Bank Rakyat Indonesia Agroniaga</item>
+        <item>Bank Refah</item>
+        <item>Bank Republic</item>
+        <item>Bank Resona Perdania</item>
+        <item>Bank Respublika</item>
+        <item>Bank Rossiya</item>
+        <item>Bank Rossiyskiy Kapital</item>
+        <item>Bank Saderat Iran (BSI)</item>
+        <item>Bank Saderat PLC</item>
+        <item>Bank Saint Petersburg</item>
+        <item>Bank Sepah</item>
+        <item>Bank Sepah International</item>
+        <item>Bank Severo Vostochny Alliance</item>
+        <item>Bank SGB</item>
+        <item>Bank Silk Way</item>
+        <item>Bank Simpanan Nasional</item>
+        <item>Bank Sinarmas</item>
+        <item>Bank SinoPac</item>
+        <item>Bank Sohar SAOG</item>
+        <item>Bank Solidarnost</item>
+        <item>Bank Soyuz</item>
+        <item>Bank Standard</item>
+        <item>Bank Tabungan Negara (BTN)</item>
+        <item>Bank Tabungan Pensiunan Nasional</item>
+        <item>Bank Tavricheskiy</item>
+        <item>Bank Technique</item>
+        <item>Bank Tejarat</item>
+        <item>Bank Tolubay</item>
+        <item>Bank Uralsib</item>
+        <item>Bank Victoria International</item>
+        <item>Bank Vozrozhdenie</item>
+        <item>Bank West</item>
+        <item>Bank Windhoek</item>
+        <item>Bank Windu Kentjana International</item>
+        <item>Bank Winter and Co</item>
+        <item>Bank Woori Indonesia</item>
+        <item>Bank Yahav for Government Employees</item>
+        <item>Bank Zachodni WBK</item>
+        <item>Bank Zarechye</item>
+        <item>Banka Celje</item>
+        <item>Banka Ekonomike</item>
+        <item>Banka Kombetare Tregtare</item>
+        <item>Banka Koper</item>
+        <item>Banka Societe Generale Albania</item>
+        <item>BankAtlantic Bancorp</item>
+        <item>Bankaus Carl Spangler and Co</item>
+        <item>BankDhofar</item>
+        <item>Bankfirst Corporation</item>
+        <item>Bankhaus Schelhammer and Schattera</item>
+        <item>Bankinter</item>
+        <item>Bankmanagers Corp</item>
+        <item>Bankmecu</item>
+        <item>BankMed</item>
+        <item>BankMuscat (SAOG)</item>
+        <item>BankMuscat International Bahrain</item>
+        <item>BankNordik</item>
+        <item>Bankoa Credit Agricole Spain</item>
+        <item>BankPozitif Turkey</item>
+        <item>BankPozitiv Kazakhstan</item>
+        <item>BankUnited</item>
+        <item>Banner Corporation</item>
+        <item>Banorte USA Corporation</item>
+        <item>Banplus</item>
+        <item>Banque Agricole et Commercial du Burkina</item>
+        <item>Banque Al Baraka Algerie</item>
+        <item>Banque Al Wava Mauritanienne Islamique (BAMIS)</item>
+        <item>Banque Alternative</item>
+        <item>Banque Atlantique Cameroon</item>
+        <item>Banque Atlantique de Cote d Ivoire</item>
+        <item>Banque Audi Switzerland</item>
+        <item>Banque Bayerische Landesbank Luxembourg</item>
+        <item>Banque Bemo</item>
+        <item>Banque Bemo Saudi Frasi</item>
+        <item>Banque Cantonale de Fribourg</item>
+        <item>Banque Cantonale de Geneve</item>
+        <item>Banque Cantonale du Jura</item>
+        <item>Banque Cantonale du Valais</item>
+        <item>Banque Cantonale Neuchateloise</item>
+        <item>Banque Cantonale Vaudoise</item>
+        <item>Banque Commerciale du Burundi</item>
+        <item>Banque Commerciale du Congo</item>
+        <item>Banque Commerciale du Sahel</item>
+        <item>Banque Commerciale Internationale (BCI)</item>
+        <item>Banque Congolaise</item>
+        <item>Banque Cramer</item>
+        <item>Banque de Commerce et de Placements</item>
+        <item>Banque de Credit de Bujumbura (BCB)</item>
+        <item>Banque du Développement du Mali</item>
+        <item>Banque de Financement des Petites et Moyennes Entreprises</item>
+        <item>Banque de l Habitat</item>
+        <item>Banque de l Habitat de Cote d Ivoire</item>
+        <item>Banque de l Habitat du Benin</item>
+        <item>Banque de l Habitat du Mali</item>
+        <item>Banque de l Habitat du Senegal</item>
+        <item>Banque de l Union Haitienne</item>
+        <item>Banque de Tahiti</item>
+        <item>Banque de Tunisie</item>
+        <item>Banque de Tunisie et des Emirats</item>
+        <item>Banque des Mascareignes</item>
+        <item>Banque du Caire</item>
+        <item>Banque du Maghreb Arabe pour l Investissement and le Commerce</item>
+        <item>Banque et Caisse d Epargne de l Etat</item>
+        <item>Banque Exterieure d Algerie</item>
+        <item>Banque Francaise Commerciale Ocean Indien</item>
+        <item>Banque Franco Tunisienne</item>
+        <item>Banque Heritage</item>
+        <item>Banque Int pour le Comm and l Ind Guinea</item>
+        <item>Banque Intercontinentale Arabe</item>
+        <item>Banque Internationale a Luxembourg</item>
+        <item>Banque Internationale Arabe de Tunisie</item>
+        <item>Banque Internationale de Credit</item>
+        <item>Banque Internationale du Benin (BIBE)</item>
+        <item>Banque Internationale du Burkina</item>
+        <item>Banque Internationale du Cameroun pour l Epargne et le Credit (BICEC)</item>
+        <item>Banque Internationale pour l Afrique au Congo (BIAC)</item>
+        <item>Banque Internationale pour l Afrique Niger</item>
+        <item>Banque Internationale pour le Commerce et l Industrie de la Cote d Ivoire</item>
+        <item>Banque Internationale pour le Commerce et l Industrie du Gabon</item>
+        <item>Banque Internationale pour le Commerce et l Industrie du Mali (BICIM)</item>
+        <item>Banque Internationale pour le Commerce et l Industrie du Senegal</item>
+        <item>Banque Internationale pour le Commerce</item>
+        <item>Banque Internationale pour le Mali</item>
+        <item>Banque Islamique de Guinea</item>
+        <item>Banque Islamique du Niger pour le Commerce et l Investissement</item>
+        <item>Banque Islamique du Senegal</item>
+        <item>Banque Libano-Francaise</item>
+        <item>Banque Malgache de l Ocean Indien</item>
+        <item>Banque Malgache de l Ocean Indien (BMOI)</item>
+        <item>Banque Marocaine pour le Commerce et l Industrie (BMCI)</item>
+        <item>Banque Mauritanienne pour le Commerce International (BMCI)</item>
+        <item>Banque Misr</item>
+        <item>Banque Misr France</item>
+        <item>Banque Misr Lebanon</item>
+        <item>Banque Nagelmackers</item>
+        <item>Banque Nationale Agricole</item>
+        <item>Banque Nationale d Algerie</item>
+        <item>Banque Nationale de Credit</item>
+        <item>Banque Nationale d Investissement</item>
+        <item>Banque of Africa Democratic Republic of Congo</item>
+        <item>Banque of Africa Mer Rouge</item>
+        <item>Banque Pasche</item>
+        <item>Banque Piguet and CIE</item>
+        <item>Banque Populaire Haitienne</item>
+        <item>Banque Populaire du Rwanda</item>
+        <item>Banque pour le Commerce et l Industrie Mer Rouge</item>
+        <item>Banque pour le Commerce Exterieur Lao (BCEL)</item>
+        <item>Banque pour le Financement de l Agriculture</item>
+        <item>Banque pour l Industrie et le Commerce Comores</item>
+        <item>Banque Privee Edmond de Rothschild Group</item>
+        <item>Banque Profil de Gestion</item>
+        <item>Banque Raiffeisen</item>
+        <item>Banque Safra Luxembourg</item>
+        <item>Banque Sahelo Saharienne pour l Investiment et le Commerce Benin</item>
+        <item>Banque Sahelo Saharienne pour l Investiment et le Commerce Burkina Faso</item>
+        <item>Banque Sahelo Saharienne pour l Investiment et le Commerce Gambia</item>
+        <item>Banque Sahelo Saharienne pour l Investiment et le Commerce Mali</item>
+        <item>Banque Sahelo Saharienne pour l Investiment et le Commerce Niger</item>
+        <item>Banque Sahelo Saharienne pour l Investiment et le Commerce Senegal</item>
+        <item>Banque Sahélo-Saharienne pour l Investissement et le Commerce</item>
+        <item>Banque Sahélo-Saharienne pour l Investissement et le Commerce Ghana</item>
+        <item>Banque Saudi Fransi</item>
+        <item>Banque SBM Madagascar</item>
+        <item>Banque Socredo</item>
+        <item>Banque Syz and Co</item>
+        <item>Banque Tarneaud</item>
+        <item>Banque Tunisienne de Solidarite</item>
+        <item>Banque Tuniso Koweitienne</item>
+        <item>Banque Tuniso Libyenne</item>
+        <item>Banque Zitouna</item>
+        <item>Bansi</item>
+        <item>Banterra Corp</item>
+        <item>Baoshang Bank</item>
+        <item>Baotou City Commercial Bank</item>
+        <item>Baoviet Bank</item>
+        <item>Bar Harbor Bankshares</item>
+        <item>Baraboo Bancorporation</item>
+        <item>Barclays</item>
+        <item>Barclays Africa Group</item>
+        <item>Barclays Bank Botswana</item>
+        <item>Barclays Bank Brazil</item>
+        <item>Barclays Bank Egypt</item>
+        <item>Barclays Bank France</item>
+        <item>Barclays Bank Kenya</item>
+        <item>Barclays Bank Mauritius</item>
+        <item>Barclays Bank Mexico</item>
+        <item>Barclays Bank Mozambique</item>
+        <item>Barclays Bank of Ghana</item>
+        <item>Barclays Bank Russia</item>
+        <item>Barclays Bank Seychelles</item>
+        <item>Barclays Bank Spain</item>
+        <item>Barclays Bank Tanzania</item>
+        <item>Barclays Bank Uganda</item>
+        <item>Barclays Bank Zambia</item>
+        <item>Barclays Bank Zimbabwe</item>
+        <item>Barclays Capital Inc</item>
+        <item>Barclays Delaware Holdings</item>
+        <item>Barclays Delaware Holdings</item>
+        <item>Barwa Bank</item>
+        <item>Basellandschaftliche Kantonalbank</item>
+        <item>Basisbank</item>
+        <item>Basler Kantonalbank</item>
+        <item>BAWAG Banka Slovenia</item>
+        <item>BAWAG Malta Bank</item>
+        <item>Bayerische Landesbank</item>
+        <item>Baylake Corp</item>
+        <item>BBandT Corp</item>
+        <item>BBCN Bancorp</item>
+        <item>BBVA Banco Frances</item>
+        <item>BBVA Chile</item>
+        <item>BBVA Colombia</item>
+        <item>BBVA Continental</item>
+        <item>BBVA Paraguay</item>
+        <item>BBVA Portugal</item>
+        <item>BBVA Provincial</item>
+        <item>BBVA Suiza</item>
+        <item>BBVA Uruguay</item>
+        <item>BBVA USA Bancshares</item>
+        <item>BCB Bancorp</item>
+        <item>BCB Holdings</item>
+        <item>BCT Bank International</item>
+        <item>BDO Unibank</item>
+        <item>Beacon Bancorp</item>
+        <item>Beijing Rural Commercial Bank</item>
+        <item>Belagroprombank</item>
+        <item>Belarusbank</item>
+        <item>Belarusian Swiss Bank</item>
+        <item>Belarusky Narodny Bank</item>
+        <item>Belfius</item>
+        <item>Belgazprombank</item>
+        <item>Belinvestbank</item>
+        <item>Bellevue Group</item>
+        <item>Belmont Savings Bank</item>
+        <item>Belvnesheconombank</item>
+        <item>Bendigo and Adelaide Bank</item>
+        <item>Berkshire Bancorp</item>
+        <item>Berkshire Hills Bancorp</item>
+        <item>Berlin Hyp</item>
+        <item>Berliner Volksbank</item>
+        <item>Bermuda Commercial Bank</item>
+        <item>Berner Kantonalbank</item>
+        <item>BES Investimento do Brasil</item>
+        <item>Bessemer Group</item>
+        <item>BforBank</item>
+        <item>BFV Societe Generale</item>
+        <item>BGFI International</item>
+        <item>BGFIBank</item>
+        <item>BGFIBank Benin</item>
+        <item>BGFIBank Cameroun</item>
+        <item>BGFIBank Congo</item>
+        <item>BGFIBank Cote d’Ivoire</item>
+        <item>BGFIBank DRC Congo</item>
+        <item>BGFIBank Guinee Equatoriale</item>
+        <item>BGFIBank Madagascar</item>
+        <item>BGFIBank Sao Tome and Principe</item>
+        <item>BGL BNP Paribas</item>
+        <item>BHF Bank</item>
+        <item>Bhutan National Bank</item>
+        <item>BHW Group</item>
+        <item>BIAO Cote d Ivoire</item>
+        <item>Bidvest Bank</item>
+        <item>Bigbank</item>
+        <item>BIMB Holdings</item>
+        <item>Birlikbank</item>
+        <item>BKS Bank</item>
+        <item>BKS Bank</item>
+        <item>Black Sea Bank for Development and Reconstruction</item>
+        <item>Blackhawk Bancorporation</item>
+        <item>BLOM Bank</item>
+        <item>Blom Bank</item>
+        <item>BLOM Bank Egypt</item>
+        <item>BLOM Bank France</item>
+        <item>Blue Nile Mashreq Bank</item>
+        <item>Blue Ridge Bancshares</item>
+        <item>BMCE Bank Group</item>
+        <item>BMO Financial Corp</item>
+        <item>BN Bank ASA</item>
+        <item>BNC Bancorp</item>
+        <item>BNH Financial</item>
+        <item>BNI Madagascar</item>
+        <item>BNP Paribas</item>
+        <item>BNP Paribas Argentina</item>
+        <item>BNP Paribas Bank Polska</item>
+        <item>BNP Paribas Bulgaria</item>
+        <item>BNP Paribas China</item>
+        <item>BNP Paribas Colombia</item>
+        <item>BNP Paribas Egypt</item>
+        <item>BNP Paribas El Djazair</item>
+        <item>BNP Paribas Fortis</item>
+        <item>BNP Paribas Hungary</item>
+        <item>BNP Paribas Indonesia</item>
+        <item>BNP Paribas Malaysia</item>
+        <item>BNP Paribas Portugal</item>
+        <item>BNP Paribas Russia</item>
+        <item>Bobar Banka</item>
+        <item>Boiling Springs MHC</item>
+        <item>BOK Financial Corporation</item>
+        <item>Bombay Mercantile Cooperative Bank</item>
+        <item>Bond Street Holdings</item>
+        <item>Booyoung Khmer Bank</item>
+        <item>Bosna Bank International</item>
+        <item>Bosshard Banco</item>
+        <item>Boston Private Financial Holdings</item>
+        <item>Botswana Savings Bank</item>
+        <item>Bou Bancorp</item>
+        <item>Boubyan Bank</item>
+        <item>Boursorama Banque</item>
+        <item>Boyle Bancorp</item>
+        <item>BPCE</item>
+        <item>BPS-Sberbank</item>
+        <item>BRAC Bank Afghanistan</item>
+        <item>BRAC Bank Limited</item>
+        <item>Bradesco Europa</item>
+        <item>Bradford and Bingley</item>
+        <item>Bramer Bank</item>
+        <item>Brand Group Holdings</item>
+        <item>Bratskiy Narodny Bank</item>
+        <item>BRD Groupe Societe Generale</item>
+        <item>BRED</item>
+        <item>BRED Bank</item>
+        <item>Bremer Financial Corp</item>
+        <item>Bremer Kredit Bank</item>
+        <item>Bremer Landesbank</item>
+        <item>Bridge Bancorp</item>
+        <item>Bridge Capital Holdings</item>
+        <item>Bridgeview Bancorp</item>
+        <item>Briscoe Ranch</item>
+        <item>British Arab Commercial Bank</item>
+        <item>Broadway Bancshares</item>
+        <item>Brookline Bancorp</item>
+        <item>Brown Shipley</item>
+        <item>Bryn Mawr Bank Corp</item>
+        <item>BS Financial Group</item>
+        <item>BSB Bancorp</item>
+        <item>Banca della Svizzera Italiana</item>
+        <item>BTA Bank</item>
+        <item>BTA Bank</item>
+        <item>BTA Bank Armenia</item>
+        <item>BTA Bank Belarus</item>
+        <item>BTC Financial Corp</item>
+        <item>Budapest Bank</item>
+        <item>Bulgarian American Credit Bank</item>
+        <item>Bulgarian Development Bank</item>
+        <item>Bumiputra Commerce Bank</item>
+        <item>Bunna International Bank</item>
+        <item>Burgan Bank</item>
+        <item>Burgan Bank Turkey</item>
+        <item>Burj Bank</item>
+        <item>Burke and Herbert Bank and Trust</item>
+        <item>Butterfield Bank Cayman</item>
+        <item>Butterfield Bank Group</item>
+        <item>Butterfield Bank UK</item>
+        <item>Byblos Bank</item>
+        <item>Byblos Bank Africa Sudan</item>
+        <item>Byblos Bank Armenia</item>
+        <item>Byblos Bank Congo</item>
+        <item>Byblos Bank Europe Belgium</item>
+        <item>Byblos Bank Syria</item>
+        <item>Byline Bank</item>
+        <item>BystroBank</item>
+        <item>BZ Bank</item>
+        <item>CandF Financial Corporation</item>
+        <item>C. Hoare and Co</item>
+        <item>C1 Financial</item>
+        <item>Cacanska Banka</item>
+        <item>Cadence Bancorp</item>
+        <item>Cadence Financial Corporation</item>
+        <item>Cagamas Berhad</item>
+        <item>Cairo Amman Bank</item>
+        <item>Caisse Commune d Epargne et d Investissement Guinee Equatoriale (CCEI)</item>
+        <item>Caixa de Sabadell</item>
+        <item>Caixa d Estalvis de Terrassa</item>
+        <item>Caixa d Estalvis Laietana</item>
+        <item>Caixa Económica de Cabo Verde</item>
+        <item>Caixa Económica Federal</item>
+        <item>Caixa Económica Montepio Geral</item>
+        <item>Caixa Geral de Depósitos</item>
+        <item>Caixa Geral de Depósitos France</item>
+        <item>Caixa Ontinyent</item>
+        <item>Caixa Penedes</item>
+        <item>Caixabank</item>
+        <item>Caja Circulo</item>
+        <item>Caja de Ahorros</item>
+        <item>Caja de Ahorros y Monte de Piedad de Madrid</item>
+        <item>Caja de Ahorros y Monte de Piedad de Navarra</item>
+        <item>Caja de Badajoz</item>
+        <item>Caja de Burgos</item>
+        <item>Caja de Crédito Cuenca Cooperativa</item>
+        <item>Caja de crédito La Capital del Plata</item>
+        <item>Caja General de Ahorros de Canarias</item>
+        <item>Caja General de Ahorros de Granada</item>
+        <item>Caja Insular de Ahorros de Canarias</item>
+        <item>Caja Laboral Popular-Laboral Kutxa</item>
+        <item>Cal Bank</item>
+        <item>California First National Bancorp</item>
+        <item>Calvin B Taylor Bankshares</item>
+        <item>Cambodia Asia Bank</item>
+        <item>Cambodia Mekong Bank</item>
+        <item>Cambodia Commercial Bank</item>
+        <item>Cambodian Public Bank</item>
+        <item>Cambridge Bancorp</item>
+        <item>Cambridge Financial Group</item>
+        <item>Camco Financial Corporation</item>
+        <item>Camden National Corporation</item>
+        <item>Canadia Bank</item>
+        <item>Canadian Imperial Bank of Commerce</item>
+        <item>Canadian Western Bank</item>
+        <item>Canandaigua National Corporation</item>
+        <item>Canara Bank</item>
+        <item>Cape Cod Five Mutual Company</item>
+        <item>Capital Bank</item>
+        <item>Capital Bank</item>
+        <item>Capital Bank</item>
+        <item>Capital Bank</item>
+        <item>Capital Bank Corporation</item>
+        <item>Capital Bank Financial Corp</item>
+        <item>Capital Bank of Jordan</item>
+        <item>Capital City Bank Group</item>
+        <item>Capital G Bank</item>
+        <item>Capital One Bank</item>
+        <item>Capital One Financial Corporation</item>
+        <item>Capitec Bank Holdings</item>
+        <item>Capitol Bancorp</item>
+        <item>Capitol Bancorporation</item>
+        <item>Capitol Federal Financial</item>
+        <item>Capitron Bank</item>
+        <item>Cardinal Financial Corporation</item>
+        <item>Caribbean Mercantile Bank</item>
+        <item>Carlile Bancshares</item>
+        <item>Cascade Bancorp</item>
+        <item>Cashmere Valley Financial Corporation</item>
+        <item>Cass Information Systems</item>
+        <item>Cassa dei Risparmi di Forlì e della Romagna</item>
+        <item>Cassa di Risparmio del Friuli Venezia Giulia</item>
+        <item>Cassa di Risparmio della Provincia di Chieti</item>
+        <item>Cassa di Risparmio della Provincia di Viterbo</item>
+        <item>Cassa di Risparmio di Alessandria</item>
+        <item>Cassa di Risparmio di Asti</item>
+        <item>Cassa di Risparmio di Biella e Vercelli</item>
+        <item>Cassa di Risparmio di Bolzano-Sudtiroler Sparkasse</item>
+        <item>Cassa di Risparmio di Cento</item>
+        <item>Cassa di Risparmio di Cesena</item>
+        <item>Cassa di Risparmio di Ferrara</item>
+        <item>Cassa di Risparmio di Genova e Imperia</item>
+        <item>Cassa di Risparmio di Pistoia e Pescia</item>
+        <item>Cassa di Risparmio di Ravenna</item>
+        <item>Cassa di Risparmio di Rimini (CARIM)</item>
+        <item>Cassa di Risparmio di San Miniato</item>
+        <item>Cassa di Risparmio di Venezia</item>
+        <item>Cassa di Risparmio di Volterra</item>
+        <item>Catalunya Banc (CatalunyaCaixa)</item>
+        <item>Cathedral Investment Bank</item>
+        <item>Cathay General Bancorp</item>
+        <item>Cathay United Bank</item>
+        <item>Cathay United Bank Cambodia</item>
+        <item>Catholic Syrian Bank</item>
+        <item>Cavmont Bank</item>
+        <item>Caye International Bank</item>
+        <item>Cayman National Corporation</item>
+        <item>CBAO Groupe Attijariwafa bank</item>
+        <item>CBFH</item>
+        <item>CBH Compagnie Bancaire Helvetique</item>
+        <item>CBS Banc-Corp</item>
+        <item>CBTC Capital Corp</item>
+        <item>CCB Financial Corporation</item>
+        <item>CDG Capital</item>
+        <item>CEC Bank</item>
+        <item>Cecabank</item>
+        <item>Centar Banka</item>
+        <item>Centenary Bank</item>
+        <item>Centennial Bank</item>
+        <item>Center Bancorp</item>
+        <item>Center Invest Bank</item>
+        <item>Centerstate Banks</item>
+        <item>Central Bancompany</item>
+        <item>Central Bancorp</item>
+        <item>Central Bancorporation</item>
+        <item>Central Bancshares</item>
+        <item>Central Bancshares</item>
+        <item>Central Bank</item>
+        <item>Central Bank of India</item>
+        <item>Central Community Corporation</item>
+        <item>Central Cooperative Bank</item>
+        <item>Central of Kansas</item>
+        <item>Central Pacific Financial Corp.</item>
+        <item>Centrobanca</item>
+        <item>CentroCredit Bank</item>
+        <item>Centrue Financial Corporation</item>
+        <item>Century Bancorp</item>
+        <item>Century Banking Corporation</item>
+        <item>CERA Bank</item>
+        <item>CertusHoldings</item>
+        <item>Ceska Sporitelna</item>
+        <item>Ceskoslovenska Obchodni Banka Czech Republic</item>
+        <item>Cetelem</item>
+        <item>CfC Stanbic Bank</item>
+        <item>Chambers Bancshares</item>
+        <item>Chang Hwa Bank</item>
+        <item>Chang an Bank</item>
+        <item>Changchun Rural Commercial Bank</item>
+        <item>Charity Bank</item>
+        <item>Charter Bankshares</item>
+        <item>Chase Bank</item>
+        <item>Chelindbank</item>
+        <item>Chemical Financial Corp</item>
+        <item>Chemung Financial Corp</item>
+        <item>Chengdu Rural Commercial Bank</item>
+        <item>Chiba Bank</item>
+        <item>Chiba Kogyo Bank</item>
+        <item>Chicopee Bancorp</item>
+        <item>Chikuho Bank</item>
+        <item>China Banking Corporation</item>
+        <item>China Bohai Bank</item>
+        <item>China Citic Bank</item>
+        <item>China CITIC Bank International</item>
+        <item>China Construction Bank Asia</item>
+        <item>China Construction Bank Corporation</item>
+        <item>China Construction Bank Macau</item>
+        <item>China Construction Bank UK</item>
+        <item>China Development Industrial Bank</item>
+        <item>China Everbright Bank</item>
+        <item>China Guangfa Bank</item>
+        <item>China Merchants Bank</item>
+        <item>China Minsheng Bank</item>
+        <item>China Resources Bank of Zhuhai</item>
+        <item>China Zheshang Bank</item>
+        <item>Chinatrust Commercial Bank</item>
+        <item>Chinatrust Commercial Bank Philippines</item>
+        <item>Chinatrust India</item>
+        <item>Chinatrust Indonesia</item>
+        <item>Chiyu Banking Corporation</item>
+        <item>Choice Bank</item>
+        <item>Chong Hing Bank</item>
+        <item>Chongqing Rural Commercial Bank</item>
+        <item>Chongqing Three Gorges Bank</item>
+        <item>Chugoku Bank</item>
+        <item>Chukyo Bank</item>
+        <item>CI Banco</item>
+        <item>CIB Bank</item>
+        <item>CIB Marine Bancshares</item>
+        <item>Cibank</item>
+        <item>Cihan Bank for Islamic Investment and Finance</item>
+        <item>CIMB Cambodia</item>
+        <item>CIMB Group</item>
+        <item>CIMB Islamic Bank</item>
+        <item>CIMB Niaga</item>
+        <item>CIMB Thai</item>
+        <item>CIT Group</item>
+        <item>Citadele Banka</item>
+        <item>Citadele bankas</item>
+        <item>Citco Community Bancshares</item>
+        <item>Citibank Argentina</item>
+        <item>Citibank Bangladesh</item>
+        <item>Citibank Brazil</item>
+        <item>Citibank China</item>
+        <item>Citibank Colombia</item>
+        <item>Citibank Costa Rica</item>
+        <item>Citibank Ecuador</item>
+        <item>Citibank El Salvador</item>
+        <item>Citibank Europe</item>
+        <item>Citibank Guatemala</item>
+        <item>Citibank Haiti</item>
+        <item>Citibank Honduras</item>
+        <item>Citibank Hungary</item>
+        <item>Citibank India</item>
+        <item>Citibank Indonesia</item>
+        <item>Citibank Jamaica</item>
+        <item>Citibank Japan</item>
+        <item>Citibank Kazakhstan</item>
+        <item>Citibank Korea</item>
+        <item>Citibank Malaysia</item>
+        <item>Citibank Nicaragua</item>
+        <item>Citibank Nigeria</item>
+        <item>Citibank Panama</item>
+        <item>Citibank Paraguay</item>
+        <item>Citibank Peru</item>
+        <item>Citibank Romania</item>
+        <item>Citibank Slovakia</item>
+        <item>Citibank Taiwan</item>
+        <item>Citibank Tanzania</item>
+        <item>Citibank Thailand</item>
+        <item>Citibank Tunisia</item>
+        <item>Citibank Turkey</item>
+        <item>Citibank Uganda</item>
+        <item>Citibank Ukraine</item>
+        <item>Citibank Uruguay</item>
+        <item>Citibank Venezuela</item>
+        <item>Citigroup</item>
+        <item>Citizens and Northern Corporation</item>
+        <item>Citizens Bancorp Investment</item>
+        <item>Citizens Bancshares Co</item>
+        <item>Citizens Bank Guyana</item>
+        <item>Citizens Bank Holding</item>
+        <item>Citizens National Banc Corp</item>
+        <item>Citizens National Bancorp</item>
+        <item>Citizens Republic Bancorp</item>
+        <item>Citizens Union Bancorp of Shelbyville</item>
+        <item>City Holding Co</item>
+        <item>City National Corporation</item>
+        <item>City Union Bank</item>
+        <item>Citywide Banks of Colorado</item>
+        <item>Clayton Bancorp</item>
+        <item>Clearing House Bank</item>
+        <item>Close Brothers Group</item>
+        <item>Clydesdale Bank</item>
+        <item>CM Florida Holdings</item>
+        <item>CNB Bancshares</item>
+        <item>CNB Corporation</item>
+        <item>CNB Financial Corporation</item>
+        <item>CNLBancshares</item>
+        <item>CoBiz Financial</item>
+        <item>Codorus Valley Bancorp</item>
+        <item>Colony Bankcorp</item>
+        <item>Colonya Caixa Pollenca</item>
+        <item>Columbia Bancorp</item>
+        <item>Columbia Banking System</item>
+        <item>Comerica</item>
+        <item>Comertbank</item>
+        <item>Commerce Bancshares</item>
+        <item>Commerce Bancshares Corp</item>
+        <item>Commerce Bank and Trust Holding Company</item>
+        <item>Commercial Bank ad Budva</item>
+        <item>Commercial Bank International</item>
+        <item>Commercial Bank Kyrgyzstan</item>
+        <item>Commercial Bank of Africa</item>
+        <item>Commercial Bank of Africa Tanzania</item>
+        <item>Commercial Bank of Cameroon</item>
+        <item>Commercial Bank of Ceylon</item>
+        <item>Commercial Bank of Dubai</item>
+        <item>Commercial Bank of Eritrea</item>
+        <item>Commercial Bank of Ethiopia</item>
+        <item>Commercial Bank of Kaifeng</item>
+        <item>Commercial Bank of Kuwait</item>
+        <item>Commercial Bank of Qatar</item>
+        <item>Commercial Bank of Syria</item>
+        <item>Commercial Bank of Zimbabwe</item>
+        <item>Commercial Industrial Bank</item>
+        <item>Commercial International Bank Egypt</item>
+        <item>Commercial Investment Bank</item>
+        <item>Commerzbank</item>
+        <item>Commerzbank Eurasija</item>
+        <item>Commerzbank Hungary</item>
+        <item>Commerzbank International</item>
+        <item>Commonwealth Bank</item>
+        <item>Commonwealth Bank Europe</item>
+        <item>Commonwealth Bank</item>
+        <item>Commonwealth Bank India</item>
+        <item>Commonwealth Bank Indonesia</item>
+        <item>Community and Southern Holdings</item>
+        <item>Community Bancorp</item>
+        <item>Community Bancshares of Mississippi</item>
+        <item>Community Bank Shares of Indiana</item>
+        <item>Community Bank System</item>
+        <item>Community Bankers Trust Corporation</item>
+        <item>Community Bankshares</item>
+        <item>Community Bankshares</item>
+        <item>Community Financial Services</item>
+        <item>Community First Bancshares</item>
+        <item>Community First Bancshares</item>
+        <item>Community Trust Bancorp</item>
+        <item>Community Trust Financial Corporation</item>
+        <item>Community West Bancshares</item>
+        <item>CommunityOne Bancorp</item>
+        <item>Compagnie Financiere E. de Rothschild</item>
+        <item>Concordia Capital Corporation</item>
+        <item>Connectone Bancorp</item>
+        <item>Consolidated Bank of Kenya</item>
+        <item>Construction and Business Bank</item>
+        <item>Consubanco</item>
+        <item>Consumer Finance Company</item>
+        <item>Continental Bank Benin</item>
+        <item>Converse Bank</item>
+        <item>Coop Bank</item>
+        <item>Cooperative Bank</item>
+        <item>Cooperative Bank</item>
+        <item>Cooperative Bank</item>
+        <item>Cooperative Bank of Kenya</item>
+        <item>Cooperative Central Bank</item>
+        <item>Coppermark Bancshares</item>
+        <item>Corealcredit Bank</item>
+        <item>Corner Bank</item>
+        <item>CorpBanca</item>
+        <item>Corporacion BCT</item>
+        <item>Corporate Commercial Bank</item>
+        <item>Corporation Bank</item>
+        <item>Cosmos Bank</item>
+        <item>Cosmos Bank Taiwan</item>
+        <item>Cota Commercial Bank</item>
+        <item>Country Agencies and Investments</item>
+        <item>Coventry Building Society</item>
+        <item>Crane Bank</item>
+        <item>CRDB Bank</item>
+        <item>Credicorp Bank</item>
+        <item>Credigen Bank</item>
+        <item>Credins Bank</item>
+        <item>Crediscotia Financiera</item>
+        <item>Credit Agricole</item>
+        <item>Credit Agricole Albania</item>
+        <item>Credit Agricole Bulgaria</item>
+        <item>Crédit Agricole Cariparma</item>
+        <item>Credit Agricole CIB</item>
+        <item>Credit Agricole CIB Hungary</item>
+        <item>Credit Agricole CIB Ukraine</item>
+        <item>Credit Agricole du Maroc</item>
+        <item>Credit Agricole Egypt</item>
+        <item>Credit Agricole Poland</item>
+        <item>Credit Agricole Romania</item>
+        <item>Credit Agricole Srbija</item>
+        <item>Credit Agricole Switzerland</item>
+        <item>Crèdit Andorrà</item>
+        <item>Credit Bank</item>
+        <item>Credit Bank</item>
+        <item>Credit Bank of Albania</item>
+        <item>Credit Bank of Moscow</item>
+        <item>Crédit Industriel et Commercial (CIC)</item>
+        <item>Credit Dnepr</item>
+        <item>Crédit du Maroc</item>
+        <item>Crédit du Nord</item>
+        <item>Credit Europe Bank</item>
+        <item>Credit Europe Bank Romania</item>
+        <item>Credit Europe Bank Russia</item>
+        <item>Credit Europe Bank Switzerland</item>
+        <item>Credit Europe Bank Ukraine</item>
+        <item>Credit Immobilier et Hotelier (CIH)</item>
+        <item>Credit Industriel et Commercial (CIC)</item>
+        <item>Credit Libanais</item>
+        <item>Credit Lyonnais</item>
+        <item>Credit Lyonnais Senegal</item>
+        <item>Credit Mutuel</item>
+        <item>Credit Populaire d Algerie</item>
+        <item>Credit Standard Bank</item>
+        <item>Credit Suisse Brazil</item>
+        <item>Credit Suisse Group</item>
+        <item>Credit Suisse International</item>
+        <item>Credit Suisse Luxembourg</item>
+        <item>Credit Suisse Mexico</item>
+        <item>Credit Ural Bank</item>
+        <item>Crédito Agrícola</item>
+        <item>Credito Bergamasco</item>
+        <item>Credito Emiliano</item>
+        <item>Crédito Hipotecario Nacional de Guatemala</item>
+        <item>Credito Valtellinese</item>
+        <item>Crelan</item>
+        <item>Crews Banking Corporation</item>
+        <item>Crnogorska Komercijalna Bank</item>
+        <item>Croatia Banka</item>
+        <item>Croghan Bancshares</item>
+        <item>CS Alterna Bank</item>
+        <item>CSB Bancorp</item>
+        <item>CSOB Slovakia</item>
+        <item>CU Bancorp</item>
+        <item>Cullen Frost Bankers</item>
+        <item>Cumberland Valley Financial Corporation</item>
+        <item>Cummins-American Corp</item>
+        <item>Customers Bancorp</item>
+        <item>CVB Financial Corp</item>
+        <item>D Commerce Bank</item>
+        <item>D. L. Evans Bancorp</item>
+        <item>Dacotah Banks</item>
+        <item>Dah Sing Banking Group</item>
+        <item>Daisan Bank</item>
+        <item>Daishi Bank</item>
+        <item>Daito Bank</item>
+        <item>Daiwa Securities Trust and Banking</item>
+        <item>Dalnevostochnyy Bank</item>
+        <item>Danske Andelskassers Bank</item>
+        <item>Danske Bank</item>
+        <item>Danske Bank</item>
+        <item>Danske Bank Finland</item>
+        <item>Danske Bank Ireland</item>
+        <item>Danske Bank Lithuania</item>
+        <item>Danske Bank Norway</item>
+        <item>Dar Al Maal Al Islami Trust</item>
+        <item>Dashen Bank</item>
+        <item>Datong City Commercial Bank</item>
+        <item>DBS Bank</item>
+        <item>DBS Bank China</item>
+        <item>DBS Bank Hong Kong</item>
+        <item>DBS Bank India</item>
+        <item>DBS Bank Indonesia</item>
+        <item>DBS bank Taiwan</item>
+        <item>DCB Financial Corp</item>
+        <item>De Surinaamsche bank</item>
+        <item>Dearborn Bancorp</item>
+        <item>Deerwood State Bank</item>
+        <item>Degroof Banque Privee</item>
+        <item>DekaBank Group</item>
+        <item>Delavska hranilnica</item>
+        <item>Delbank</item>
+        <item>Delta Bancshares Co</item>
+        <item>Delta Bank</item>
+        <item>Delta Bank</item>
+        <item>Demerara Bank</item>
+        <item>Demir Kyrgyz International Bank (DKIB)</item>
+        <item>DemirBank</item>
+        <item>Demir-Halk Bank Nederland</item>
+        <item>Dena Bank</item>
+        <item>Denizbank</item>
+        <item>Denizbank Austria</item>
+        <item>Denmark Bancshares</item>
+        <item>DEPFA Bank</item>
+        <item>Desjardins Group</item>
+        <item>Deutsche Apotheker und Arztebank</item>
+        <item>Deutsche Bank</item>
+        <item>Deutsche Bank Argentina</item>
+        <item>Deutsche Bank Brazil</item>
+        <item>Deutsche Bank Chile</item>
+        <item>Deutsche Bank China</item>
+        <item>Deutsche Bank Hungary</item>
+        <item>Deutsche Bank India</item>
+        <item>Deutsche Bank Indonesia</item>
+        <item>Deutsche Bank Italy</item>
+        <item>Deutsche Bank Luxembourg</item>
+        <item>Deutsche Bank Malaysia</item>
+        <item>Deutsche Bank Mauritius</item>
+        <item>Deutsche Bank Mexico</item>
+        <item>Deutsche Bank Peru</item>
+        <item>Deutsche Bank Poland</item>
+        <item>Deutsche Bank Russia</item>
+        <item>Deutsche Bank Spain</item>
+        <item>Deutsche Bank Trust Corporation</item>
+        <item>Deutsche Bank Turkey</item>
+        <item>Deutsche Bank UK</item>
+        <item>Deutsche Hypothekenbank</item>
+        <item>Deutsche Postbank</item>
+        <item>Deutsche Postbank International</item>
+        <item>Deutsche Schiffsbank</item>
+        <item>Deutsche Zentral-Genossenschaftsbank</item>
+        <item>Development Bank of the Philippines (DBP)</item>
+        <item>Development Bank of Vojvodina</item>
+        <item>Development Capital Bank</item>
+        <item>Development Credit Bank</item>
+        <item>Dexia</item>
+        <item>Dexia Bank Netherland</item>
+        <item>Dexia Credit Local de France</item>
+        <item>Dexia Kommunalbank Deutschland</item>
+        <item>Dezhou Bank</item>
+        <item>DFCC Bank</item>
+        <item>DFCU Group</item>
+        <item>DGB Financial Group</item>
+        <item>Dhaka Bank</item>
+        <item>Dhanalakshmi Bank</item>
+        <item>Diamond Bancorp</item>
+        <item>Diamond Bank</item>
+        <item>Diamond Bank Benin</item>
+        <item>Diamond Bank Cote D  Ivoire</item>
+        <item>Diamond Bank Senegal</item>
+        <item>Diamond Bank Togo</item>
+        <item>Diamond Trust Bank</item>
+        <item>Diamond Trust Bank Kenya</item>
+        <item>Diamond Trust Bank Uganda</item>
+        <item>Diboll State Bancshares</item>
+        <item>Dickinson Financial Corporation II</item>
+        <item>Discount Bancorp</item>
+        <item>Discount Bank Latin America</item>
+        <item>Discover Financial Services</item>
+        <item>DNB Bank Chile</item>
+        <item>DnB Banka Latvia</item>
+        <item>DnB Banka Lithuania</item>
+        <item>DNB Group</item>
+        <item>DNB Latvia</item>
+        <item>Dnister</item>
+        <item>Doha Bank</item>
+        <item>Donga Bank</item>
+        <item>Dongying Bank</item>
+        <item>Doral Financial Corporation</item>
+        <item>Dos-Kredobank</item>
+        <item>DSK Bank</item>
+        <item>Dubai Islamic Bank</item>
+        <item>Dubai Islamic Bank Pakistan</item>
+        <item>Durant Bancorp</item>
+        <item>Düsseldorfer Hypothekenbank</item>
+        <item>Dutch Bangla Bank</item>
+        <item>DVB Bank</item>
+        <item>DZ Bank Polska</item>
+        <item>DZ Privatbank Luxembourg</item>
+        <item>E Sun Commercial Bank</item>
+        <item>Eagle Bancorp</item>
+        <item>East Asia Holding Company</item>
+        <item>East Caribbean Financial Holding</item>
+        <item>East Industrial and Commercial Bank</item>
+        <item>East West Bancorp</item>
+        <item>East West Banking Corp</item>
+        <item>Eastbridge Bank</item>
+        <item>Eastern Bank</item>
+        <item>Eastern Bank</item>
+        <item>Eastern Virginia Bankshares</item>
+        <item>Ecobank Benin</item>
+        <item>Ecobank Burkina Faso</item>
+        <item>Ecobank Burundi</item>
+        <item>Ecobank Cameroon</item>
+        <item>Ecobank Cape Verde</item>
+        <item>Ecobank Centrafrique</item>
+        <item>Ecobank Chad</item>
+        <item>Ecobank Congo</item>
+        <item>Ecobank Cote d Ivoire</item>
+        <item>Ecobank DRC Congo</item>
+        <item>Ecobank Gabon</item>
+        <item>Ecobank Gambia</item>
+        <item>Ecobank Ghana Limited</item>
+        <item>Ecobank Guinea</item>
+        <item>Ecobank Guinea Bissau</item>
+        <item>Ecobank International</item>
+        <item>Ecobank Kenya</item>
+        <item>Ecobank Liberia</item>
+        <item>Ecobank Malawi</item>
+        <item>Ecobank Mali</item>
+        <item>Ecobank Niger</item>
+        <item>Ecobank Nigeria</item>
+        <item>Ecobank Rwanda</item>
+        <item>Ecobank Sao Tome and Principe</item>
+        <item>Ecobank Senegal</item>
+        <item>Ecobank Sierra Leone</item>
+        <item>Ecobank Tanzania</item>
+        <item>Ecobank Togo</item>
+        <item>Ecobank Transnational</item>
+        <item>Ecobank Uganda</item>
+        <item>Ecobank Zambia</item>
+        <item>Ecobank Zimbabwe</item>
+        <item>Educational Services of America</item>
+        <item>Eesti Krediidipank</item>
+        <item>EFG Group</item>
+        <item>EFG International</item>
+        <item>Egg</item>
+        <item>Egyptian Arab Land Bank</item>
+        <item>Egyptian Gulf Bank</item>
+        <item>Ehime Bank</item>
+        <item>Eighteenth Bank</item>
+        <item>Eik Banki Foroya</item>
+        <item>Elaf Islamic Bank</item>
+        <item>Electro Banque</item>
+        <item>Emirates Islamic Bank</item>
+        <item>Emirates NBD</item>
+        <item>Emporiki Bank</item>
+        <item>Emprise Financial Corporation</item>
+        <item>Encore Bancshares</item>
+        <item>Energbank</item>
+        <item>Energobank</item>
+        <item>Enisey Bank</item>
+        <item>Enterprise Bancorp</item>
+        <item>Enterprise Financial Services Corp</item>
+        <item>EnTie Commercial Bank</item>
+        <item>EON Bank</item>
+        <item>Equa Bank</item>
+        <item>Equatorial Commercial Bank</item>
+        <item>Equity Bancshares</item>
+        <item>Equity Bank</item>
+        <item>Erdos Rural Commercial Bank</item>
+        <item>Erste and Steiermarkische Bank</item>
+        <item>Erste Bank Hungary</item>
+        <item>Erste Bank Podgorica</item>
+        <item>Erste Bank Ukraine</item>
+        <item>Erste Group</item>
+        <item>ESB Bancorp</item>
+        <item>Espirito Santo Bank Panama</item>
+        <item>Eurasian Bank JSC</item>
+        <item>Eurobank</item>
+        <item>Eurobank Bulgaria (Postbank)</item>
+        <item>Eurobank Cyprus</item>
+        <item>Eurobank Ergasias</item>
+        <item>Eurobank Private Bank Luxembourg</item>
+        <item>Eurobank Serbia</item>
+        <item>EuroCreditBank</item>
+        <item>Eurohypo</item>
+        <item>Europabank</item>
+        <item>Europaisch Iranische Handelsbank</item>
+        <item>Europe Arab Bank</item>
+        <item>European Trust Bank</item>
+        <item>Eurostandard Bank</item>
+        <item>Eurotorginvestbank</item>
+        <item>Evangeline Bancshares</item>
+        <item>EverBank</item>
+        <item>Everest Bank</item>
+        <item>Evergrowing Bank</item>
+        <item>Evrofinance Mosnarbank</item>
+        <item>Exim Bank</item>
+        <item>Eximbank Kazakhstan</item>
+        <item>Expobank</item>
+        <item>Export Development Bank of Egypt (EDBE)</item>
+        <item>Export Development Bank of Iran</item>
+        <item>Export Import Bank of Bangladesh</item>
+        <item>Export-Import Bank of the Republic of China</item>
+        <item>Export-Import Bank of Thailand</item>
+        <item>Express Bank</item>
+        <item>Extraco Corporation</item>
+        <item>F and M Bancorporation</item>
+        <item>F and M Financial Corporation</item>
+        <item>F. van Lanschot Bankiers N.V.</item>
+        <item>F.N.B. Corp</item>
+        <item>Factor banka</item>
+        <item>Faisal Islamic Bank of Egypt</item>
+        <item>Faisal Islamic Bank of Sudan</item>
+        <item>Falcon Private Bank Ltd</item>
+        <item>Family Bank</item>
+        <item>Far Eastern Bank</item>
+        <item>Far Eastern International Bank</item>
+        <item>Farmers and Merchants Bancorp</item>
+        <item>Farmers and Merchants Bancorp</item>
+        <item>Farmers and Merchants Bank of Long Beach</item>
+        <item>Farmers and Merchants Investment</item>
+        <item>Farmers Bancorp Frankfort Indiana</item>
+        <item>Farmers Bancorporation</item>
+        <item>Farmers Capital Bank Corporation</item>
+        <item>Farmer s Commercial Bank</item>
+        <item>Farmers Enterprises</item>
+        <item>Farmers National Banc Corp</item>
+        <item>Faysal Bank</item>
+        <item>FBC Holding</item>
+        <item>FBN Bank UK</item>
+        <item>Federal Bank</item>
+        <item>Federal Bank of the Middle East</item>
+        <item>Fentura Financial</item>
+        <item>Fibabanka</item>
+        <item>FIBI Bank UK</item>
+        <item>Fidea Holdings</item>
+        <item>Fidelity Bancorp</item>
+        <item>Fidelity Bancshares</item>
+        <item>Fidelity Bank</item>
+        <item>Fidelity Bank</item>
+        <item>Fidelity Bank Bahamas</item>
+        <item>Fidelity Commercial Bank</item>
+        <item>Fidelity Southern Corporation</item>
+        <item>Fidobank</item>
+        <item>Fifth Third Bancorp</item>
+        <item>FIH Erhvervsbank</item>
+        <item>FIMBank</item>
+        <item>Fina Bank</item>
+        <item>Finabank</item>
+        <item>Finance and Credit Bank</item>
+        <item>Finance Bank Zambia</item>
+        <item>Finance Corporation of Bahamas</item>
+        <item>Financial Institutions</item>
+        <item>Financial Investment Bank</item>
+        <item>Finansbank</item>
+        <item>FinComBank</item>
+        <item>Findomestic Banca</item>
+        <item>FINECO</item>
+        <item>Finibanco Angola</item>
+        <item>Finibanco Holding</item>
+        <item>Finprombank</item>
+        <item>First American Bank Corporation</item>
+        <item>First Arkansas BancShares</item>
+        <item>First Bancorp</item>
+        <item>First BanCorp</item>
+        <item>First Bancorp</item>
+        <item>First Bancorp</item>
+        <item>First Bancshares</item>
+        <item>First Bancshares</item>
+        <item>First Bank Corp</item>
+        <item>First Bank of Nigeria</item>
+        <item>First Bank of Toyama</item>
+        <item>First Banks</item>
+        <item>First Breckinridge Bancshares</item>
+        <item>First Busey Corporation</item>
+        <item>First Business Bank (FBB)</item>
+        <item>First Business Financial Services</item>
+        <item>First California Financial Group</item>
+        <item>First Central International Bank</item>
+        <item>First Citizens Banc Corp</item>
+        <item>First Citizens Bancorporation</item>
+        <item>First Citizens BancShares</item>
+        <item>First Citizens BancShares</item>
+        <item>First Citizens Bank</item>
+        <item>First Citizens Bank Barbados</item>
+        <item>First Citizens Financial Corp</item>
+        <item>First City Monument Bank</item>
+        <item>First Co Bancorp</item>
+        <item>First Commercial Bank</item>
+        <item>First Commercial Bank</item>
+        <item>First Commonwealth Financial Corp</item>
+        <item>First Community Bancshares</item>
+        <item>First Community Bancshares</item>
+        <item>First Community Financial Partners</item>
+        <item>First Connecticut Bancorp</item>
+        <item>First Czech Russian Bank</item>
+        <item>First Energy Bank</item>
+        <item>First Farmers and Merchants Corporation</item>
+        <item>First Farmers Financial Corporation</item>
+        <item>First Fidelity Bancorp</item>
+        <item>First Financial Bancorp</item>
+        <item>First Financial Bankshares</item>
+        <item>First Financial Corp</item>
+        <item>First Financial Holdings</item>
+        <item>First Financial Holdings</item>
+        <item>First Financial Service Corporation</item>
+        <item>First Global Bank</item>
+        <item>First Guaranty Bancshares</item>
+        <item>First Gulf Bank</item>
+        <item>First Horizon National Corporation</item>
+        <item>First Independent Investment Group</item>
+        <item>First International Bank of Israel (FIBI)</item>
+        <item>First International Bank Sierra Leone</item>
+        <item>First Interstate BancSystem</item>
+        <item>First Investment Bank</item>
+        <item>First Keystone Corporation</item>
+        <item>First M and F Corporation</item>
+        <item>First Manitowoc Bancorp</item>
+        <item>First Mariner Bancorp</item>
+        <item>First Merchant Bank</item>
+        <item>First Merchants Corporation</item>
+        <item>First Miami Bancorp</item>
+        <item>First Mid-Illinois Bancshares</item>
+        <item>First Midwest Bancorp</item>
+        <item>First Mutual of Richmond</item>
+        <item>First National Bancshares</item>
+        <item>First National Bancshares</item>
+        <item>First National Bank Group</item>
+        <item>First National Bank Mozambique</item>
+        <item>First National Bank of Botswana</item>
+        <item>First National Bank of Namibia</item>
+        <item>First National Bank of Swaziland</item>
+        <item>First National Bankers Bankshares</item>
+        <item>First National Community Bancorp</item>
+        <item>First National of Nebraska</item>
+        <item>First National Security Company</item>
+        <item>First Nations Bank of Canada</item>
+        <item>First NBC Bank Holding Company</item>
+        <item>First Niagara Financial Group</item>
+        <item>First of Long Island Corporation</item>
+        <item>First of McAlester Corporation</item>
+        <item>First Olathe Bancshares</item>
+        <item>First PacTrust Bancorp</item>
+        <item>First Paragould Bankshares</item>
+        <item>First Pulaski National Corporation</item>
+        <item>First Security Bancorp</item>
+        <item>First Security Bancorp</item>
+        <item>First Security Group</item>
+        <item>First Security Islami Bank</item>
+        <item>First Sino Bank</item>
+        <item>First South Bancorp</item>
+        <item>First Southern Bancorp</item>
+        <item>First State Bancorporation</item>
+        <item>First State Bancshares</item>
+        <item>First State Financial Corporation</item>
+        <item>First Texas</item>
+        <item>First Texas Bancorp</item>
+        <item>First Ukrainian International Bank</item>
+        <item>First United Corp</item>
+        <item>First Volunteer Corporation</item>
+        <item>First Women Bank</item>
+        <item>First York Ban Corp</item>
+        <item>Firstbank Corporation</item>
+        <item>Firstbank Holding Company</item>
+        <item>FirstCaribbean International Bank</item>
+        <item>FirstCaribbean International Bank Bahamas</item>
+        <item>FirstCaribbean International Bank Belize</item>
+        <item>FirstCaribbean International Bank Jamaica</item>
+        <item>FirstMerit Corporation</item>
+        <item>FirstPerryton Bancorp</item>
+        <item>FirstRand</item>
+        <item>FirstRand India</item>
+        <item>Fishback Financial Corporation</item>
+        <item>Florence Bancorp</item>
+        <item>Flushing Financial Corp</item>
+        <item>FNB Bancorp</item>
+        <item>FNBH Bancorp</item>
+        <item>FNC</item>
+        <item>Fonds d’Equipement Communal</item>
+        <item>Forcht Bancorp</item>
+        <item>Ford Credit Europe Bank (FCE)</item>
+        <item>Foreign Trade Bank of Cambodia</item>
+        <item>Foresight Financial Group</item>
+        <item>Forex Bank</item>
+        <item>Forte Bank</item>
+        <item>Fortuneo</item>
+        <item>Founders Group</item>
+        <item>Fox Chase Bancorp</item>
+        <item>FPB Bank</item>
+        <item>Frandsen Financial Corporation</item>
+        <item>Frankfurter Sparkasse</item>
+        <item>Frankfurter Volksbank</item>
+        <item>Franklin Financial Services Corporation</item>
+        <item>Franklin Resources</item>
+        <item>Fransabank</item>
+        <item>Fremont Bancorporation</item>
+        <item>Fremont Bank Corporation</item>
+        <item>FSB Bancorp</item>
+        <item>FSB Mutual Holdings</item>
+        <item>Fubon Bank Hong Kong</item>
+        <item>Fudian Bank</item>
+        <item>Fujian Haixia Bank</item>
+        <item>Fujian Jinjiang Rural Commercial Bank</item>
+        <item>Fukuho Bank</item>
+        <item>Fukui Bank</item>
+        <item>Fukuoka Chuo Bank</item>
+        <item>Fukuoka Financial Group</item>
+        <item>Fukushima Bank</item>
+        <item>Fulton Financial Corp</item>
+        <item>Future Bank</item>
+        <item>Fuzhou City Commercial Bank</item>
+        <item>Gafgaz Development Bank</item>
+        <item>Gallabank</item>
+        <item>Gandjabank</item>
+        <item>Ganzhou City Commercial Bank</item>
+        <item>Garanti Bank Moscow</item>
+        <item>GarantiBank International</item>
+        <item>Gato Holdings</item>
+        <item>Gazbank</item>
+        <item>Gazprombank</item>
+        <item>GBS Mutual Bank</item>
+        <item>GE Money Bank France</item>
+        <item>GE Money Bank Czech Republic</item>
+        <item>GE Money Bank Latvia</item>
+        <item>GE Money Bank Russia</item>
+        <item>Geniki Bank</item>
+        <item>German American Bancorp</item>
+        <item>Getin Bank</item>
+        <item>Getin Noble Bank</item>
+        <item>Ghana Commercial Bank</item>
+        <item>Ghana International Bank</item>
+        <item>Ghazanfar Bank</item>
+        <item>Gifu Shinkin Bank</item>
+        <item>Giro Commercial Bank</item>
+        <item>Girobank</item>
+        <item>Glacier Bancorp</item>
+        <item>Glarner Kantonalbank</item>
+        <item>Global Bank Corporation</item>
+        <item>Globexbank</item>
+        <item>GMAC Bank Germany</item>
+        <item>GNB Sudameris Bank</item>
+        <item>Godo Cooperatieve Spaaren kredietbank</item>
+        <item>Goldman Sachs</item>
+        <item>Goldman Sachs Brazil</item>
+        <item>Golomt Bank</item>
+        <item>Gorenjska Banka</item>
+        <item>Government Savings Bank</item>
+        <item>Grand Bank Corporation</item>
+        <item>Grand Invest Bank</item>
+        <item>Grandpoint Capital</item>
+        <item>Granit Bank</item>
+        <item>Graubundner Kantonalbank</item>
+        <item>Great Lakes Financial Resources</item>
+        <item>Great Southern Bancorp</item>
+        <item>Great Western Bancorporation</item>
+        <item>Green Bancorp</item>
+        <item>Greenville National Bancorp</item>
+        <item>Grenada Cooperative Bank</item>
+        <item>Groupama Banque</item>
+        <item>Groupe Banques Populaire</item>
+        <item>Groupe Banques Populaires</item>
+        <item>Groupe BPCE</item>
+        <item>Groupe Caisse d Epargne</item>
+        <item>Grupo Bancaja</item>
+        <item>Grupo Cooperativo Cajamar</item>
+        <item>Grupo Financiero Banamex</item>
+        <item>Grupo Financiero Banorte</item>
+        <item>Grupo Financiero BBVA Bancomer</item>
+        <item>Grupo Financiero Guayaquil</item>
+        <item>Grupo Financiero HSBC</item>
+        <item>Grupo Financiero Interacciones</item>
+        <item>Grupo Financiero Pichincha</item>
+        <item>Grupo Financiero Produccion</item>
+        <item>Grupo Financiero Santander México</item>
+        <item>Grupo Unnim</item>
+        <item>GTC Bank</item>
+        <item>Guangdong Huaxing Bank</item>
+        <item>Guangdong Nanyue Bank</item>
+        <item>Guangxi Beibu Gulf Bank</item>
+        <item>Guangzhou Rural Commercial Bank</item>
+        <item>Guaranty Bancorp</item>
+        <item>Guaranty Trust Bank</item>
+        <item>Guaranty Trust Bank Cote d Ivoire</item>
+        <item>Guaranty Trust Bank Gambia</item>
+        <item>Guaranty Trust Bank Ghana</item>
+        <item>Guaranty Trust Bank Liberia</item>
+        <item>Guaranty Trust Bank Sierra Leone</item>
+        <item>Guardian Bank</item>
+        <item>Guilin Bank</item>
+        <item>Guillaume Bank</item>
+        <item>Gulf African Bank</item>
+        <item>Gulf Bank</item>
+        <item>Gulf Bank Algeria</item>
+        <item>Gulf Finance House</item>
+        <item>Gulf International Bank</item>
+        <item>Gulf International Bank UK</item>
+        <item>Gumhouria Bank</item>
+        <item>Gunma Bank</item>
+        <item>Guyana Bank for Trade and Industry</item>
+        <item>Habib Allied International Bank</item>
+        <item>HBL Pakistan</item>
+        <item>Habib Bank Mauritius</item>
+        <item>Habib Bank Turkey</item>
+        <item>Habib Bank Zurich</item>
+        <item>Habib Metropolitan Bank</item>
+        <item>Habib Overseas Bank</item>
+        <item>Hachijuni Bank</item>
+        <item>Haikou Rural Commercial Bank</item>
+        <item>Hakrinbank</item>
+        <item>Halkbank AD Skopje</item>
+        <item>Halyk Bank</item>
+        <item>Halyk Bank Kyrgyzstan</item>
+        <item>Hamamatsu Shinkin Bank</item>
+        <item>Hamburger Sparkasse</item>
+        <item>Hamilton State Bancshares</item>
+        <item>HamkorBank</item>
+        <item>Hampden Bancorp</item>
+        <item>Hampton Roads Bankshares</item>
+        <item>Hana Bank China</item>
+        <item>Hana Bank Indonesia</item>
+        <item>Hana Financial Group</item>
+        <item>Hancock Holding Co</item>
+        <item>Hang Seng Bank</item>
+        <item>Hang Seng Bank China</item>
+        <item>Hangzhou United Rural Commercial Bank</item>
+        <item>Hankou Bank</item>
+        <item>Hanmi Financial Corporation</item>
+        <item>Happy Bancshares</item>
+        <item>Harbin Bank</item>
+        <item>Hatton National Bank</item>
+        <item>Hauck and Aufhauser Group</item>
+        <item>Havin Bank Limited</item>
+        <item>Hawthorn Bancshares</item>
+        <item>HBOS</item>
+        <item>HBZ Bank</item>
+        <item>HDFC Bank</item>
+        <item>Heartland Bancorp</item>
+        <item>Heartland Financial USA</item>
+        <item>Hefei Science and Technology Rural Commercial Bank</item>
+        <item>Helaba Landesbank Hessen-Thuringen Girozentrale</item>
+        <item>Hellenic Bank</item>
+        <item>Hellenic Postbank</item>
+        <item>Helm Bank Panama</item>
+        <item>Henderson Citizens Bancshares</item>
+        <item>Heritage Bank</item>
+        <item>Heritage Commerce Corp</item>
+        <item>Heritage Financial Corporation</item>
+        <item>Heritage Oaks Bancorp</item>
+        <item>Hershenhorn Bancorporation</item>
+        <item>HFC Bank</item>
+        <item>HFC Bank</item>
+        <item>Higashi Nippon Bank</item>
+        <item>High Point Bank Corporation</item>
+        <item>Highlands Bankshares</item>
+        <item>Higo Bank</item>
+        <item>Hillcrest Bancshares</item>
+        <item>Hills Bancorporation</item>
+        <item>Hilltop Holdings</item>
+        <item>Himalayan Bank</item>
+        <item>Hipotekarna Bank</item>
+        <item>Hiroshima Bank</item>
+        <item>HNB Corporation</item>
+        <item>Hokkaido Bank</item>
+        <item>Hokkoku Bank</item>
+        <item>Hokuetsu Bank</item>
+        <item>Hokuhoku Financial Group</item>
+        <item>Hokuto Bank</item>
+        <item>Home Bancshares</item>
+        <item>Home Credit and Finance Bank</item>
+        <item>Home Credit B.V.</item>
+        <item>Home Credit Bank Belarus</item>
+        <item>Home Credit Bank Kazakhstan</item>
+        <item>Home Credit Czech Republic</item>
+        <item>Home Credit Slovakia</item>
+        <item>Home Federal Bancorp</item>
+        <item>Hometown Banc Corp</item>
+        <item>Hometown Community Bancorp</item>
+        <item>Hong Leong Bank</item>
+        <item>Hong Leong Bank Vietnam</item>
+        <item>Hong Leong Islamic Bank</item>
+        <item>Hopfed Bancorp</item>
+        <item>Horizon Bancorp</item>
+        <item>Horizon Financial Corp</item>
+        <item>Housing and Development Bank</item>
+        <item>Housing Development Bank</item>
+        <item>Housing Financing Fund</item>
+        <item>Howa Bank</item>
+        <item>Hrvatska Postanska Banka</item>
+        <item>HSBC Amanah Malaysia</item>
+        <item>HSBC Bank</item>
+        <item>HSBC Bank Argentina</item>
+        <item>HSBC Bank Armenia</item>
+        <item>HSBC Bank Australia</item>
+        <item>HSBC Bank Bangladesh</item>
+        <item>HSBC Bank Bermuda</item>
+        <item>HSBC Bank Brasil</item>
+        <item>HSBC Bank Canada</item>
+        <item>HSBC Bank Chile</item>
+        <item>HSBC Bank Egypt</item>
+        <item>HSBC Bank France</item>
+        <item>HSBC Bank Indonesia</item>
+        <item>HSBC Bank Kazakhstan</item>
+        <item>HSBC Bank Macao</item>
+        <item>HSBC Bank Malaysia</item>
+        <item>HSBC Bank Malta</item>
+        <item>HSBC Bank Mauritius</item>
+        <item>HSBC Bank Middle East</item>
+        <item>HSBC Bank Nicaragua</item>
+        <item>HSBC Bank Oman</item>
+        <item>HSBC Bank Paraguay</item>
+        <item>HSBC Bank Polska</item>
+        <item>HSBC Bank Russia</item>
+        <item>HSBC Bank Turkey</item>
+        <item>HSBC bank United Arab Emirates</item>
+        <item>HSBC Bank Uruguay</item>
+        <item>HSBC Bank Vietnam</item>
+        <item>HSBC Corp China</item>
+        <item>HSBC Holdings</item>
+        <item>HSBC India</item>
+        <item>HSBC North America Holdings</item>
+        <item>HSBC Private Bank Switzerland</item>
+        <item>HSBC Sri Lanka</item>
+        <item>HSBC Trinkaus and Burkhardt</item>
+        <item>HSH Nordbank</item>
+        <item>HSH Nordbank Securities</item>
+        <item>Hua Nan Commercial Bank</item>
+        <item>Hua Xia Bank</item>
+        <item>Huarong Xiangjiang Bank</item>
+        <item>Hubei Bank</item>
+        <item>Hudson City Bancorp</item>
+        <item>Hudson Valley Holding Corp</item>
+        <item>Huishang Bank</item>
+        <item>Huntington Bancshares</item>
+        <item>Hwang DBS Commercial Bank</item>
+        <item>Hwatai Bank</item>
+        <item>Hyakugo Bank</item>
+        <item>Hyakujushi Bank</item>
+        <item>Hyde Park Bancorp</item>
+        <item>Hypo Alpe Adria Bank Beograd</item>
+        <item>Hypo Alpe Adria Bank Croatia</item>
+        <item>Hypo Alpe Adria Bank dd Banja Luka</item>
+        <item>Hypo Alpe Adria Bank dd Mostar</item>
+        <item>Hypo Alpe Adria Bank International</item>
+        <item>Hypo Alpe Adria Bank Italy</item>
+        <item>Hypo Alpe Adria Bank Montenegro</item>
+        <item>Hypo Alpe Adria Bank Slovenia</item>
+        <item>Hypo Landesbank Vorarlberg</item>
+        <item>Hypo Noe Bank</item>
+        <item>Hypo Real Estate Holding</item>
+        <item>Hypo Tirol Bank</item>
+        <item>Hypotecni Banka</item>
+        <item>Hypothekarbank Lenzburg</item>
+        <item>HypoVereinsbank</item>
+        <item>Ibercaja Banco</item>
+        <item>Iberiabank Corporation</item>
+        <item>IBT Bancorp</item>
+        <item>ICB Bank Bumiputera</item>
+        <item>ICB Financial Group Holdings</item>
+        <item>ICB Islamic Bank Bangladesh</item>
+        <item>ICB-Banco Internacional de Comercio</item>
+        <item>ICCREA Holding</item>
+        <item>ICICI Bank</item>
+        <item>ICICI Bank Eurasia</item>
+        <item>ICICI Bank UK</item>
+        <item>Ida Grove Bancshares</item>
+        <item>IDBI</item>
+        <item>Idea Bank</item>
+        <item>Idea Bank</item>
+        <item>IFIC Bank</item>
+        <item>IHAG Privatbank</item>
+        <item>IKB Deutsche Industriebank</item>
+        <item>Imex Banka</item>
+        <item>Imexbank</item>
+        <item>Imperial Bank</item>
+        <item>INB Financial Corporation</item>
+        <item>Indebank</item>
+        <item>Independence Bancshares</item>
+        <item>Independent Alliance Banks</item>
+        <item>Independent Bank Corp</item>
+        <item>Independent Bank Corporation</item>
+        <item>Independent Bank Group</item>
+        <item>Independent Bankers Financial Corporation</item>
+        <item>Independent Holdings</item>
+        <item>Independent Southern Bancshares</item>
+        <item>Indian Bank</item>
+        <item>Indian Overseas Bank</item>
+        <item>Indiana Community Bancorp</item>
+        <item>Indo Zambia Bank</item>
+        <item>Indovina Bank</item>
+        <item>IndusInd Bank</item>
+        <item>Industrial and Commercial Bank of China</item>
+        <item>Industrial and Commercial Bank of China Argentina</item>
+        <item>Industrial and Commercial Bank of China Asia</item>
+        <item>Industrial and Commercial Bank of China Canada</item>
+        <item>Industrial and Commercial Bank of China India</item>
+        <item>Industrial and Commercial Bank of China Indonesia</item>
+        <item>Industrial and Commercial Bank of China Macau</item>
+        <item>Industrial and Commercial Bank of China Malaysia</item>
+        <item>Industrial and Commercial Bank of China Thailand</item>
+        <item>Industrial Bank</item>
+        <item>Industrial Bank</item>
+        <item>Industrial Bank of Korea</item>
+        <item>Industrial Bank of Kuwait</item>
+        <item>Industrial Bank of Taiwan</item>
+        <item>Industrial Development and Workers Bank of Egypt</item>
+        <item>Industrial Saving Bank</item>
+        <item>Industrialbank</item>
+        <item>Industry Bancshares</item>
+        <item>InecoBank</item>
+        <item>ING Bank</item>
+        <item>ING Bank Australia</item>
+        <item>ING Bank Belgium</item>
+        <item>ING Bank Brazil</item>
+        <item>ING Bank Eurasia</item>
+        <item>ING Bank France</item>
+        <item>ING Bank Hungary</item>
+        <item>ING Bank Indonesia</item>
+        <item>ING Bank Slaski</item>
+        <item>ING Bank Turkey</item>
+        <item>ING Bank Ukraine</item>
+        <item>ING DiBa</item>
+        <item>ING Luxembourg</item>
+        <item>ING Vysya Bank</item>
+        <item>Inland Bancorp</item>
+        <item>Insinger de Beaufort</item>
+        <item>Integral Bank</item>
+        <item>Inteligo Bank</item>
+        <item>Inteligo Bank Panama</item>
+        <item>Inter Banco</item>
+        <item>Inter Mountain Bancorp</item>
+        <item>Interaudi Bank</item>
+        <item>Interbank</item>
+        <item>Interbank Burundi</item>
+        <item>Intercommercial Bank</item>
+        <item>Intercommerz Bank</item>
+        <item>Intercontinental Bank</item>
+        <item>Intermountain Community Bancorp</item>
+        <item>International Maghreb Merchant Bank</item>
+        <item>International Asset Bank</item>
+        <item>International Bancshares Corp</item>
+        <item>International Bank for Trade and Finance</item>
+        <item>International Bank Liberia</item>
+        <item>International Bank of Azerbaijan (IBA)</item>
+        <item>International Bank of Azerbaijan Moscow</item>
+        <item>International Bank of Qatar</item>
+        <item>International Bank of St Petersburg</item>
+        <item>International Bank of Yemen</item>
+        <item>International Commercial Bank Albania</item>
+        <item>International Commercial Bank Djibouti</item>
+        <item>International Commercial Bank Gambia</item>
+        <item>International Commercial Bank Ghana</item>
+        <item>International Commercial Bank Guinea</item>
+        <item>International Commercial Bank Lao Limited</item>
+        <item>International Commercial Bank Malawi</item>
+        <item>International Commercial Bank Mozambique</item>
+        <item>International Commercial Bank Senegal</item>
+        <item>International Commercial Bank Sierra Leone</item>
+        <item>International Commercial Bank Tanzania</item>
+        <item>International Commercial Bank Zambia</item>
+        <item>International Joint Stock Bank</item>
+        <item>International Union Bank</item>
+        <item>InterProgressBank</item>
+        <item>Intervest Bancshares Corporation</item>
+        <item>Intesa Sanpaolo</item>
+        <item>Intesa Sanpaolo Bank Albania</item>
+        <item>Intesa Sanpaolo Bank Ireland</item>
+        <item>Intesa Sanpaolo Bank Romania</item>
+        <item>Intesa Sanpaolo Banka Bosnia/Herzegovina</item>
+        <item>Intrust Financial Corp</item>
+        <item>Invest bank</item>
+        <item>Invest Bank</item>
+        <item>Invest Bank Montenegro</item>
+        <item>Investa Bank</item>
+        <item>Investbank</item>
+        <item>Investbank</item>
+        <item>Investbank</item>
+        <item>Investbank</item>
+        <item>Investec Bank</item>
+        <item>Investec Bank Australia</item>
+        <item>Investec Bank Mauritius</item>
+        <item>Investec Bank South Africa</item>
+        <item>Investec Bank Switzerland</item>
+        <item>Investec South Africa</item>
+        <item>Investiciono Komercijalna Banka</item>
+        <item>Investkredit</item>
+        <item>Investment Trade Bank</item>
+        <item>Investments and Mortgages Bank</item>
+        <item>Investments and Mortgages Bank Rwanda</item>
+        <item>Investments and Mortgages Bank Tanzania</item>
+        <item>Investors Bancorp</item>
+        <item>Investrust Bank</item>
+        <item>Inwood Bancshares</item>
+        <item>Ironhorse Financial Group</item>
+        <item>Irwin Financial Corporation</item>
+        <item>Isabella Bank Corporation</item>
+        <item>Isbank</item>
+        <item>Islami Bank Bangladesh</item>
+        <item>Islamic Bank of Britain</item>
+        <item>Islamic Bank of Yemen</item>
+        <item>Islamic Cooperative Development Bank</item>
+        <item>Islamic International Arab Bank</item>
+        <item>Islandsbanki</item>
+        <item>Israel Discount Bank</item>
+        <item>Istarska Kreditna Banka Umag d.d.</item>
+        <item>Istituto Centrale delle Banche Popolari Italiane</item>
+        <item>Itau BBA International</item>
+        <item>Itau Unibanco Holding S.A.</item>
+        <item>Iyo Bank</item>
+        <item>Izola Bank</item>
+        <item>J Safra Sarasin Holding</item>
+        <item>Jadranska Banka</item>
+        <item>Jammal Trust Bank</item>
+        <item>Jammu and Kashmir Bank</item>
+        <item>Jamuna Bank</item>
+        <item>Janata Bank</item>
+        <item>Japan Post Bank</item>
+        <item>Jeonbuk Bank</item>
+        <item>Jiangmen Xinhui Rural Commercial Bank</item>
+        <item>Jiangsu Changshu Rural Commercial Bank</item>
+        <item>Jiangsu Jiangnan Rural Commercial Bank</item>
+        <item>Jiangsu Jiangyin Rural Commercial Bank</item>
+        <item>Jiangsu Kunshan Rural Commercial Bank</item>
+        <item>Jiangsu Yancheng Huanghai Rural Commercial Bank</item>
+        <item>Jiangsu Zhangjiagang Rural Commercial Bank</item>
+        <item>Jiangsu Zijin Rural Commercial Bank</item>
+        <item>Jiaozuo City Commercial Bank</item>
+        <item>Jih Sun International Bank</item>
+        <item>Jilin Jiutai Rural Commercial Bank</item>
+        <item>Jimoto Holdings</item>
+        <item>Jincheng Bank</item>
+        <item>Jining City Commercial Bank</item>
+        <item>Jinshang Bank</item>
+        <item>Jiujiang City Commercial Bank</item>
+        <item>Johnan Shinkin Bank</item>
+        <item>Johnson Financial Group</item>
+        <item>Joint Stock Commercial Bank for Foreign Trade of Vietnam</item>
+        <item>Joint Stock Company The State Export-Import Bank of Ukraine</item>
+        <item>Jordan Ahli Bank</item>
+        <item>Jordan Commercial Bank</item>
+        <item>Jordan Dubai Islamic Bank</item>
+        <item>Jordan International Bank</item>
+        <item>Jordan Islamic Bank</item>
+        <item>Jordan Kuwait Bank</item>
+        <item>Joyo Bank</item>
+        <item>JP Morgan</item>
+        <item>JP Morgan Chase and Co</item>
+        <item>JP Morgan Chase Bank Argentina</item>
+        <item>JP Morgan Chase Bank Chile</item>
+        <item>JP Morgan Chase Bank Malaysia</item>
+        <item>JP Morgan Chase Bank Mexico</item>
+        <item>JP Morgan Chase Bank Thailand</item>
+        <item>JP Morgan Chase Bank Turkey</item>
+        <item>JP Morgan Colombia</item>
+        <item>JP Morgan Indonesia</item>
+        <item>JS Bank</item>
+        <item>JSBC Eximbank</item>
+        <item>Jubanka</item>
+        <item>Jubmes Banka</item>
+        <item>Jugra Bank</item>
+        <item>Julian Hodge Bank</item>
+        <item>Julius Baer Group</item>
+        <item>Juniata Valley Financial Corp</item>
+        <item>Juroku Bank</item>
+        <item>Jyske Bank</item>
+        <item>K Rep Bank</item>
+        <item>Kabul Bank</item>
+        <item>Kagawa Bank</item>
+        <item>Kagoshima Bank</item>
+        <item>Kanagawa Bank</item>
+        <item>Kanbawza Bank</item>
+        <item>Kansai Urban Banking Corporation</item>
+        <item>Kapital Bank</item>
+        <item>Karafarin Bank</item>
+        <item>Karlovacka Banka</item>
+        <item>Karnataka Bank</item>
+        <item>Karntner Sparkasse</item>
+        <item>Karur Vysya Bank</item>
+        <item>Kas Bank</item>
+        <item>KASB Bank</item>
+        <item>Kasikornbank</item>
+        <item>Kaspi Bank</item>
+        <item>Kauthar Bank</item>
+        <item>Kazakhstan Ziraat International Bank</item>
+        <item>Kazinvestbank</item>
+        <item>Kazkommertsbank</item>
+        <item>Kazkommertsbank Kyrgyzstan</item>
+        <item>KB Financial Group</item>
+        <item>KBC Bank Ireland</item>
+        <item>KBC Banka</item>
+        <item>KBC Group</item>
+        <item>KBL European Bankers S.A.</item>
+        <item>KDB Financial Group</item>
+        <item>Keiyo Bank</item>
+        <item>Kenya Commercial Bank</item>
+        <item>Kereskedelmi es Hitelbank Bank</item>
+        <item>KeyCorp</item>
+        <item>Keystone Bank</item>
+        <item>Khaleeji Commercial Bank</item>
+        <item>Khan Bank of Mongolia</item>
+        <item>Khanty-Mansiysk Bank</item>
+        <item>Kharisma Bank</item>
+        <item>Khushhali Bank</item>
+        <item>Kiatnakin Bank</item>
+        <item>Kienlong Bank</item>
+        <item>Killbuck Bancshares</item>
+        <item>Kingdom Bank</item>
+        <item>Kingdom Bank</item>
+        <item>King s Town Bank</item>
+        <item>Kinki Osaka Bank</item>
+        <item>Kirayaka Bank</item>
+        <item>Kita Nippon Bank</item>
+        <item>Kiwibank</item>
+        <item>Kiyo Bank</item>
+        <item>Kiyo Bank</item>
+        <item>Klein Financial</item>
+        <item>Komercijalna Banka AD Skopje</item>
+        <item>Komercijalna Banka Beograd</item>
+        <item>Komercijalno Investiciona Banka</item>
+        <item>Komercni banka</item>
+        <item>Kommunalkredit Austria</item>
+        <item>Kookmin Bank Cambodia</item>
+        <item>Kor Standard Bank</item>
+        <item>Korea Exchange Bank</item>
+        <item>Korea Exchange Bank Brasil</item>
+        <item>Korea Exchange Bank Canada</item>
+        <item>Korea Exchange Bank Indonesia</item>
+        <item>Korea Exchange Bank Panama</item>
+        <item>Korean Development Bank Hungary</item>
+        <item>Korean Development Bank Uzbekistan</item>
+        <item>Kotak Mahindra Bank</item>
+        <item>Kreditna Banka Zagreb</item>
+        <item>Kreditprombank</item>
+        <item>KredoBank</item>
+        <item>KredoBank Ukraine</item>
+        <item>Kreis und Stadtsparkasse Hof</item>
+        <item>Kreissparkasse Ahrweiler</item>
+        <item>Kreissparkasse Altenkirchen</item>
+        <item>Kreissparkasse Augsburg</item>
+        <item>Kreissparkasse Bersenbruck</item>
+        <item>Kreissparkasse Biberach</item>
+        <item>Kreissparkasse Birkenfeld</item>
+        <item>Kreissparkasse Bitburg Prum</item>
+        <item>Kreissparkasse Boeblingen</item>
+        <item>Kreissparkasse Ebersberg</item>
+        <item>Kreissparkasse Esslingen Nurtingen</item>
+        <item>Kreissparkasse Euskirchen</item>
+        <item>Kreissparkasse Fallingbostel in Walsrode</item>
+        <item>Kreissparkasse Freudenstadt</item>
+        <item>Kreissparkasse Goppingen</item>
+        <item>Kreissparkasse Grafschaft Bentheim zu Nordhorn</item>
+        <item>Kreissparkasse Grafschaft Diepholz</item>
+        <item>Kreissparkasse Gross Gerau</item>
+        <item>Kreissparkasse Heilbronn</item>
+        <item>Kreissparkasse Heinsberg</item>
+        <item>Kreissparkasse Herzogtum Lauenburg</item>
+        <item>Kreissparkasse Kaiserslautern</item>
+        <item>Kreissparkasse Kelheim</item>
+        <item>Kreissparkasse Koln</item>
+        <item>Kreissparkasse Kusel</item>
+        <item>Kreissparkasse Limburg</item>
+        <item>Kreissparkasse Ludwigsburg</item>
+        <item>Kreissparkasse Mayen</item>
+        <item>Kreissparkasse Meißen</item>
+        <item>Kreissparkasse Melle</item>
+        <item>Kreissparkasse Miesbach Tegernsee</item>
+        <item>Kreissparkasse Munchen Starnberg</item>
+        <item>Kreissparkasse Ostalb</item>
+        <item>Kreissparkasse Peine</item>
+        <item>Kreissparkasse Ravensburg</item>
+        <item>Kreissparkasse Reutlingen</item>
+        <item>Kreissparkasse Rottweil</item>
+        <item>Kreissparkasse Saarlouis</item>
+        <item>Kreissparkasse Saarpfalz</item>
+        <item>Kreissparkasse St.Wendel</item>
+        <item>Kreissparkasse Stade</item>
+        <item>Kreissparkasse Steinfurt</item>
+        <item>Kreissparkasse Steinfurt</item>
+        <item>Kreissparkasse Sudholstein</item>
+        <item>Kreissparkasse Syke</item>
+        <item>Kreissparkasse Traunstein Trostberg</item>
+        <item>Kreissparkasse Tubingen</item>
+        <item>Kreissparkasse Tuttlingen</item>
+        <item>Kreissparkasse Verden</item>
+        <item>Kreissparkasse Waiblingen</item>
+        <item>Kreissparkasse Wesermunde Hadeln</item>
+        <item>Kreissparkasse Westerwald</item>
+        <item>Kreissparkasse Wiedenbruck</item>
+        <item>Krung Thai Bank</item>
+        <item>Kumamoto Family Bank</item>
+        <item>Kumari Bank</item>
+        <item>Kutxabank</item>
+        <item>Kuveyt Turk Katalim Bankasi</item>
+        <item>Kuwait Finance House</item>
+        <item>Kuwait Finance House Bahrain</item>
+        <item>Kuwait Finance House Malaysia</item>
+        <item>Kuwait International Bank</item>
+        <item>Kwangju Bank</item>
+        <item>Kyiv Bank</item>
+        <item>Kyongnam Bank</item>
+        <item>Kyoto Chuo Shinkin Bank</item>
+        <item>Kyoto Shinkin Bank</item>
+        <item>La Banque Postale</item>
+        <item>La Congolaise de Banque</item>
+        <item>Laiki Bank</item>
+        <item>Laishang Bank</item>
+        <item>Lake Michigan Financial Corporation</item>
+        <item>Lakeland Bancorp</item>
+        <item>Lakeland Financial Corporation</item>
+        <item>Lakeside Bancorp</item>
+        <item>Lakshmi Vilas Bank</item>
+        <item>Lan and Spar Bank</item>
+        <item>Land and House Bank</item>
+        <item>Land Bank of Taiwan</item>
+        <item>Land Bank Philippines</item>
+        <item>Landesbank Baden-Württemberg (LBBW)</item>
+        <item>Landesbank Berlin Holding (LBB)</item>
+        <item>Landesbank Rheinland Pfalz (LRP)</item>
+        <item>Landesbank Saar Girozentrale</item>
+        <item>Landessparkasse zu Oldenburg</item>
+        <item>Landrum Company</item>
+        <item>Landsbankinn hf.</item>
+        <item>Landshypotek Bank</item>
+        <item>Landwirtschaftliche Rentenbank</item>
+        <item>Lansforsakringar Bank</item>
+        <item>Lanta Bank</item>
+        <item>Lanzhou City Commercial Bank</item>
+        <item>Latvijas Biznesa Banka</item>
+        <item>Laurentian Bank of Canada</item>
+        <item>Lauritzen Corporation</item>
+        <item>Laxmi Bank</item>
+        <item>LBBW Bank CZ</item>
+        <item>LCL Banque</item>
+        <item>LCNB Corp</item>
+        <item>Leeds Building Society</item>
+        <item>LegacyTexas Group</item>
+        <item>Leshan City Commercial Bank</item>
+        <item>Leumi Private Bank</item>
+        <item>LGT Group</item>
+        <item>Liberbank Group</item>
+        <item>Liberty Bancshares</item>
+        <item>Liberty Bancshares</item>
+        <item>Liberty Bank</item>
+        <item>LIBRA BANK</item>
+        <item>Libyan Foreign Bank</item>
+        <item>Liechtensteinische Landesbank</item>
+        <item>LienViet Post Bank</item>
+        <item>Linshang Bank</item>
+        <item>Lion International Bank</item>
+        <item>Lloyds Banking Group</item>
+        <item>Lloyds TSB Bank Uruguay</item>
+        <item>LNB Bancorp</item>
+        <item>LocalTapiola Bank</item>
+        <item>Locko Bank</item>
+        <item>Lombard Bank Malta</item>
+        <item>London Scottish Bank</item>
+        <item>Lone Star National Bancshares - Texas</item>
+        <item>Longjiang Bank</item>
+        <item>Longview Financial Corporation</item>
+        <item>Lowell Five Bancorp</item>
+        <item>LSB Corp</item>
+        <item>Lumbini Bank</item>
+        <item>Luso International Banking</item>
+        <item>Luzerner Kantonalbank</item>
+        <item>MandT Bank Corporation</item>
+        <item>M.M.Warburg and Co</item>
+        <item>Ma anshan Rural Commercial Bank</item>
+        <item>Macatawa Bank Corporation</item>
+        <item>Macau Chinese Bank</item>
+        <item>Machhapuchre Bank</item>
+        <item>Machias Bancorp</item>
+        <item>Mackinac Financial Corporation</item>
+        <item>Macon Bancorp</item>
+        <item>Macquarie Group</item>
+        <item>Maduro and Curiel s Bank</item>
+        <item>Maerki Bumann</item>
+        <item>MagNet Hungarian Community Bank</item>
+        <item>Magnolia Banking Corporation</item>
+        <item>Maharashtra State Cooperative Bank</item>
+        <item>Mainsource Financial Group</item>
+        <item>Mainstreet Bank</item>
+        <item>Mainzer Volksbank</item>
+        <item>Malayan Banking Berhad</item>
+        <item>Malaysia Building Society</item>
+        <item>Maldives Islamic Bank</item>
+        <item>Manulife Bank of Canada</item>
+        <item>Maple Bank</item>
+        <item>Marathon Banking Corporation</item>
+        <item>Marfin Bank Romania</item>
+        <item>Marin National Bancorp</item>
+        <item>Maritime Bank</item>
+        <item>Marlin Business Services Corp</item>
+        <item>Marquette Financial Companies</item>
+        <item>Marquette National Corporation</item>
+        <item>Marshall Bankfirst Corporation</item>
+        <item>Marshfield Investment Co</item>
+        <item>Maruhan Japan Bank</item>
+        <item>Mashreqbank</item>
+        <item>Masraf Al Rayan</item>
+        <item>Masterbank</item>
+        <item>Mauritius Commercial Bank</item>
+        <item>Mauritius Commercial Bank Madagascar</item>
+        <item>Mauritius Commercial Bank Maldives</item>
+        <item>Mauritius Commercial Bank Mozambique</item>
+        <item>Mauritius Commercial Bank Seychelles</item>
+        <item>Mauritius Post and Cooperative Bank</item>
+        <item>Maybank Cambodia</item>
+        <item>Maybank Islamic Berhad</item>
+        <item>Maybank Philippines</item>
+        <item>MB Financial</item>
+        <item>mBank</item>
+        <item>MBCA Bank</item>
+        <item>MBT Financial Corp</item>
+        <item>MCB Bank</item>
+        <item>MDM Bank</item>
+        <item>Medicinos Bankas</item>
+        <item>Medimurska Banka</item>
+        <item>Mediobanca</item>
+        <item>Mediobanca International</item>
+        <item>Mediterranean Bank</item>
+        <item>Mediterranean Corporate Bank</item>
+        <item>Meezan Bank</item>
+        <item>Mega International Bank Panama</item>
+        <item>Mega International Commercial Bank</item>
+        <item>Mega International Commercial Bank Thailand</item>
+        <item>Megabank</item>
+        <item>Mekong Development Bank</item>
+        <item>Mekong Housing Bank</item>
+        <item>Mellat Bank</item>
+        <item>Melli Bank</item>
+        <item>Members Equity Bank</item>
+        <item>Mercantil Commercebank Holding Corporation</item>
+        <item>Mercantil Servicios Financieros</item>
+        <item>Mercantile Bancorp</item>
+        <item>Mercantile Bank</item>
+        <item>Mercantile Bank Corporation</item>
+        <item>Mercantile Bank Holdings</item>
+        <item>Merchant Bank Ghana</item>
+        <item>Merchants Bancorp</item>
+        <item>Merchants Bancshares</item>
+        <item>Merchants Financial Group</item>
+        <item>Merck Finck and Co</item>
+        <item>Meridian Financial Services</item>
+        <item>Merrill Lynch International Bank</item>
+        <item>Merrill Lynch Luxembourg</item>
+        <item>Merrill Lynch Netherland</item>
+        <item>Merrill Lynch Yatirim Bank</item>
+        <item>Meta Financial Group</item>
+        <item>Metallinvestbank</item>
+        <item>Metro Bancorp</item>
+        <item>Metrobank</item>
+        <item>Metrocorp Bancshares</item>
+        <item>Metropolitan Bank and Trust Company</item>
+        <item>Mezhtopenergobank</item>
+        <item>Mi Banco</item>
+        <item>Mianyang City Commercial Bank</item>
+        <item>Mibanco</item>
+        <item>Mibanco</item>
+        <item>Michinoku Bank</item>
+        <item>Mid Illinois Bancorp</item>
+        <item>Mid Penn Bancorp</item>
+        <item>MidAmerica Financial Corporation</item>
+        <item>Middle East and Africa Bank</item>
+        <item>Middle East Bank Kenya</item>
+        <item>Middleburg Financial Corporation</item>
+        <item>Middlesex Bancorp</item>
+        <item>Midland States Bancorp</item>
+        <item>Midsouth Bancorp</item>
+        <item>Midwest Bankcentre</item>
+        <item>MidWestOne Financial Group</item>
+        <item>Mie Bank</item>
+        <item>Migros Bank</item>
+        <item>Mikrokredit Bank</item>
+        <item>Military Bank</item>
+        <item>Millenium Bank Poland</item>
+        <item>Millennium Banco Internacional de Mozambique</item>
+        <item>Millennium bank Greece</item>
+        <item>Millennium BCP</item>
+        <item>Minami Nippon Bank</item>
+        <item>Minato Bank</item>
+        <item>Minnehaha Banshares</item>
+        <item>Minnwest Corporation</item>
+        <item>Minsk Transit Bank</item>
+        <item>Misr Bank Europe</item>
+        <item>Misto Bank</item>
+        <item>Mitsubishi UFJ Financial Group</item>
+        <item>Mitsubishi UFJ Trust and Banking Corporation</item>
+        <item>Miyazaki Bank</item>
+        <item>Miyazaki Taiyo Bank</item>
+        <item>Mizrahi Tefahot Bank</item>
+        <item>Mizuho Bank China</item>
+        <item>Mizuho Bank Indonesia</item>
+        <item>Mizuho Bank Malaysia</item>
+        <item>Mizuho Bank Thailand</item>
+        <item>Mizuho Financial Group</item>
+        <item>Mizuho International</item>
+        <item>Mizuho Trust and Banking</item>
+        <item>MKB</item>
+        <item>MKB Nextebank</item>
+        <item>MKB Unionbank</item>
+        <item>MMG Bank and Trust</item>
+        <item>MMG Bank Panama</item>
+        <item>Mobiasbanca</item>
+        <item>Moldindconbank</item>
+        <item>Moldova Agroindbank</item>
+        <item>Momiji Bank</item>
+        <item>Monabanq</item>
+        <item>Monarch financial Holdings</item>
+        <item>Monte Paschi Banque</item>
+        <item>Montecito Bancorp</item>
+        <item>Moody Bancshares</item>
+        <item>Mora Banc Grup</item>
+        <item>Mordovpromstroybank</item>
+        <item>Morgan Stanley</item>
+        <item>Morgan Stanley and Co International</item>
+        <item>Morgan Stanley BV</item>
+        <item>Morrill Bancshares</item>
+        <item>Moscomprivatbank</item>
+        <item>Moscow City Bank</item>
+        <item>Moscow Industrial Bank</item>
+        <item>Moskommertsbank</item>
+        <item>Mosstroieconombank</item>
+        <item>Mountainone Financial Partners</item>
+        <item>Moza Banco</item>
+        <item>MP Bank</item>
+        <item>MSB Mutual Holding Co</item>
+        <item>MTS Bank</item>
+        <item>Multibank</item>
+        <item>Munchener Hypothekenbank</item>
+        <item>Municipal Bank</item>
+        <item>Musashino Bank</item>
+        <item>Mutiara Bank</item>
+        <item>Mutual Trust Bank</item>
+        <item>MutualFirst Financial</item>
+        <item>Mutuelles Congolaises d’Epargne et de Credit</item>
+        <item>Myanmar Citizens Bank</item>
+        <item>Myanma Investment and Commercial Bank</item>
+        <item>Myanmar Oriental Bank</item>
+        <item>Myanmar Oriental Bank</item>
+        <item>N M Rothschild and Sons</item>
+        <item>N W Services Corporation</item>
+        <item>N26</item>
+        <item>Nabil Bank</item>
+        <item>Nadra Bank</item>
+        <item>Nagano Bank</item>
+        <item>Nainital Bank</item>
+        <item>Nam A Commercial Bank</item>
+        <item>Nam Viet Bank</item>
+        <item>Nanchong City Commercial Bank</item>
+        <item>Nanto Bank</item>
+        <item>Nantong Rural Commercial Bank</item>
+        <item>Nanxun Bank</item>
+        <item>Nanyang Commercial Bank China</item>
+        <item>Nanyang Commercial Bank Hong Kong</item>
+        <item>Narragansett Financial Corp</item>
+        <item>Nassauische Sparkasse</item>
+        <item>National Americas Holdings</item>
+        <item>National Australia Bank</item>
+        <item>National Bank</item>
+        <item>National Bank</item>
+        <item>National Bank for Foreign Economic Activity of the Republic of Uzbekistan</item>
+        <item>National Bank of Abu Dhabi</item>
+        <item>National Bank of Abu Dhabi Malaysia</item>
+        <item>National Bank of Anguilla</item>
+        <item>National Bank of Bahrain</item>
+        <item>National Bank of Canada</item>
+        <item>National Bank of Commerce</item>
+        <item>National Bank of Dominica</item>
+        <item>National Bank of Egypt</item>
+        <item>National Bank of Egypt UK</item>
+        <item>National Bank of Fujairah</item>
+        <item>National Bank of Georgia</item>
+        <item>National Bank of Greece</item>
+        <item>National Bank of Greece</item>
+        <item>National Bank of Indianapolis Corporation</item>
+        <item>National Bank of Kenya</item>
+        <item>National Bank of Kuwait</item>
+        <item>National Bank of Kuwait International</item>
+        <item>National Bank of Malawi</item>
+        <item>National Bank of Oman</item>
+        <item>National Bank of Pakistan</item>
+        <item>National Bank of Sudan</item>
+        <item>National Bank of Umm Al Qaiwain</item>
+        <item>National Bank of Yemen</item>
+        <item>National Bank TRUST</item>
+        <item>National Bankshares</item>
+        <item>National Commercial Bank</item>
+        <item>National Commercial Bank</item>
+        <item>National Commercial Bank Jamaica</item>
+        <item>National Credit and Commerce Bank</item>
+        <item>National Credit Bank</item>
+        <item>National Development Bank</item>
+        <item>National Industrial Credit Bank</item>
+        <item>National Investment Industrial Bank</item>
+        <item>National Microfinance Bank</item>
+        <item>National Penn Bancshares</item>
+        <item>National Reserve Bank</item>
+        <item>National Savings Bank</item>
+        <item>National Westminster Bank</item>
+        <item>Nations Trust Bank</item>
+        <item>Nationwide Building Society</item>
+        <item>Natixis</item>
+        <item>Natixis Algerie</item>
+        <item>Natixis Brasil</item>
+        <item>NBandT Financial Group</item>
+        <item>NBC Bank</item>
+        <item>NBD Bank</item>
+        <item>NBH Holdings Corp</item>
+        <item>NBS Bank</item>
+        <item>NBT Bancorp</item>
+        <item>NEB Corp</item>
+        <item>Nedbank Group</item>
+        <item>Nedbank Namibia</item>
+        <item>Nedbank Swaziland</item>
+        <item>Nederlandse Waterschapsbank</item>
+        <item>Neighbor Insurance Agency</item>
+        <item>Nepal Bank</item>
+        <item>Nepal Credit and Commerce Bank</item>
+        <item>Nepal Industrial and Commercial Bank (NIC Bank)</item>
+        <item>Nepal Investment Bank</item>
+        <item>Nepal SBI Bank</item>
+        <item>Neue Privat Bank</item>
+        <item>New Hampshire Mutual Bancorp</item>
+        <item>New Symbol Bank</item>
+        <item>New York Community Bancorp</item>
+        <item>New York Private Bank and Trust Corporation</item>
+        <item>Newbridge Bancorp</item>
+        <item>Newburyport Five Cents Bancorp</item>
+        <item>Newcastle Building Society</item>
+        <item>Nextier Incorporated</item>
+        <item>NI Bancshares Corporation</item>
+        <item>NIB Bank</item>
+        <item>NIB International Bank</item>
+        <item>NIBC Holding</item>
+        <item>Nicolet Bankshares</item>
+        <item>Nidwaldner Kantonalbank</item>
+        <item>Nikoil Commercial Bank</item>
+        <item>Ningbo Commerce Bank</item>
+        <item>Nishi Nippon City Bank</item>
+        <item>NLB Banka Beograd</item>
+        <item>NLB Banka Sofia</item>
+        <item>NLB Montenegrobanka</item>
+        <item>NLB Prishtina</item>
+        <item>NLB Razvojna Banka a.d. Banja Luka</item>
+        <item>NLB Tutunska Banka</item>
+        <item>NMBZ Holdings</item>
+        <item>Noble Grossart</item>
+        <item>Nodaway Valley Bancshares</item>
+        <item>Nomos Bank</item>
+        <item>Nomura Bank International</item>
+        <item>Nomura Holdings</item>
+        <item>NongHyup Financial Group</item>
+        <item>Noor Bank</item>
+        <item>Nord Ostsee Sparkasse</item>
+        <item>Norddeutsche Landesbank (NORD LB)</item>
+        <item>Norddeutsche Landesbank Luxembourg</item>
+        <item>Nordea Bank Denmark</item>
+        <item>Nordea Bank Finland</item>
+        <item>Nordea Bank Norge</item>
+        <item>Nordea Bank Polska</item>
+        <item>Nordea Bank Russia</item>
+        <item>Nordea Group</item>
+        <item>Nordjyske Bank</item>
+        <item>Nordlandsbanken (NB)</item>
+        <item>Norinchukin Bank</item>
+        <item>Norisbank</item>
+        <item>Norresundby Bank</item>
+        <item>North Africa International Bank</item>
+        <item>North American Bancshares</item>
+        <item>North Pacific Bank</item>
+        <item>North Valley Bancorp</item>
+        <item>North West Bancshares</item>
+        <item>Northeast Bancorp</item>
+        <item>Northern States Financial Corporation</item>
+        <item>Northern Trust Corporation</item>
+        <item>Northrim Bancorp</item>
+        <item>Northway Financial</item>
+        <item>Northwest Bancshares</item>
+        <item>Northwest Financial Corp</item>
+        <item>Northwest Indiana Bancorp</item>
+        <item>Norvik Banka</item>
+        <item>Norway Bancorp</item>
+        <item>Norwich and Peterborough Building Society</item>
+        <item>Norwood Financial Corp</item>
+        <item>NOTA Bank</item>
+        <item>Nottingham Building Society</item>
+        <item>Nova Banka</item>
+        <item>Nova Kreditna Banka Maribor</item>
+        <item>Nova Ljubljanska Banka (NLB)</item>
+        <item>NovaGalicia Banco</item>
+        <item>Novikombank</item>
+        <item>Novo Banco Continental</item>
+        <item>NRBC Holding Corporation</item>
+        <item>NRW Bank</item>
+        <item>Nuevo Banco Comercial</item>
+        <item>Nuevo Banco de Entre Rios</item>
+        <item>Nuevo Banco de la Rioja</item>
+        <item>Nuevo Banco de Santa Fe</item>
+        <item>Nuevo Banco del Chaco</item>
+        <item>Nurbank</item>
+        <item>NVE Bancorp</item>
+        <item>Nykredit</item>
+        <item>OAK Financial Corporation</item>
+        <item>Oberbank</item>
+        <item>Obwaldner Kantonalbank</item>
+        <item>OCBC Al-Amin Bank</item>
+        <item>OCBC Bank Malaysia</item>
+        <item>Ocean Bank</item>
+        <item>Ocean Bankshares</item>
+        <item>Oceanic Bank</item>
+        <item>Oceanpoint Financial Partners</item>
+        <item>Odea Bank</item>
+        <item>OFG Bancorp</item>
+        <item>Ogaki Kyoritsu Bank</item>
+        <item>Ohio Valley Banc Corp</item>
+        <item>Ohnward Bancshares</item>
+        <item>Ohridska banka AD Skopje</item>
+        <item>Oita Bank</item>
+        <item>Okazaki Shinkin Bank</item>
+        <item>Okinawa Kaiho Bank</item>
+        <item>Old Florida Bancshares</item>
+        <item>Old Line Bancshares</item>
+        <item>Old National Bancorp</item>
+        <item>Old Point Financial Corporation</item>
+        <item>Old Second Bancorp</item>
+        <item>Olney Bancshares of Texas</item>
+        <item>Olympic Bancorp</item>
+        <item>Oman Arab Bank</item>
+        <item>Omdurman National Bank</item>
+        <item>One American Corp</item>
+        <item>One Bank</item>
+        <item>Oney Bank</item>
+        <item>OP-Pohjola Group</item>
+        <item>Opportunity Bank of Malawi</item>
+        <item>Optima Bank</item>
+        <item>Orabank</item>
+        <item>Orabank Benin</item>
+        <item>Orabank Chad</item>
+        <item>Orabank Gabon</item>
+        <item>Orabank Guinea</item>
+        <item>Orabank Mauritania</item>
+        <item>Orco Bank</item>
+        <item>Ordos Bank</item>
+        <item>Orienbank</item>
+        <item>Orient Bancorporation</item>
+        <item>Orient Bank</item>
+        <item>Orient Bank</item>
+        <item>Orient Express Bank</item>
+        <item>Oriental Bank of Commerce</item>
+        <item>Oriental Commercial Bank</item>
+        <item>Orrstown Financial Services</item>
+        <item>OSK Indochina Bank</item>
+        <item>Osterreichische Volksbanken</item>
+        <item>Ostsee Sparkasse Rostock</item>
+        <item>Otkritie Financial Corporation</item>
+        <item>Otkritie Financial Corporation Bank</item>
+        <item>OTP Bank</item>
+        <item>OTP Bank Croatia</item>
+        <item>OTP Bank Romania</item>
+        <item>OTP Bank Russia</item>
+        <item>OTP Bank Serbia</item>
+        <item>OTP Bank Slovakia</item>
+        <item>OTP Bank Ukraine</item>
+        <item>Ottawa Bancshares</item>
+        <item>Oversea Chinese Banking Corporation (OCBC)</item>
+        <item>Oxford Bank Corporation</item>
+        <item>PAB Bankshares</item>
+        <item>Pacific and Western Bank of Canada</item>
+        <item>Pacific Capital Bancorp</item>
+        <item>Pacific Continental Corporation</item>
+        <item>Pacific Mercantile Bancorp</item>
+        <item>Pacific Premier Bancorp</item>
+        <item>Pacwest Bancorp</item>
+        <item>Palm Bancorp</item>
+        <item>Palmetto Bancshares</item>
+        <item>Pan Asia Banking Corporation PLC</item>
+        <item>Pan Caribbean Bank</item>
+        <item>Pancretan Cooperative Bank</item>
+        <item>Panellinia Bank</item>
+        <item>Panjin City Commercial Bank</item>
+        <item>Panzhihua City Commercial Bank</item>
+        <item>Parabank</item>
+        <item>Paramount Universal Bank</item>
+        <item>Parana Banco</item>
+        <item>Paris Bancshares</item>
+        <item>Paritetbank</item>
+        <item>Park National Corp</item>
+        <item>Park Sterling Corporation</item>
+        <item>Parke Bancorp</item>
+        <item>Parkway Bancorp</item>
+        <item>Parsian Bank</item>
+        <item>Partner Banka</item>
+        <item>Pasha Bank</item>
+        <item>Passumpsic Bancorp</item>
+        <item>Patriot Bancshares</item>
+        <item>Pavlovic International Bank</item>
+        <item>Peapack-Gladstone Financial Corporation</item>
+        <item>Penns Woods Bancorp</item>
+        <item>Penseco Financial Services Corporation</item>
+        <item>Peoples</item>
+        <item>Peoples Bancorp (Lynden)</item>
+        <item>Peoples Bancorp (Marietta)</item>
+        <item>Peoples Bancorp of Bullitt County</item>
+        <item>Peoples Bancorp of North Carolina</item>
+        <item>Peoples Bancorporation</item>
+        <item>People s Bank</item>
+        <item>People s Bank of Zanzibar</item>
+        <item>Peoples Corporation</item>
+        <item>Peoples Financial Corp of Illinois</item>
+        <item>Peoples Financial Corporation</item>
+        <item>Peoples Financial Services Corp</item>
+        <item>Peoples Holding Co</item>
+        <item>People s Utah Bancorp</item>
+        <item>PeoplesBancorp</item>
+        <item>Permanent Group Holdings</item>
+        <item>Persia International Bank</item>
+        <item>Petrolimex Group Bank</item>
+        <item>Philippine Bank of Communications</item>
+        <item>Philippine National Bank</item>
+        <item>Philippine Veterans Bank</item>
+        <item>Philtrust Bank</item>
+        <item>Phnom Penh Commercial Bank</item>
+        <item>Pictet and Cie Europe</item>
+        <item>Piedmont Community Bank Holdings</item>
+        <item>Ping An Bank</item>
+        <item>Pinnacle Bancorp</item>
+        <item>Pinnacle Financial Corporation</item>
+        <item>Pinnacle Financial Partners</item>
+        <item>Pioneer Trust Bank Corporation</item>
+        <item>Piraeus Bank Bulgaria</item>
+        <item>Piraeus Bank Cyprus</item>
+        <item>Piraeus Bank Egypt</item>
+        <item>Piraeus Bank Group</item>
+        <item>Piraeus Bank Romania</item>
+        <item>Piraeus Bank Serbia</item>
+        <item>Piraeus Bank Ukraine</item>
+        <item>Pivdennyi Bank</item>
+        <item>PKO Bank Polski</item>
+        <item>Plains Bancorp</item>
+        <item>PlainsCapital Corporation</item>
+        <item>Planters Holding Co</item>
+        <item>PNC Financial Services Group</item>
+        <item>PNC Funding Corporation</item>
+        <item>Podgoricka Bank</item>
+        <item>Podravska Banka</item>
+        <item>Policombank</item>
+        <item>Polski Bank Przedsiebiorczosci</item>
+        <item>Pontiac Bancorp</item>
+        <item>Pontotoc Bancshares Corp</item>
+        <item>Popular</item>
+        <item>Popular Bank</item>
+        <item>Popular Credit Bank</item>
+        <item>Porter Bancorp</item>
+        <item>Portigon AG</item>
+        <item>Porto Franko Bank</item>
+        <item>Post Bank of Iran</item>
+        <item>Postal Savings Bank of China</item>
+        <item>Poštna banka Slovenije</item>
+        <item>Postova Banka</item>
+        <item>PPF banka</item>
+        <item>Pravex Bank</item>
+        <item>Premier Bank</item>
+        <item>Premier Financial Bancorp</item>
+        <item>PremierWest Bancorp</item>
+        <item>President s Choice Bank</item>
+        <item>Prima Banka Slovensko</item>
+        <item>Prime Bank</item>
+        <item>Prime Bank</item>
+        <item>Primer Banco de Ahorro y Prestamo para la Vivienda Familiar</item>
+        <item>Primorska Banka</item>
+        <item>Primsotsbank</item>
+        <item>Princeton National Bancorp</item>
+        <item>Principality Building Society</item>
+        <item>Priorbank</item>
+        <item>Prival Bank</item>
+        <item>PrivatBank</item>
+        <item>PrivatBank</item>
+        <item>Privatbank Bellerive</item>
+        <item>Privatbanka</item>
+        <item>Privatebancorp</item>
+        <item>Privredna banka Zagreb</item>
+        <item>Probank</item>
+        <item>Probanka</item>
+        <item>Probusinessbank</item>
+        <item>ProCredit Bank Albania</item>
+        <item>ProCredit Bank Armenia</item>
+        <item>ProCredit Bank Bosnia-Herzegovina</item>
+        <item>ProCredit Bank Bulgaria</item>
+        <item>ProCredit Bank Congo</item>
+        <item>ProCredit Bank Georgia</item>
+        <item>ProCredit Bank Kosovo</item>
+        <item>ProCredit Bank Macedonia</item>
+        <item>ProCredit Bank Moldova</item>
+        <item>ProCredit Bank Romania</item>
+        <item>ProCredit Bank Serbia</item>
+        <item>ProCredit Bank Ukraine</item>
+        <item>ProCredit Holding</item>
+        <item>ProCredit Savings and Loans Company</item>
+        <item>Produbank Panama</item>
+        <item>Profin Bank</item>
+        <item>Promekonombank</item>
+        <item>Prometey Bank</item>
+        <item>Prominvestbank</item>
+        <item>Promsvyazbank</item>
+        <item>Prosperity Bancshares</item>
+        <item>Provident Financial Services</item>
+        <item>Prudential Bancorp</item>
+        <item>Prudential Bank</item>
+        <item>Prva Banka Crne Gore</item>
+        <item>PSA Banque France</item>
+        <item>PT Bank Panin Syariah</item>
+        <item>PT Bank QNB Kesawan</item>
+        <item>PT Bank Syariah BNI</item>
+        <item>PT Bank Syariah Bukopin</item>
+        <item>PT Bank Syariah Mandiri</item>
+        <item>PT Bank Syariah Mega Indonesia</item>
+        <item>Pubali Bank</item>
+        <item>Public Bank</item>
+        <item>Public Bank Hong Kong</item>
+        <item>Public Islamic Bank</item>
+        <item>Pueblo Bancorporation</item>
+        <item>Punjab and Sind Bank</item>
+        <item>Punjab National Bank</item>
+        <item>Putnam Bancshares</item>
+        <item>PVcomBank</item>
+        <item>Qatar International Islamic Bank (QIIB)</item>
+        <item>Qatar Islamic Bank (QIB)</item>
+        <item>Qatar National Bank</item>
+        <item>Qazaq Banki</item>
+        <item>QCR Holdings</item>
+        <item>Qilu Bank</item>
+        <item>Qingdao Rural Commercial Bank</item>
+        <item>Qishang Bank</item>
+        <item>QNB Alahli Bank</item>
+        <item>QNB Corp</item>
+        <item>Rabitabank</item>
+        <item>Rabobank Chile</item>
+        <item>Rabobank Group</item>
+        <item>Rabobank Indonesia</item>
+        <item>Rabobank International Brasil</item>
+        <item>Rabobank New Zealand</item>
+        <item>Rabobank Poland</item>
+        <item>Radabank</item>
+        <item>Raiffeisen Bank Albania</item>
+        <item>Raiffeisen Bank Aval</item>
+        <item>Raiffeisen Bank Bosnia Herzegovina</item>
+        <item>Raiffeisen Bank Hungary</item>
+        <item>Raiffeisen Bank International</item>
+        <item>Raiffeisen Bank Kosovo</item>
+        <item>Raiffeisen Bank Malta</item>
+        <item>Raiffeisen Bank Polska</item>
+        <item>Raiffeisen Bank Romania</item>
+        <item>Raiffeisen Banka a.d Beograd</item>
+        <item>Raiffeisen Banka d.d.</item>
+        <item>Raiffeisen Landesbank Steiermark</item>
+        <item>Raiffeisen Landesbank Tirol</item>
+        <item>Raiffeisen Switzerland</item>
+        <item>Raiffeisen Zentralbank Oesterreich (RZB)</item>
+        <item>Raiffeisenbank Austria</item>
+        <item>Raiffeisenbank Bulgaria EAD</item>
+        <item>Raiffeisenbank Czech Republic</item>
+        <item>Raiffeisenlandesbank Niederoesterreich-Wien</item>
+        <item>Raiffeisenlandesbank Oberösterreich Aktiengesellschaft</item>
+        <item>Raiffeisenverband Salzburg</item>
+        <item>Rakbank</item>
+        <item>Rakuten Bank Ltd</item>
+        <item>Rasheed Bank</item>
+        <item>Rastriya Baniya Bank (RBB)</item>
+        <item>Ratnakar Bank</item>
+        <item>Rawbank</item>
+        <item>Raymond James Financial</item>
+        <item>Razvojna Banka Jugoistocne Evrope</item>
+        <item>RBB Bancorp</item>
+        <item>RBC Financial Caribbean</item>
+        <item>RBS Citizens Financial Group</item>
+        <item>RBS Holding NV</item>
+        <item>RBTT Bank Antilles</item>
+        <item>RBTT Bank Aruba</item>
+        <item>RBTT Bank Barbados</item>
+        <item>RBTT Bank Caribbean</item>
+        <item>RBTT Bank Grenada</item>
+        <item>RBTT Bank Jamaica</item>
+        <item>RBTT Bank St Kitts and Nevis</item>
+        <item>RCB Corporation</item>
+        <item>RCB Holding Company</item>
+        <item>RCI Banque</item>
+        <item>Real Bank</item>
+        <item>Real Estate Bank</item>
+        <item>Red River Bancshares</item>
+        <item>Regionala Investiciju Banka</item>
+        <item>Regions Financial Corp</item>
+        <item>Reliable Community Bancshares</item>
+        <item>Reliance Bancshares</item>
+        <item>Renaissance Credit</item>
+        <item>Renasant Corporation</item>
+        <item>Republic Bancorp</item>
+        <item>Republic Bancorp Co</item>
+        <item>Republic Bank</item>
+        <item>Republic Bank Barbados</item>
+        <item>Republic Bank Grenada</item>
+        <item>Republic Bank Guyana</item>
+        <item>Republic First Bancorp</item>
+        <item>Resona Holdings</item>
+        <item>Reverta</item>
+        <item>RHB Bank Berhad</item>
+        <item>RHB Islamic Bank</item>
+        <item>Rietumu Banka</item>
+        <item>Ringkjobing Landbobank</item>
+        <item>Riyad Bank</item>
+        <item>Rizal Commercial Banking Corp (RCBC)</item>
+        <item>Rockville Financial</item>
+        <item>Rodovid Bank</item>
+        <item>Rogers Bancshares</item>
+        <item>Rokel Commercial Bank</item>
+        <item>Rosbank</item>
+        <item>Rosdorbank</item>
+        <item>RosEvroBank</item>
+        <item>Rosgosstrakh Bank</item>
+        <item>Rosinterbank</item>
+        <item>Rossiysky Kredit Bank</item>
+        <item>Rossiysky Capital</item>
+        <item>Rost Bank</item>
+        <item>Royal Bancshares of Pennsylvania</item>
+        <item>Royal Bank of Canada</item>
+        <item>Royal Bank of Scotland</item>
+        <item>Royal Bank of Scotland Argentina</item>
+        <item>Royal Bank of Scotland China</item>
+        <item>Royal Bank of Scotland India</item>
+        <item>Royal Bank of Scotland Indonesia</item>
+        <item>Royal Bank of Scotland Kazakhstan</item>
+        <item>Royal Bank of Scotland Malaysia</item>
+        <item>Royal Bank of Scotland Poland</item>
+        <item>Royal Bank of Scotland Romania</item>
+        <item>Royal Bank of Scotland Russia</item>
+        <item>Royal Bank of Scotland Turkey</item>
+        <item>Royal Bank of Scotland Venezuela</item>
+        <item>RSI Bancorp</item>
+        <item>RSK Bank</item>
+        <item>Rupali Bank</item>
+        <item>Rural Bank</item>
+        <item>Rurban Financial Corp</item>
+        <item>Russian Agricultural Bank</item>
+        <item>Russian Commercial and Industrial Bank</item>
+        <item>Russian Land Bank</item>
+        <item>Russian National Commercial Bank</item>
+        <item>Russian Regional Development Bank</item>
+        <item>Russian Standard Bank</item>
+        <item>Russian Standard Bank Ukraine</item>
+        <item>Russky Slaviansky Bank</item>
+        <item>S and T Bancorp</item>
+        <item>S. Y. Bancorp</item>
+        <item>Sa Nostra Caixa de Baleares</item>
+        <item>Saba Islamic Bank</item>
+        <item>Safra National Bank of New York</item>
+        <item>Saga Kyoei Bank</item>
+        <item>Saigon Bank for Industry and Trade (SGB)</item>
+        <item>Saigon Commercial Bank (SCB)</item>
+        <item>Saigon Hanoi Bank (SHB)</item>
+        <item>Saigon Thuong Tin Bank Cambodia</item>
+        <item>Saigon Thuong Tin Commercial Bank</item>
+        <item>Saikyo Bank</item>
+        <item>Sainsbury s Bank</item>
+        <item>Saint Landry Bancshares</item>
+        <item>Sal Oppenheim Jr. and Cie. Komm. auf Aktien</item>
+        <item>Salem Five Bancorp</item>
+        <item>Salin Bancshares</item>
+        <item>Saman Bank</item>
+        <item>Samba Bank</item>
+        <item>Samba Financial Group</item>
+        <item>Samoborska Banka</item>
+        <item>Sampath Bank</item>
+        <item>Sampo Pank</item>
+        <item>Sandnes Sparebank</item>
+        <item>Sandy Spring Bancorp</item>
+        <item>Sanpaolo Bank</item>
+        <item>Santander Consumer Bank Germany</item>
+        <item>Santander Consumer Bank Italy</item>
+        <item>Santander Consumer Bank Poland</item>
+        <item>Santander Holdings USA</item>
+        <item>Santander UK</item>
+        <item>Sarov Business Bank</item>
+        <item>Sasfin Bank</item>
+        <item>Saudi British Bank (SABB)</item>
+        <item>Saudi Hollandi Bank</item>
+        <item>Saudi Investment Bank</item>
+        <item>Saudi Sudanese Bank</item>
+        <item>Savannah Bancorp</item>
+        <item>Savings and Social Development Bank</item>
+        <item>Savings Bank Group</item>
+        <item>Saxo Bank Group</item>
+        <item>SBC Inc</item>
+        <item>Sberbank</item>
+        <item>Sberbank Bosnia Herzegovina</item>
+        <item>Sberbank Croatia</item>
+        <item>Sberbank Europe</item>
+        <item>Sberbank Kazakhstan</item>
+        <item>Sberbank Serbia</item>
+        <item>Sberbank Slovenia</item>
+        <item>Sberbank Slovensko</item>
+        <item>Sberbank Ukraine</item>
+        <item>SBI Mauritius</item>
+        <item>SBI Sumishin Net Bank</item>
+        <item>SBT Bancshares</item>
+        <item>SCBT Financial Corporation</item>
+        <item>Schaffhauser Kantonalbank</item>
+        <item>Schoellerbank</item>
+        <item>Schroders</item>
+        <item>Schwyzer Kantonalbank</item>
+        <item>Scotiabank</item>
+        <item>Scotiabank Anguilla</item>
+        <item>Scotiabank Bahamas</item>
+        <item>Scotiabank Barbados</item>
+        <item>Scotiabank Belize</item>
+        <item>Scotiabank Brasil</item>
+        <item>Scotiabank Chile</item>
+        <item>Scotiabank Costa Rica</item>
+        <item>Scotiabank de Puerto Rico</item>
+        <item>Scotiabank Dominican Republic</item>
+        <item>Scotiabank El Salvador</item>
+        <item>Scotiabank Guyana</item>
+        <item>Scotiabank Haiti</item>
+        <item>Scotiabank Inverlat</item>
+        <item>Scotiabank Jamaica</item>
+        <item>Scotiabank Malaysia</item>
+        <item>ScotiaBank Panama</item>
+        <item>Scotiabank Peru</item>
+        <item>Scotiabank Saint Lucia</item>
+        <item>Scotiabank Trinidad and Tobago</item>
+        <item>SDM Bank</item>
+        <item>Seacoast Banking Corporation of Florida</item>
+        <item>Seaway Bancshares</item>
+        <item>SEB Bank Denmark</item>
+        <item>SEB Bank Germany</item>
+        <item>SEB Banka</item>
+        <item>Security Bancorp of Tennessee</item>
+        <item>Security Bancshares</item>
+        <item>Security Bank Corporation</item>
+        <item>Security Capital Corporation</item>
+        <item>Security Holding Company</item>
+        <item>Security National Corporation</item>
+        <item>Security State Corporation</item>
+        <item>Seera Investment Bank</item>
+        <item>Sekerbank</item>
+        <item>Senagat Bank</item>
+        <item>Sendai Bank</item>
+        <item>Senshu Ikeda Bank</item>
+        <item>Serbian Bank</item>
+        <item>ServisFirst Bancshares</item>
+        <item>Seven Bank</item>
+        <item>Sevier County Bancshares</item>
+        <item>Seychelles International Mercantile Banking Corporation</item>
+        <item>Seychelles Savings Bank</item>
+        <item>Seylan Bank</item>
+        <item>SGB Bank</item>
+        <item>SG-SSB Bank</item>
+        <item>Shahjalal Islami Bank</item>
+        <item>Shamil Bank of Yemen and Bahrain</item>
+        <item>Shanghai Commercial Bank</item>
+        <item>Shanghai Pudong Development Bank</item>
+        <item>Shanghai Rural Commercial Bank</item>
+        <item>Sharjah Islamic Bank</item>
+        <item>Shawbrook Bank</item>
+        <item>Shengjing Bank</item>
+        <item>Shenmu Rural Commercial Bank</item>
+        <item>Shenzhen Rural Commercial Bank</item>
+        <item>Shiga Bank</item>
+        <item>Shikoku Bank</item>
+        <item>Shimane Bank</item>
+        <item>Shimizu Bank</item>
+        <item>Shin Kong Bank</item>
+        <item>Shinhan Bank India</item>
+        <item>Shinhan Bank Kazakhstan</item>
+        <item>Shinhan Bank Vietnam</item>
+        <item>Shinhan Financial Group</item>
+        <item>Shinhan Khmer Bank Cambodia</item>
+        <item>Shinkin Central Bank</item>
+        <item>Shinsei Bank</item>
+        <item>Shinwa Bank</item>
+        <item>Shizuoka Bank</item>
+        <item>Shizuoka Chuo Bank</item>
+        <item>Shoko Chukin Bank</item>
+        <item>Shonai Bank</item>
+        <item>Shore Bancshares</item>
+        <item>Shouguang Rural Commercial Bank</item>
+        <item>Shunde Rural Commercial Bank</item>
+        <item>Siam Commercial Bank</item>
+        <item>Siauliu Bankas</item>
+        <item>Sibneftebank</item>
+        <item>SID Banka</item>
+        <item>Siddhartha Bank</item>
+        <item>Sierra Bancorp</item>
+        <item>Sierra Leone Commercial Bank</item>
+        <item>Silicon Valley Bank Financial Group</item>
+        <item>Silkbank</item>
+        <item>Simmons First National Corp</item>
+        <item>Sina Bank</item>
+        <item>Sinopac Bancorp</item>
+        <item>SkandiaBanken</item>
+        <item>Skandinaviska Enskilda Banken Group (SEB Group)</item>
+        <item>SKB Bank</item>
+        <item>SKB Banka</item>
+        <item>SKBHC Holdings</item>
+        <item>Skipton Building Society</item>
+        <item>Skye Bank</item>
+        <item>Skye Bank Gambia</item>
+        <item>Skye Bank Guinea</item>
+        <item>Skye Bank Sierra Leone</item>
+        <item>Slatinska Banka</item>
+        <item>Slovenska sporitel na</item>
+        <item>Slovenska zarucna a rozvojova banka</item>
+        <item>SME Bank</item>
+        <item>Smolenskiy Bank</item>
+        <item>SMP Bank</item>
+        <item>SMP Bank</item>
+        <item>SNS Bank</item>
+        <item>Sobinbank</item>
+        <item>Social Islami Bank (SIBL)</item>
+        <item>Societe Arabe Internationale de Banque (SAIB)</item>
+        <item>Societe Europeenne de Banque</item>
+        <item>Societe Generale</item>
+        <item>Societe Generale Algerie</item>
+        <item>Societe Generale Bank and Trust</item>
+        <item>Societe Generale Banka Srbija a.d Beograd</item>
+        <item>Societe Generale China</item>
+        <item>Societe Generale Cyprus</item>
+        <item>Societe Generale de Banque Burkina</item>
+        <item>Societe Generale de Banque Jordanie</item>
+        <item>Societe Generale de Banque Liban</item>
+        <item>Societe Generale de Banques Benin</item>
+        <item>Societe Generale de Banques Cameroon</item>
+        <item>Societe Generale de Banques Cote d Ivoire</item>
+        <item>Societe Generale de Banques Guinee</item>
+        <item>Societe Generale de Banques Guinee Equatoriale</item>
+        <item>Societe Generale de Banques Senegal</item>
+        <item>Societe Generale Expressbank</item>
+        <item>Societe Generale India</item>
+        <item>Societe Generale Morocco</item>
+        <item>Societe Generale Switzerland</item>
+        <item>Societe Generale Tchadienne de Banque</item>
+        <item>Societe Generale Turkey</item>
+        <item>Societe Generale Vostok (BSGV)</item>
+        <item>Societe Ivoirienne de Banque (SIB)</item>
+        <item>Societe Nigerienne de Banque</item>
+        <item>Societe Tunisienne de Banque</item>
+        <item>Sogebank</item>
+        <item>Solvay Bank Corp</item>
+        <item>Sonali Bank</item>
+        <item>Soneri Bank</item>
+        <item>Sotsinvestbank</item>
+        <item>South African Bank of Athens</item>
+        <item>South Central Bancshares of Kentucky</item>
+        <item>South Indian Bank</item>
+        <item>South Plains Financial</item>
+        <item>South Shore Bancorp</item>
+        <item>South Street Financial Corp</item>
+        <item>South Valley Bancorp</item>
+        <item>Southeast Asia Bank</item>
+        <item>SouthEast Bank</item>
+        <item>Southeastern Bank Financial Corporation</item>
+        <item>Southeastern Banking Corporation</item>
+        <item>Southern BancShares (N.C.)</item>
+        <item>Southern Bancshares Corp</item>
+        <item>Southern Bank</item>
+        <item>Southern Community Financial Corporation</item>
+        <item>Southern Michigan Bancorp</item>
+        <item>Southern Missouri Bancorp</item>
+        <item>Southern National Bancorp of Virginia</item>
+        <item>Southern Utah Bancorporation</item>
+        <item>Southside Bancshares</item>
+        <item>Southwest Bancorp</item>
+        <item>Southwest Georgia Financial Corporation</item>
+        <item>Sovcombank</item>
+        <item>Sovereign Bancorp</item>
+        <item>Sovereign Bancshares</item>
+        <item>Spar Nord Bank</item>
+        <item>Sparbanken Oresund</item>
+        <item>Sparebank 1 Nord Norge</item>
+        <item>SpareBank 1 SMN</item>
+        <item>SpareBank 1 SR Bank</item>
+        <item>Sparebanken Hedmark</item>
+        <item>Sparebanken More</item>
+        <item>Sparebanken Pluss</item>
+        <item>Sparebanken Sor</item>
+        <item>Sparebanken Vest</item>
+        <item>Sparekassen Faaborg</item>
+        <item>Sparekassen Sjaelland</item>
+        <item>Sparkasse Aachen</item>
+        <item>Sparkasse Allgau</item>
+        <item>Sparkasse am Niederrhein</item>
+        <item>Sparkasse Aurich Norden</item>
+        <item>Sparkasse Bamberg</item>
+        <item>Sparkasse Bank</item>
+        <item>Sparkasse Bank Malta</item>
+        <item>Sparkasse Banka Makedonija</item>
+        <item>Sparkasse Bayreuth</item>
+        <item>Sparkasse Bensheim</item>
+        <item>Sparkasse Berchtesgadener Land</item>
+        <item>Sparkasse Bielefeld</item>
+        <item>Sparkasse Bochum</item>
+        <item>Sparkasse Bodensee</item>
+        <item>Sparkasse Bremen</item>
+        <item>Sparkasse Celle</item>
+        <item>Sparkasse Chemnitz</item>
+        <item>Sparkasse Dachau</item>
+        <item>Sparkasse Darmstadt</item>
+        <item>Sparkasse Deggendorf</item>
+        <item>Sparkasse der Stadt Iserlohn</item>
+        <item>Sparkasse der Stadt Wilhelmshaven</item>
+        <item>Sparkasse Detmold</item>
+        <item>Sparkasse Dieburg</item>
+        <item>Sparkasse Dinslaken Voerde Hunxe</item>
+        <item>Sparkasse Donauworth</item>
+        <item>Sparkasse Dortmund</item>
+        <item>Sparkasse Duisburg</item>
+        <item>Sparkasse Duren</item>
+        <item>Sparkasse Elbe Elster</item>
+        <item>Sparkasse Emsland</item>
+        <item>Sparkasse Erlangen</item>
+        <item>Sparkasse Essen</item>
+        <item>Sparkasse Forchheim</item>
+        <item>Sparkasse Freiburg Nordlicher Breisgau</item>
+        <item>Sparkasse Freising</item>
+        <item>Sparkasse Furstenfeldbruck</item>
+        <item>Sparkasse Gelsenkirchen</item>
+        <item>Sparkasse Germersheim Kandel</item>
+        <item>Sparkasse Gottingen</item>
+        <item>Sparkasse Gunzburg Krumbach</item>
+        <item>Sparkasse Gutersloh</item>
+        <item>Sparkasse Hagen</item>
+        <item>Sparkasse Hamm</item>
+        <item>Sparkasse Hanau</item>
+        <item>Sparkasse Hannover</item>
+        <item>Sparkasse Harburg Buxtehude</item>
+        <item>Sparkasse Heidelberg</item>
+        <item>Sparkasse Herford</item>
+        <item>Sparkasse Hilden Ratingen Velbert</item>
+        <item>Sparkasse Hildesheim</item>
+        <item>Sparkasse Hochfranken</item>
+        <item>Sparkasse Hochrhein</item>
+        <item>Sparkasse Hohenlohekreis</item>
+        <item>Sparkasse Holstein</item>
+        <item>Sparkasse Hoxter</item>
+        <item>Sparkasse im Landkreis Cham</item>
+        <item>Sparkasse im Landkreis Schwandorf</item>
+        <item>Sparkasse Ingolstadt</item>
+        <item>Sparkasse Karlsruhe</item>
+        <item>Sparkasse Kleve</item>
+        <item>Sparkasse Koblenz</item>
+        <item>Sparkasse KolnBonn</item>
+        <item>Sparkasse Kraichgau</item>
+        <item>Sparkasse Krefeld</item>
+        <item>Sparkasse Landshut</item>
+        <item>Sparkasse Langen Seligenstadt</item>
+        <item>Sparkasse LeerWittmund</item>
+        <item>Sparkasse Lemgo</item>
+        <item>Sparkasse Leverkusen</item>
+        <item>Sparkasse Lorrach Rheinfelden</item>
+        <item>Sparkasse Ludenscheid</item>
+        <item>Sparkasse Luneburg</item>
+        <item>Sparkasse Lunen</item>
+        <item>Sparkasse Mainfranken Wurzburg</item>
+        <item>Sparkasse Mainz</item>
+        <item>Sparkasse Marburg Biedenkopf</item>
+        <item>Sparkasse Markgraflerland</item>
+        <item>Sparkasse Memmingen-Lindau-Mindelheim</item>
+        <item>Sparkasse Merzig Wadern</item>
+        <item>Sparkasse Miltenberg Obernburg</item>
+        <item>Sparkasse Minden Lubbecke</item>
+        <item>Sparkasse Mittelfranken Sud</item>
+        <item>Sparkasse Mittelmosel Eifel Mosel Hunsruck</item>
+        <item>Sparkasse Mulheim an der Ruhr</item>
+        <item>Sparkasse Munsterland Ost</item>
+        <item>Sparkasse Neu Ulm Illertissen</item>
+        <item>Sparkasse Neumarkt Parsberg</item>
+        <item>Sparkasse Neuss</item>
+        <item>Sparkasse Neuwied</item>
+        <item>Sparkasse Niederlausitz</item>
+        <item>Sparkasse Nienburg</item>
+        <item>Sparkasse Nurnberg</item>
+        <item>Sparkasse Oberhessen</item>
+        <item>Sparkasse Odenwaldkreis</item>
+        <item>Sparkasse Oder Spree</item>
+        <item>Sparkasse Offenburg Ortenau</item>
+        <item>Sparkasse Osnabruck</item>
+        <item>Sparkasse Paderborn</item>
+        <item>Sparkasse Passau</item>
+        <item>Sparkasse Pforzheim Calw</item>
+        <item>Sparkasse Rastatt Gernsbach</item>
+        <item>Sparkasse Regen Viechtach</item>
+        <item>Sparkasse Regensburg</item>
+        <item>Sparkasse Rhein Haardt</item>
+        <item>Sparkasse Rhein Nahe</item>
+        <item>Sparkasse Rhein Neckar Nord</item>
+        <item>Sparkasse Rosenheim Bad Aibling</item>
+        <item>Sparkasse Rotenburg Bremervorde</item>
+        <item>Sparkasse Rottal Inn</item>
+        <item>Sparkasse Saarbrucken</item>
+        <item>Sparkasse Schaumburg</item>
+        <item>Sparkasse Schwabisch Hall Crailsheim</item>
+        <item>Sparkasse Schwarzwald Baar</item>
+        <item>Sparkasse Schwaz</item>
+        <item>Sparkasse Siegen</item>
+        <item>Sparkasse Singen Radolfzell</item>
+        <item>Sparkasse Spree Neisse</item>
+        <item>Sparkasse Sudliche Weinstrasse</item>
+        <item>Sparkasse Sudwestpfalz</item>
+        <item>Sparkasse Tauberfranken</item>
+        <item>Sparkasse Trier</item>
+        <item>Sparkasse Uelzen Luchow Dannenberg</item>
+        <item>Sparkasse Ulm</item>
+        <item>Sparkasse Unna</item>
+        <item>Sparkasse Unstrut Hainich</item>
+        <item>Sparkasse Vest Recklinghausen</item>
+        <item>Sparkasse Vogtland</item>
+        <item>Sparkasse Waldeck Frankenberg</item>
+        <item>Sparkasse Werra Meissner</item>
+        <item>Sparkasse Weserbergland</item>
+        <item>Sparkasse Westholstein</item>
+        <item>Sparkasse Westmunsterland</item>
+        <item>Sparkasse Wetzlar</item>
+        <item>Sparkasse Worms Alzey Ried</item>
+        <item>Sparkasse Zollernalb</item>
+        <item>Sparkasse zu Lubeck</item>
+        <item>Sparkasse Zwickau</item>
+        <item>Sparkassenverband Bayern</item>
+        <item>Spirit Bankcorp</item>
+        <item>Splitska Banka</item>
+        <item>Square 1 Financial</item>
+        <item>ST Bank</item>
+        <item>St Galler Kantonalbank</item>
+        <item>St George Bank</item>
+        <item>St Georges Bank</item>
+        <item>St Kitts-Nevis-Anguilla National Bank</item>
+        <item>Stadtsparkasse Augsburg</item>
+        <item>Stadtsparkasse Dusseldorf</item>
+        <item>Stadtsparkasse Monchengladbach</item>
+        <item>Stadtsparkasse Munchen</item>
+        <item>Stadtsparkasse Wuppertal</item>
+        <item>Stanbic Bank Botswana</item>
+        <item>Stanbic Bank Ghana</item>
+        <item>Stanbic Bank Tanzania</item>
+        <item>Stanbic Bank Uganda</item>
+        <item>Stanbic Bank Zambia</item>
+        <item>Stanbic Bank Zimbabwe</item>
+        <item>Stanbic IBTC Holdings</item>
+        <item>Standard Bancshares</item>
+        <item>Standard Bank Bangladesh</item>
+        <item>Standard Bank de Angola</item>
+        <item>Standard Bank Group (Stanbank)</item>
+        <item>Standard Bank Malawi</item>
+        <item>Standard Bank Mauritius</item>
+        <item>Standard Bank Mozambique</item>
+        <item>Standard Bank Namibia</item>
+        <item>Standard Bank RD Congo</item>
+        <item>Standard Bank Swaziland</item>
+        <item>Standard Bank UK</item>
+        <item>Standard Chartered</item>
+        <item>Standard Chartered Bank Bangladesh</item>
+        <item>Standard Chartered Bank Botswana</item>
+        <item>Standard Chartered Bank Brazil</item>
+        <item>Standard Chartered Bank Cameroon</item>
+        <item>Standard Chartered Bank China</item>
+        <item>Standard Chartered Bank Cote d Ivoire</item>
+        <item>Standard Chartered Bank Gambia</item>
+        <item>Standard Chartered Bank Ghana</item>
+        <item>Standard Chartered Bank Hong Kong</item>
+        <item>Standard Chartered Bank India</item>
+        <item>Standard Chartered Bank Indonesia</item>
+        <item>Standard Chartered Bank Kenya</item>
+        <item>Standard Chartered Bank Korea</item>
+        <item>Standard Chartered Bank Malaysia Berhad</item>
+        <item>Standard Chartered Bank Mauritius</item>
+        <item>Standard Chartered Bank Nepal</item>
+        <item>Standard Chartered Bank Nigeria</item>
+        <item>Standard Chartered Bank Pakistan</item>
+        <item>Standard Chartered Bank Peru</item>
+        <item>Standard Chartered Bank Sierra Leone</item>
+        <item>Standard Chartered Bank Sri Lanka</item>
+        <item>Standard Chartered Bank Taiwan</item>
+        <item>Standard Chartered Bank Tanzania</item>
+        <item>Standard Chartered Bank Thailand</item>
+        <item>Standard Chartered Bank Turkey</item>
+        <item>Standard Chartered Bank Uganda</item>
+        <item>Standard Chartered Bank Zambia</item>
+        <item>Standard Chartered Bank Zimbabwe</item>
+        <item>Standard Chartered Saadiq Malaysia</item>
+        <item>Standard Lesotho Bank</item>
+        <item>Star Financial Group</item>
+        <item>Stark Bank Group</item>
+        <item>Starokyivsky Bank</item>
+        <item>State Bancorp</item>
+        <item>State Bank Financial Corporation</item>
+        <item>State Bank for Foreign Economic Affairs</item>
+        <item>State Bank of Bikaner and Jaipur</item>
+        <item>State Bank of Hyderabad</item>
+        <item>State Bank of India</item>
+        <item>State Bank of India Indonesia</item>
+        <item>State Bank of Mauritius</item>
+        <item>State Bank of Mauritius India</item>
+        <item>State Bank of Mysore</item>
+        <item>State Bank of Patiala</item>
+        <item>State Bank of Travancore</item>
+        <item>State Bankshares</item>
+        <item>State Capital Corporation</item>
+        <item>State National Bancshares</item>
+        <item>State Savings Bank of Ukraine</item>
+        <item>State Street Corp</item>
+        <item>Stearns Financial Services</item>
+        <item>Stedbanka</item>
+        <item>Steiermarkische Sparkasse</item>
+        <item>Stellarone Corporation</item>
+        <item>Sterling Bancorp</item>
+        <item>Sterling Bank</item>
+        <item>Sterling Financial Corporation</item>
+        <item>Stifel Financial Corp</item>
+        <item>Stock Yards Bancorp</item>
+        <item>Stockman Financial Corporation</item>
+        <item>Stopanska Banka a.d. Bitola</item>
+        <item>Stopanska Banka a.d. Skopje</item>
+        <item>Storebrand Bank Group</item>
+        <item>Strategic Growth Bank Incorporated</item>
+        <item>Sturm Financial Group</item>
+        <item>Stusid Bank</item>
+        <item>Stuttgarter Volksbank</item>
+        <item>Sudameris Bank</item>
+        <item>Sudanese French Bank</item>
+        <item>Sudanese Islamic Bank</item>
+        <item>Sudostroitelny Bank</item>
+        <item>Sudtiroler Volksbank</item>
+        <item>Suez Canal Bank</item>
+        <item>Suffolk Bancorp</item>
+        <item>Sugamo Shinkin Bank</item>
+        <item>Sumitomo Mitsui Banking Corporation China</item>
+        <item>Sumitomo Mitsui Banking Corporation Indonesia</item>
+        <item>Sumitomo Mitsui Banking Corporation Malaysia</item>
+        <item>Sumitomo Mitsui Financial Group</item>
+        <item>Sumitomo Mitsui Trust Bank</item>
+        <item>Summit Bancorp</item>
+        <item>Summit Bank</item>
+        <item>Summit Community Bancorp</item>
+        <item>Summit Financial Group</item>
+        <item>Sun Bancorp</item>
+        <item>Suncorp Metway</item>
+        <item>Sunflower Financial</item>
+        <item>Sunny Bank</item>
+        <item>SunTrust Banks</item>
+        <item>Surgutneftegasbank</item>
+        <item>Surichange Bank</item>
+        <item>Suruga Bank</item>
+        <item>Susquehanna Bancshares</item>
+        <item>Svenska Handelsbanken</item>
+        <item>Sviaz bank</item>
+        <item>Svyaznoy Bank</item>
+        <item>Swaziland Development and Savings Bank</item>
+        <item>Swedbank</item>
+        <item>Swedbank AS</item>
+        <item>Swedbank Estonia</item>
+        <item>Swedbank Lithuania</item>
+        <item>Sydbank</item>
+        <item>Syndicate Bank</item>
+        <item>Synovus Financial Corp</item>
+        <item>Syria International Islamic Bank</item>
+        <item>T Bank</item>
+        <item>Ta Chong Bank</item>
+        <item>Tadamon Islamic Bank</item>
+        <item>Tadhamon International Islamic Bank</item>
+        <item>TAG Bank</item>
+        <item>Tai Fung Bank</item>
+        <item>Tai Sang Bank</item>
+        <item>Tai Yau Bank</item>
+        <item>TAIB Bank</item>
+        <item>TAIB Kazakh Bank</item>
+        <item>TAIB Yatirim Bank</item>
+        <item>Taicang Rural Commercial Bank</item>
+        <item>Taichung Commercial Bank</item>
+        <item>Taiko Bank</item>
+        <item>Taipei Fubon Commercial Bank</item>
+        <item>Taishin International Bank</item>
+        <item>Taisho Bank</item>
+        <item>Taiwan Business Bank</item>
+        <item>Taiwan Cooperative Bank</item>
+        <item>Tajima Bank</item>
+        <item>Tajprombank</item>
+        <item>Takarekbank</item>
+        <item>Tallinn Business Bank</item>
+        <item>Talmer Bancorp</item>
+        <item>Tambovcreditprombank</item>
+        <item>Tamilnad Mercantile Bank</item>
+        <item>Tampa Banking Co</item>
+        <item>Tangshan City Commercial Bank</item>
+        <item>Tanzania Investment Bank</item>
+        <item>Tatfondbank</item>
+        <item>Tatra banka</item>
+        <item>Taunus Corporation</item>
+        <item>Taylor Capital Group</item>
+        <item>TBC Bank</item>
+        <item>TbilBusiness Bank</item>
+        <item>TC Ziraat Bankasi</item>
+        <item>TCF Financial Corp</item>
+        <item>TD Bank US Holding Company</item>
+        <item>Technobank</item>
+        <item>Tekstil Bankasi</item>
+        <item>Temirbank</item>
+        <item>Tesco Bank</item>
+        <item>Texas Capital Bancshares</item>
+        <item>Texas Independent Bancshares</item>
+        <item>Texim Bank</item>
+        <item>Thai Credit Retail Bank</item>
+        <item>Thanachart Bank</item>
+        <item>The Banc Corporation</item>
+        <item>The Bancorp</item>
+        <item>The Bank of East Asia</item>
+        <item>The Bank of East Asia China</item>
+        <item>The Bank of Khyber</item>
+        <item>The City Bank</item>
+        <item>The Community Financial Corporation</item>
+        <item>The Cooperative Bank</item>
+        <item>The Hongkong and Shanghai Banking Corporation</item>
+        <item>The Housing Bank for Trade and Finance Algeria</item>
+        <item>The Housing Bank for Trade and Finance</item>
+        <item>The San In Godo Bank</item>
+        <item>The Shanghai Commercial and Savings Bank</item>
+        <item>The Ural Bank for Reconstruction and Development</item>
+        <item>Thurgauer Kantonalbank</item>
+        <item>Tianjin Binhai Rural Commercial Bank</item>
+        <item>Tianjin Rural Commercial Bank</item>
+        <item>TIB Financial Corp</item>
+        <item>Tinkoff Credit Systems</item>
+        <item>Tirana Bank</item>
+        <item>Tiroler Sparkasse</item>
+        <item>TISCO Bank</item>
+        <item>TMB Bank</item>
+        <item>Tochigi Bank</item>
+        <item>Tochigi Shinkin Bank</item>
+        <item>Toho Bank</item>
+        <item>Tohoku Bank</item>
+        <item>Tojik Sodiot Bonk</item>
+        <item>Tokuda Bank</item>
+        <item>Tokushima Bank</item>
+        <item>Tokyo Star Bank</item>
+        <item>Tokyo Tomin Bank</item>
+        <item>Tomato Bank</item>
+        <item>Tomony Holdings</item>
+        <item>Tompkins Financial Corporation</item>
+        <item>Toronto Dominion Bank (TD Bank)</item>
+        <item>Tottori Bank</item>
+        <item>Towa Bank</item>
+        <item>Towerbank International</item>
+        <item>Town Financial Corporation</item>
+        <item>Toyama Bank</item>
+        <item>Trade and Development Bank</item>
+        <item>Trade Bank of Iraq</item>
+        <item>Traditional Bancorporation</item>
+        <item>Trafina Privatbank</item>
+        <item>Trans National Bank</item>
+        <item>Transbank</item>
+        <item>Transcapital Bank</item>
+        <item>TransCreditBank</item>
+        <item>Transport Development Bank</item>
+        <item>Tri City Bankshares Corporation</item>
+        <item>Trico Bancshares</item>
+        <item>Trinity Capital Corporation</item>
+        <item>Triodos Bank</item>
+        <item>Tristate Capital Holdings</item>
+        <item>Triumph Bancorp</item>
+        <item>Tropical Bank</item>
+        <item>Trust Bank</item>
+        <item>Trust Bank Algeria</item>
+        <item>Trust Bank Limited</item>
+        <item>Trust Commercial Bank</item>
+        <item>Trust Merchant Bank (TMB)</item>
+        <item>Trustbank</item>
+        <item>Trustmark Corporation</item>
+        <item>TSB Bank</item>
+        <item>Tsesnabank</item>
+        <item>Tsukuba Bank</item>
+        <item>TTK Bank</item>
+        <item>Tunis International Bank</item>
+        <item>Tunisian Qatari Bank</item>
+        <item>TuranBank</item>
+        <item>Turk Ekonomi Bankasi (TEB)</item>
+        <item>Turkish Bank Turkey</item>
+        <item>Turkish Bank UK</item>
+        <item>Turkish Ziraat Bank Bosnia</item>
+        <item>Turkiye Finans Katilim Bankasi</item>
+        <item>Turkiye Garanti Bankasi</item>
+        <item>Turkiye Halk Bankasi</item>
+        <item>Turkiye Is Bankasi</item>
+        <item>Turkiye Sinai Kalkinma Bankasi (TSKB)</item>
+        <item>Turkiye Vakiflar Bankasi</item>
+        <item>Turkland Bank A.S.</item>
+        <item>Turkmen Turkish Bank</item>
+        <item>Turkmenbashi Bank</item>
+        <item>Tuzlanska Banka</item>
+        <item>Tveruniversalbank</item>
+        <item>Twin Cities Financial Services</item>
+        <item>UBAE Arab Italian Bank</item>
+        <item>Ubank</item>
+        <item>UBS</item>
+        <item>UBS China</item>
+        <item>UBS Luxembourg</item>
+        <item>UBS Mexico</item>
+        <item>UCO Bank</item>
+        <item>UFS Bancorp</item>
+        <item>Ukhtabank</item>
+        <item>Ukoopspilka Bank</item>
+        <item>Ukrainian Professional Bank</item>
+        <item>Ukrainian Municipal Bank</item>
+        <item>UkrGasBank</item>
+        <item>Ukrgazprombank</item>
+        <item>UkrSibbank</item>
+        <item>Ukrsotsbank</item>
+        <item>Ulaanbaatar City Bank</item>
+        <item>Ulster Bank Ireland</item>
+        <item>UMB Financial Corp</item>
+        <item>Umpqua Holdings Corporation</item>
+        <item>Unex Bank</item>
+        <item>Uni Bank and Trust</item>
+        <item>Uniao de Bancos Brasileiros (Unibanco)</item>
+        <item>Uniastrum Bank</item>
+        <item>Unibank</item>
+        <item>Unibank</item>
+        <item>Unibank</item>
+        <item>Unibank</item>
+        <item>Unibank Ghana</item>
+        <item>Unicaja Banco</item>
+        <item>UniCredit</item>
+        <item>UniCredit Bank Banja Luka</item>
+        <item>UniCredit Bank Bosnia Herzegovina</item>
+        <item>UniCredit Bank Czech Republic and Slovakia</item>
+        <item>UniCredit Bank Hungary</item>
+        <item>UniCredit Bank Ireland</item>
+        <item>UniCredit Bank Latvia</item>
+        <item>UniCredit Bank Luxembourg</item>
+        <item>UniCredit Bank Russia</item>
+        <item>UniCredit Bank Serbia</item>
+        <item>UniCredit Bank Slovenia</item>
+        <item>UniCredit Bulbank</item>
+        <item>UniCredit Tiriac Bank</item>
+        <item>Union Bancaire pour le Commerce et l Industrie</item>
+        <item>Union Bancaire Privée</item>
+        <item>Union Bank</item>
+        <item>Union Bank dd Sarajevo</item>
+        <item>Union Bank of Colombo</item>
+        <item>Union Bank of India</item>
+        <item>Union Bank of Israel</item>
+        <item>Union Bank of Nigeria</item>
+        <item>Union Bank of Taiwan</item>
+        <item>Union Bank UK</item>
+        <item>Union Bankshares</item>
+        <item>Union Commercial Bank</item>
+        <item>Union de Banques Arabes et Francaises (UBAF)</item>
+        <item>Union First Market Bankshares Corporation</item>
+        <item>Union Gabonaise de Banque</item>
+        <item>Union internationale de banques</item>
+        <item>Union National Bank</item>
+        <item>Union National Bank Egypt</item>
+        <item>Union Togolaise de Banque</item>
+        <item>Union Trust Bank</item>
+        <item>UnionBanCal Corp</item>
+        <item>UnionBank of Philippines</item>
+        <item>Unione di Banche Italiane</item>
+        <item>Unipol Banca</item>
+        <item>United Arab Bank</item>
+        <item>United Bancorp</item>
+        <item>United Bancorporation</item>
+        <item>United Bank</item>
+        <item>United Bank</item>
+        <item>United Bank Corporation</item>
+        <item>United Bank for Africa</item>
+        <item>United Bank for Africa Cameroon</item>
+        <item>United Bank for Africa Chad</item>
+        <item>United Bank for Africa Congo</item>
+        <item>United Bank for Africa Cote D Ivoire</item>
+        <item>United Bank for Africa DRC Congo</item>
+        <item>United Bank for Africa Gabon</item>
+        <item>United Bank for Africa Ghana</item>
+        <item>United Bank for Africa Guinea</item>
+        <item>United Bank for Africa Kenya</item>
+        <item>United Bank for Africa Liberia</item>
+        <item>United Bank for Africa Mozambique</item>
+        <item>United Bank for Africa Senegal</item>
+        <item>United Bank for Africa Sierra Leone</item>
+        <item>United Bank for Africa Tanzania</item>
+        <item>United Bank for Africa Uganda</item>
+        <item>United Bank for Africa Zambia</item>
+        <item>United Bank of Albania</item>
+        <item>United Bank of India</item>
+        <item>United Bank Zurich</item>
+        <item>United Bankshares</item>
+        <item>United Bulgarian Bank</item>
+        <item>United Capital Bank</item>
+        <item>United Coconut Planters Bank (UCPB)</item>
+        <item>United Commercial Bank</item>
+        <item>United Community Bancorp</item>
+        <item>United Community Banks</item>
+        <item>United Financial Capital Bank</item>
+        <item>United Georgian Bank Corporation</item>
+        <item>United Gulf Bank</item>
+        <item>United Kredit Bank</item>
+        <item>United National Corporation</item>
+        <item>United Overseas Bank</item>
+        <item>United Overseas Bank China</item>
+        <item>United Overseas Bank Indonesia</item>
+        <item>United Overseas Bank Malaysia</item>
+        <item>United Overseas Bank Philippines</item>
+        <item>United Overseas Bank Thailand</item>
+        <item>United Security Bancshares</item>
+        <item>United Trust Bank</item>
+        <item>Unity Bank</item>
+        <item>Unity Trust Bank</item>
+        <item>Universal Bank</item>
+        <item>Universal Investment Bank</item>
+        <item>Universal Saving Bank (USB)</item>
+        <item>Universalbank</item>
+        <item>Univerzal Banka</item>
+        <item>Univest Corp of Pennsylvania</item>
+        <item>UralTransbank</item>
+        <item>Urner Kantonalbank</item>
+        <item>Urumqi City Commercial Bank</item>
+        <item>US Bancorp</item>
+        <item>USAmeriBancorp</item>
+        <item>UT Bank</item>
+        <item>Utrecht America Holdings</item>
+        <item>Uttara Bank</item>
+        <item>Uzbekistan-Turkish Bank</item>
+        <item>Uzpromstroybank</item>
+        <item>Vaba Bank Varazdin</item>
+        <item>VakifBank International</item>
+        <item>Vakufska Banka</item>
+        <item>Valartis Group</item>
+        <item>Valiant Holding AG</item>
+        <item>Valley National Bancorp</item>
+        <item>Valley View Bancshares</item>
+        <item>Van Diest Investment Co</item>
+        <item>Vancouver City Savings Credit Union</item>
+        <item>Vattanac Bank</item>
+        <item>VBS Mutual Bank</item>
+        <item>Veneto Banca</item>
+        <item>Veneto Banka d.d.</item>
+        <item>Venezolano de Crédito Banco Universal</item>
+        <item>Venture Financial Group</item>
+        <item>Versobank</item>
+        <item>Versus Bank</item>
+        <item>Verwaltungs und Privat Bank</item>
+        <item>Vestjysk Bank</item>
+        <item>VIB Corp</item>
+        <item>Victoria Commercial Bank</item>
+        <item>Victoriabank</item>
+        <item>Viet Capital Bank</item>
+        <item>VietinBank</item>
+        <item>Vietnam Asia Commercial Bank</item>
+        <item>Vietnam Bank for Agriculture and Rural Development</item>
+        <item>Vietnam Construction Bank</item>
+        <item>Vietnam Export Import Bank</item>
+        <item>Vietnam International Bank (VIB)</item>
+        <item>Vietnam Prosperity Bank</item>
+        <item>Vietnam Technological and Commercial Joint Stock Bank</item>
+        <item>Viewpoint Financial Group</item>
+        <item>Vijaya Bank</item>
+        <item>Villages Bancorporation</item>
+        <item>VinaSiam Bank</item>
+        <item>Virgin Money Group</item>
+        <item>Virginia Commerce Bancorp</item>
+        <item>Vision Banco</item>
+        <item>Vist Financial Corp</item>
+        <item>Vneshprombank</item>
+        <item>Vojvodjanska Banka</item>
+        <item>Volksbank Banja Luka</item>
+        <item>Volksbank Romania</item>
+        <item>Volkskreditbank AG</item>
+        <item>Volkswagen Bank</item>
+        <item>Volkswagen Bank Poland</item>
+        <item>Vontobel Holding</item>
+        <item>Vseobecna Uverova Banka</item>
+        <item>Vseukrainskyi Aksionernyi Bank (VAB Bank)</item>
+        <item>VTB 24 Bank</item>
+        <item>VTB Bank</item>
+        <item>VTB Bank Armenia</item>
+        <item>VTB Bank Austria</item>
+        <item>VTB Bank Belarus</item>
+        <item>VTB Bank Deutschland</item>
+        <item>VTB Bank France</item>
+        <item>VTB Bank Georgia</item>
+        <item>VTB Bank North-West</item>
+        <item>VTB Bank Ukraine</item>
+        <item>Vuz Bank</item>
+        <item>Vyborg Bank</item>
+        <item>Waggoner National Bancshares</item>
+        <item>Wahda Bank</item>
+        <item>Washington Banking Company</item>
+        <item>Washington Federal</item>
+        <item>Washington Trust Bancorp</item>
+        <item>Washington Wilkes Holding</item>
+        <item>Washingtonfirst Bankshares</item>
+        <item>Waterstone Financial</item>
+        <item>Watford City Bancshares</item>
+        <item>Weberbank Privatbankiers</item>
+        <item>Webster Financial Corp</item>
+        <item>Wegagen Bank</item>
+        <item>Weihai City Commercial Bank</item>
+        <item>Wells Fargo and Co</item>
+        <item>Wells Fargo Bank International</item>
+        <item>Wesbanco</item>
+        <item>West Bancorporation</item>
+        <item>West Bromwich Building Society</item>
+        <item>West Suburban Bancorp</item>
+        <item>Westamerica Bancorp</item>
+        <item>Westbrand</item>
+        <item>Westdeutsche Genossenschafts-Zentralbank</item>
+        <item>Western Alliance Bancorporation</item>
+        <item>Western Commerce Bancshares of Carlsbad</item>
+        <item>Westland Utrecht Hypo</item>
+        <item>WestLB Belgium</item>
+        <item>Westpac Banking Corporation</item>
+        <item>Westpac Fiji</item>
+        <item>Westpac New Zealand</item>
+        <item>WGZ BANK Ireland</item>
+        <item>Whitaker Bank Corporation of Kentucky</item>
+        <item>Whitcorp Financial Company</item>
+        <item>Wilmington Trust Corp</item>
+        <item>Wilshire Bancorp</item>
+        <item>Wilson and Muir Bancorp</item>
+        <item>Wilson Bank Holding Company</item>
+        <item>Windward Islands Bank</item>
+        <item>Wing Hang Bank</item>
+        <item>Wing Hang Bank China</item>
+        <item>Wing Lung Bank</item>
+        <item>Wintrust Financial Corp</item>
+        <item>WJ Young and Co</item>
+        <item>WNB Bancshares</item>
+        <item>Woodforest Financial Group</item>
+        <item>Woodtrust Financial Corp</item>
+        <item>Woori Bank China</item>
+        <item>Woori Financial Group</item>
+        <item>Workers United</item>
+        <item>Wschodni Bank Cukrownictwa</item>
+        <item>WTB Financial Corp</item>
+        <item>Wuhan Rural Commercial Bank</item>
+        <item>Wuhu Yangzi Rural Commercial Bank</item>
+        <item>Wujiang Rural Commercial Bank</item>
+        <item>Wustenrot and Wurttemburgische</item>
+        <item>Wustenrot Stavebna Sporitelna</item>
+        <item>Wuxi Rural Commercial Bank</item>
+        <item>WVS Financial Corp</item>
+        <item>XacBank</item>
+        <item>Xiamen Bank</item>
+        <item>Xiamen City Commercial Bank</item>
+        <item>Xiamen International Bank</item>
+        <item>Xiamen Rural Commercial Bank</item>
+        <item>Yachiyo Bank</item>
+        <item>Yadanabon Bank</item>
+        <item>Yadkin Valley Financial Corporation</item>
+        <item>Yamagata Bank</item>
+        <item>Yamaguchi Bank</item>
+        <item>Yamaguchi Financial Group</item>
+        <item>Yamanashi Chuo Bank</item>
+        <item>Yangon City Bank</item>
+        <item>Yantai Bank</item>
+        <item>Yaodu Rural Commercial Bank</item>
+        <item>Yapi Kredi Bank Azerbajian</item>
+        <item>Yapı ve Kredi Bankası</item>
+        <item>Yellow River Rural Commercial Bank</item>
+        <item>Yellowstone Holding Co</item>
+        <item>Yemen Bank for Reconstruction and Development</item>
+        <item>Yemen Commercial Bank</item>
+        <item>Yemen Kuwait Bank for Trade and Investment</item>
+        <item>Yes Bank</item>
+        <item>Yinzhou Bank</item>
+        <item>Yoma Bank</item>
+        <item>Yorkshire Building Society</item>
+        <item>Yuanta Commercial Bank</item>
+        <item>Zagrebacka Banka</item>
+        <item>Zakhidbudgazbank</item>
+        <item>Zakhidinkombank</item>
+        <item>Zaman Bank</item>
+        <item>Zaminbank Commercial Bank</item>
+        <item>Zambia National Commercial Bank</item>
+        <item>ZAO Citibank</item>
+        <item>ZAO Raiffeisenbank</item>
+        <item>Zapsibcombank</item>
+        <item>ZB Financial Holdings</item>
+        <item>Zemelny Kapital</item>
+        <item>Zemen Bank</item>
+        <item>Zenit Banking Group</item>
+        <item>Zenith Bank</item>
+        <item>Zenith Bank Gambia</item>
+        <item>Zenith Bank Ghana</item>
+        <item>Zenith Bank Sierra Leone</item>
+        <item>Zenith Bank UK</item>
+        <item>Zhangjiakou City Bank</item>
+        <item>Zhejiang Chouzhou Commercial Bank</item>
+        <item>Zhejiang Mintai Commercial Bank</item>
+        <item>Zhejiang Tailong Commercial Bank</item>
+        <item>Zhengde City Commercial Bank</item>
+        <item>Zhuhai Rural Commercial Bank</item>
+        <item>Zhunyi City Commercial Bank</item>
+        <item>Zibo City Commercial Bank</item>
+        <item>Zigong City Commercial Bank</item>
+        <item>Zions Bancorporation</item>
+        <item>Zions Bank</item>
+        <item>Ziraat Bank CJSC</item>
+        <item>Ziraat Bank International AG</item>
+        <item>Zoloti Vorota Bank</item>
+        <item>Zuger Kantonalbank</item>
+        <item>Zurich Cantonal Bank</item>
     </string-array>
     <string-array name="type">
         <item>Select Type</item>

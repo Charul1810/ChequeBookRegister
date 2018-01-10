@@ -56,7 +56,7 @@ public class Tab_Debit extends Fragment {
         chequeno = (EditText) v.findViewById(R.id.cheque_no_edit_text);
         notes = (EditText) v.findViewById(R.id.notes_edit_text);
         type = (Spinner) v.findViewById(R.id.type_spinner);
-        bank = (Spinner) v.findViewById(R.id.bank_spinner);
+        //bank = (Spinner) v.findViewById(R.id.bank_spinner);
         status = (Spinner) v.findViewById(R.id.status_spinner);
         reminder = (SwitchCompat) v.findViewById(R.id.switch_toggle);
         save = (Button) v.findViewById(R.id.save);
@@ -66,6 +66,12 @@ public class Tab_Debit extends Fragment {
         load();
 
         return v;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        load();
     }
 
     @Override

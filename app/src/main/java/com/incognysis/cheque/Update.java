@@ -27,9 +27,9 @@ import java.util.Calendar;
 
 public class Update extends AppCompatActivity {
 
-    EditText givento, amount, chequeno, notes, takenfrom;
+    EditText givento, amount, chequeno, notes, takenfrom,bank;
     public static EditText issued_date, entry_date;
-    Spinner type, bank, status;
+    Spinner type, status;
     SwitchCompat reminder;
     Button save;
     TextView id;
@@ -48,9 +48,9 @@ public class Update extends AppCompatActivity {
         issued_date = (EditText) findViewById(R.id.date_issued_edit_text);
         entry_date = (EditText) findViewById(R.id.entry_date_edit_text);
         chequeno = (EditText) findViewById(R.id.cheque_no_edit_text);
+        bank=(EditText) findViewById(R.id.bank_edit_text);
         notes = (EditText) findViewById(R.id.notes_edit_text);
         type = (Spinner) findViewById(R.id.type_spinner);
-        bank = (Spinner) findViewById(R.id.bank_spinner);
         status = (Spinner) findViewById(R.id.status_spinner);
         reminder = (SwitchCompat) findViewById(R.id.switch_toggle);
         save = (Button) findViewById(R.id.save);
@@ -65,6 +65,7 @@ public class Update extends AppCompatActivity {
         id.setText(b.getString("id", "1"));
         //type.setSelection(b.getInt("type"));
         //  bank.setSelection(b.getInt("bank"));
+        bank.setText(b.getString("bank"));
         givento.setText(b.getString("takenfrom"));
         takenfrom.setText(b.getString("takenfrom"));
         entry_date.setText(b.getString("e_date"));
@@ -90,17 +91,17 @@ public class Update extends AppCompatActivity {
 
 
         //for bank spinner
-        String compareValue2 = b.getString("bank");
-        ArrayAdapter<String> spinnerArrayAdapter2 = new ArrayAdapter<String>
-                (this, android.R.layout.simple_spinner_item,
-                        getResources().getStringArray(R.array.bank_names));
-        spinnerArrayAdapter2.setDropDownViewResource(android.R.layout
-                .simple_spinner_dropdown_item);
-        bank.setAdapter(spinnerArrayAdapter2);
-        if (!compareValue2.equals(null)) {
-            int spinnerPosition = spinnerArrayAdapter2.getPosition(compareValue2);
-            bank.setSelection(spinnerPosition);
-        }
+//        String compareValue2 = b.getString("bank");
+//        ArrayAdapter<String> spinnerArrayAdapter2 = new ArrayAdapter<String>
+//                (this, android.R.layout.simple_spinner_item,
+//                        getResources().getStringArray(R.array.bank_names));
+//        spinnerArrayAdapter2.setDropDownViewResource(android.R.layout
+//                .simple_spinner_dropdown_item);
+//        bank.setAdapter(spinnerArrayAdapter2);
+//        if (!compareValue2.equals(null)) {
+//            int spinnerPosition = spinnerArrayAdapter2.getPosition(compareValue2);
+//            bank.setSelection(spinnerPosition);
+//        }
 
         //for status spinner
         String compareValue3 = b.getString("status");
@@ -191,17 +192,7 @@ public class Update extends AppCompatActivity {
         });
 
 
-        bank.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
-            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
-                sp2 = parent.getItemAtPosition(pos).toString();
-                // make insertion into database
-            }
-
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
 
         status.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
@@ -239,13 +230,11 @@ public class Update extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (sp1.equalsIgnoreCase("debit")) {
-                    Toast.makeText(getApplicationContext(), id.getText().toString(), Toast.LENGTH_SHORT).show();
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, bank.getText().toString(), givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
                 } else if (sp1.equalsIgnoreCase("credit")) {
-                    Toast.makeText(getApplicationContext(), id.getText().toString(), Toast.LENGTH_SHORT).show();
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, bank.getText().toString(), takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
                 }
 //                else {
@@ -254,8 +243,7 @@ public class Update extends AppCompatActivity {
 //
 //                }
                 // Toast.makeText(getApplicationContext(), givento.getText().toString(), Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-
+                finish();
             }
         });
 

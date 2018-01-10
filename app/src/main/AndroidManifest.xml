@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Add_activity" />
-        <activity android:name=".Update"></activity>
+        <activity android:name=".Update" />
+        <activity android:name=".SearchBank"></activity>
     </application>
 
 </manifest>

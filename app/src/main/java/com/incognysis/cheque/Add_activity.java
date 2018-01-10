@@ -5,7 +5,9 @@ import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.TimePickerDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -32,21 +34,25 @@ import java.util.Calendar;
 import java.util.HashSet;
 import java.util.List;
 
-public class Add_activity extends AppCompatActivity {
+public  class Add_activity extends AppCompatActivity {
 
-    EditText givento,amount,chequeno,notes,takenfrom;
+    EditText givento,amount,chequeno,notes,takenfrom, bank;
     public static EditText issued_date,entry_date;
-    Spinner type,bank,status;
+    Spinner type,status;
     SwitchCompat reminder;
     Button save;
     TextView id;
     DatabaseHandler db;
     String sp1,sp2,sp3,rem_status,given_or_taken;
-    TextInputLayout textInputLayout1,textInputLayout2;
+    TextInputLayout textInputLayout1,textInputLayout2,textInputLayout;
     String table;
     List<String> list;
-    String selectedItem="";
+    String selectedItem="",strEditText;
     private boolean doubleBackToExitPressedOnce;
+    public static final String mypreference = "mypref";
+
+    public static final String TAG_NAME = "nameKey";
+
 
 
     @Override
@@ -63,13 +69,19 @@ public class Add_activity extends AppCompatActivity {
         chequeno=(EditText) findViewById(R.id.cheque_no_edit_text);
         notes=(EditText) findViewById(R.id.notes_edit_text);
         type=(Spinner) findViewById(R.id.type_spinner);
-        bank=(Spinner) findViewById(R.id.bank_spinner);
+        bank=(EditText) findViewById(R.id.bank_edit_text);
+        //bank=(Spinner) findViewById(R.id.bank_spinner);
         status=(Spinner) findViewById(R.id.status_spinner);
         reminder=(SwitchCompat) findViewById(R.id.switch_toggle);
         save=(Button) findViewById(R.id.save);
         db= new DatabaseHandler(this);
+        textInputLayout=(TextInputLayout)findViewById(R.id.bank_text);
         textInputLayout1 = (TextInputLayout) findViewById(R.id.text_input_layout1);
         textInputLayout2 = (TextInputLayout) findViewById(R.id.text_input_layout2);
+
+
+
+
 
 
         //for type spinner
@@ -81,12 +93,12 @@ public class Add_activity extends AppCompatActivity {
         type.setAdapter(spinnerArrayAdapter1);
 
         //for bank spinner
-        ArrayAdapter<String> spinnerArrayAdapter2 = new ArrayAdapter<String>
-                (this, android.R.layout.simple_spinner_item,
-                        getResources().getStringArray(R.array.bank_names)); //selected item will look like a spinner set from XML
-        spinnerArrayAdapter2.setDropDownViewResource(android.R.layout
-                .simple_spinner_dropdown_item);
-        bank.setAdapter(spinnerArrayAdapter2);
+//        ArrayAdapter<String> spinnerArrayAdapter2 = new ArrayAdapter<String>
+//                (this, android.R.layout.simple_spinner_item,
+//                        getResources().getStringArray(R.array.bank_names)); //selected item will look like a spinner set from XML
+//        spinnerArrayAdapter2.setDropDownViewResource(android.R.layout
+//                .simple_spinner_dropdown_item);
+//        bank.setAdapter(spinnerArrayAdapter2);
 
         //for status spinner
         ArrayAdapter<String> spinnerArrayAdapter3 = new ArrayAdapter<String>
@@ -130,6 +142,8 @@ public class Add_activity extends AppCompatActivity {
         });
 
 
+
+
         ////set the switch to ON
         reminder.setChecked(false);
 
@@ -149,6 +163,12 @@ public class Add_activity extends AppCompatActivity {
 
             }
 
+        });
+        bank.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),SearchBank.class));
+            }
         });
 
         type.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -180,17 +200,17 @@ public class Add_activity extends AppCompatActivity {
         });
 
 
-        bank.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
-                sp2 = parent.getItemAtPosition(pos).toString();
-                // make insertion into database
-            }
-
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
+//        bank.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//
+//            public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
+//                sp2 = parent.getItemAtPosition(pos).toString();
+//                // make insertion into database
+//            }
+//
+//            public void onNothingSelected(AdapterView<?> parent) {
+//
+//            }
+//        });
 
         status.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
@@ -231,28 +251,35 @@ public class Add_activity extends AppCompatActivity {
 
                 if(sp1.equalsIgnoreCase("debit"))
                 {
-                    db.add_cheque(new cheque(sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+                    //Toast.makeText(getApplicationContext(),"debited",Toast.LENGTH_SHORT).show();
+                    db.add_cheque(new cheque(sp1, bank.getText().toString(), givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
                 }
                 else if(sp1.equalsIgnoreCase("credit")) {
-//                Toast.makeText(getApplicationContext(),"Button pressed",Toast.LENGTH_SHORT).show();
-                    db.add_cheque(new cheque(sp1, sp2, takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+//                Toast.makeText(getApplicationContext(),"credited",Toast.LENGTH_SHORT).show();
+                    db.add_cheque(new cheque(sp1, bank.getText().toString(), takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
                             chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
-                }
-                else {
-                    db.add_cheque(new cheque(sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
-                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
-
                 }
                    // Toast.makeText(getApplicationContext(), givento.getText().toString(), Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                finish();
 
             }
         });
 
     }
 
+
+
+
+    @Override
+    protected void onResume() {
+        SharedPreferences sharedPreferences=getSharedPreferences("login", Context.MODE_PRIVATE);
+        bank.setText(sharedPreferences.getString("Name",""));
+        super.onResume();
+
+
+    }
 
 
     @SuppressLint("ValidFragment")
@@ -300,26 +327,19 @@ public class Add_activity extends AppCompatActivity {
         }
 
     }
-
     @Override
-    public void onBackPressed() {
-        if (doubleBackToExitPressedOnce) {
-            super.onBackPressed();
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if(resultCode == RESULT_OK) {
+                strEditText = data.getStringExtra("item");
+                Toast.makeText(getApplicationContext(),strEditText,Toast.LENGTH_SHORT).show();
 
-            return;
-        }
-
-        this.doubleBackToExitPressedOnce = true;
-        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
-
-        new Handler().postDelayed(new Runnable() {
-
-            @Override
-            public void run() {
-                doubleBackToExitPressedOnce=false;
             }
-        }, 2000);
+        }
     }
+
+
 }
 
 
