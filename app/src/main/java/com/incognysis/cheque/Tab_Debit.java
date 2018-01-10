@@ -84,7 +84,7 @@ public class Tab_Debit extends Fragment {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_filter) {
-            Toast.makeText(getActivity(),"Filter",Toast.LENGTH_SHORT).show();
+
             AlertDialog.Builder UnitSelection = new AlertDialog.Builder(getActivity());
             UnitSelection.setTitle("Sort By");
             UnitSelection.setItems(sorting, new DialogInterface.OnClickListener() {
@@ -114,6 +114,10 @@ public class Tab_Debit extends Fragment {
             });
             AlertDialog alert = UnitSelection.create();
             alert.show();
+            TextView textView = ((TextView) alert.findViewById(android.R.id.message));
+            textView.setTextColor(Color.BLACK);
+            textView.setTextAppearance(R.style.TextAppearance_AppCompat_Title);
+            textView.setTextSize(16);
             return true;
         }
 

@@ -253,6 +253,7 @@ public  class Add_activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+
                 if(sp1.equalsIgnoreCase("debit"))
                 {
                     //Toast.makeText(getApplicationContext(),"debited",Toast.LENGTH_SHORT).show();
@@ -305,11 +306,21 @@ public  class Add_activity extends AppCompatActivity {
             if(month<10 && day < 10) {
                 issued_date.setText("0"+day + "/0" + month + "/" + year);
             }
+            else if ( month<10)
+            {
+                issued_date.setText(day + "/0" + month + "/" + year);
+
+            }
+            else if (month>10 && day<10)
+            {
+                issued_date.setText("0"+day + "/" + month + "/" + year);
+
+            }
             else
             {
                 issued_date.setText(day + "/" + month + "/" + year);
-            }
 
+            }
 
         }
 
@@ -331,27 +342,30 @@ public  class Add_activity extends AppCompatActivity {
             populateSetDate(yy, mm+1, dd);
         }
         public void populateSetDate(int year, int month, int day) {
-                if(month<10 && day < 10) {
-                    entry_date.setText("0"+day + "/0" + month + "/" + year);
-                }
-                else
-                {
-                    entry_date.setText(day + "/" + month + "/" + year);
-                }
-        }
 
-    }
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1) {
-            if(resultCode == RESULT_OK) {
-                strEditText = data.getStringExtra("item");
-                Toast.makeText(getApplicationContext(),strEditText,Toast.LENGTH_SHORT).show();
+            if(month<10 && day < 10) {
+                entry_date.setText("0"+day + "/0" + month + "/" + year);
+
+            }
+            else if ( month<10)
+            {
+                entry_date.setText(day + "/0" + month + "/" + year);
+
+            }
+            else if (month>10 && day<10)
+            {
+                entry_date.setText("0"+day + "/" + month + "/" + year);
+
+            }
+            else
+            {
+                entry_date.setText(day + "/" + month + "/" + year);
 
             }
         }
+
     }
+
 
 
 }

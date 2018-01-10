@@ -88,7 +88,7 @@ public class Tab_Credit extends Fragment {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_filter) {
-            Toast.makeText(getActivity(),"Filter",Toast.LENGTH_SHORT).show();
+            
             AlertDialog.Builder UnitSelection = new AlertDialog.Builder(getActivity());
             UnitSelection.setTitle("Sort By");
             UnitSelection.setItems(sorting, new DialogInterface.OnClickListener() {
@@ -112,12 +112,16 @@ public class Tab_Credit extends Fragment {
                     if(i==1)
                     {
                         load();
-                        Toast.makeText(getActivity(),"By alpa",Toast.LENGTH_SHORT).show();
+
                     }
                 }
             });
             AlertDialog alert = UnitSelection.create();
             alert.show();
+            TextView textView = ((TextView) alert.findViewById(android.R.id.message));
+            textView.setTextColor(Color.BLACK);
+            textView.setTextAppearance(R.style.TextAppearance_AppCompat_Title);
+            textView.setTextSize(16);
             return true;
         }
 
@@ -230,9 +234,7 @@ public class Tab_Credit extends Fragment {
                             startActivity(i);
 
 
-                            // Write your code here to invoke YES event
-                            //Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
-                            Toast.makeText(alertDialog.getContext(), "Checking", Toast.LENGTH_SHORT).show();
+
 
 
                         }
@@ -266,7 +268,7 @@ public class Tab_Credit extends Fragment {
                                             mylist.get(position).get_status(), mylist.get(position).get_notes(),
                                             mylist.get(position).get_reminder()));
                                     load();
-                                    Toast.makeText(getContext(), "Deleted", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getContext(), "Deleted!!", Toast.LENGTH_SHORT).show();
 
                                 }
                             });

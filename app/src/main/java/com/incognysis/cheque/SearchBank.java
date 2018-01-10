@@ -62,7 +62,7 @@ public  class SearchBank extends AppCompatActivity {
                 SharedPreferences.Editor editor=sharedPreferences.edit();
                 editor.putString("Name",lv.getItemAtPosition(position).toString());
                 editor.commit();
-                Toast.makeText(getApplicationContext(),lv.getItemAtPosition(position).toString(),Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(),lv.getItemAtPosition(position).toString(),Toast.LENGTH_LONG).show();
                 finish();
             }
         });
@@ -70,12 +70,5 @@ public  class SearchBank extends AppCompatActivity {
 
     }
 
-//    public void onListItemClick(ListView parent, View v, int position, long id) {
-//        Intent data = new Intent();
-//        data.putExtra("item","SELECTED ITEM");
-//        setResult(RESULT_OK, data);
-//        finish();
-//
-//
-//    }
+
 }
