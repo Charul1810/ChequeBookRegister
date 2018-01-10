@@ -88,7 +88,7 @@ public class Tab_Credit extends Fragment {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_filter) {
-            
+
             AlertDialog.Builder UnitSelection = new AlertDialog.Builder(getActivity());
             UnitSelection.setTitle("Sort By");
             UnitSelection.setItems(sorting, new DialogInterface.OnClickListener() {
