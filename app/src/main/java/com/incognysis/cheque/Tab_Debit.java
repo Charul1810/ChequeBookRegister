@@ -79,7 +79,7 @@ public class Tab_Debit extends Fragment {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        CharSequence sorting[]= new CharSequence[]{"Alphabet","Date"};
+        CharSequence sorting[]= new CharSequence[]{"Alphabet","Recent"};
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
@@ -114,10 +114,6 @@ public class Tab_Debit extends Fragment {
             });
             AlertDialog alert = UnitSelection.create();
             alert.show();
-            TextView textView = ((TextView) alert.findViewById(android.R.id.message));
-            textView.setTextColor(Color.BLACK);
-            textView.setTextAppearance(R.style.TextAppearance_AppCompat_Title);
-            textView.setTextSize(16);
             return true;
         }
 
@@ -220,7 +216,7 @@ public class Tab_Debit extends Fragment {
 
                             // Write your code here to invoke YES event
                             //Toast.makeText(getApplicationContext(), "You clicked on YES", Toast.LENGTH_SHORT).show();
-                            Toast.makeText(alertDialog.getContext(), "Checking", Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(alertDialog.getContext(), "Checking", Toast.LENGTH_SHORT).show();
 
 
                         }
@@ -278,10 +274,7 @@ public class Tab_Debit extends Fragment {
                     // Showing Alert Message
                     AlertDialog alertDialog1 = alertDialog.create();
                     alertDialog1.show();
-                    TextView textView = ((TextView) alertDialog1.findViewById(android.R.id.message));
-                    textView.setTextColor(Color.BLACK);
-                    textView.setTextAppearance(R.style.TextAppearance_AppCompat_Title);
-                    textView.setTextSize(16);
+
                     //  textView.setGravity(Gravity.CENTER);
                 }
             });

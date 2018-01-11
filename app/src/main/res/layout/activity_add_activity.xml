@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:focusable="true"
     android:focusableInTouchMode="true"
+    android:orientation="vertical"
     tools:context="com.incognysis.cheque.Add_activity">
 
     <TextView
@@ -29,7 +29,7 @@
             style="?android:attr/spinnerDropDownItemStyle"
             android:layout_width="match_parent"
             android:layout_height="36dp"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center" />
 
     </LinearLayout>
 
@@ -37,9 +37,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:paddingLeft="13dp"
-        android:paddingRight="13dp"
-        android:orientation="vertical">
+        android:paddingRight="13dp">
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/bank_text"
@@ -50,12 +50,12 @@
                 android:id="@+id/bank_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/Choose_bank"
-                android:inputType="textCapWords"
+                android:background="@drawable/edt_bg_selector"
                 android:clickable="true"
                 android:editable="false"
                 android:focusable="false"
-                android:background="@drawable/edt_bg_selector"/>
+                android:hint="@string/Choose_bank"
+                android:inputType="textCapWords" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
@@ -64,9 +64,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:orientation="vertical"
         android:paddingLeft="13dp"
-        android:paddingRight="13dp"
-        android:orientation="vertical">
+        android:paddingRight="13dp">
 
 
         <android.support.design.widget.TextInputLayout
@@ -80,8 +80,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/edt_bg_selector"
                 android:hint="Given To"
-                android:inputType="textCapWords"
-                />
+                android:inputType="textCapWords" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -94,13 +93,10 @@
                 android:id="@+id/givenOrTaken_Edit_text2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edt_bg_selector"
                 android:hint="Recieved From"
-                android:visibility="gone"
-                android:background="@drawable/edt_bg_selector" />
+                android:visibility="gone" />
         </android.support.design.widget.TextInputLayout>
-
-
-
 
 
     </LinearLayout>
@@ -110,9 +106,9 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:paddingTop="9dp"
         android:paddingLeft="14dp"
-        android:paddingRight="3dp">
+        android:paddingRight="3dp"
+        android:paddingTop="9dp">
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/text_entry_date"
@@ -121,19 +117,18 @@
 
             <EditText
                 android:id="@+id/entry_date_edit_text"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Entry Date"
-                style="@android:style/Widget.DeviceDefault.Light.Spinner"
-                android:drawableLeft="@drawable/ic_date_range_black_24dp"
-                android:drawableTint="@color/lightgrey"
-                android:drawableStart="@drawable/ic_date_range_black_24dp"
-                android:drawablePadding="4dp"
                 android:clickable="true"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="4dp"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:drawableTint="@color/lightgrey"
                 android:editable="false"
                 android:focusable="false"
-                android:textSize="18dp"
-                />
+                android:hint="Entry Date"
+                android:textSize="18dp" />
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
 
@@ -142,9 +137,9 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:paddingTop="9dp"
         android:paddingLeft="14dp"
-        android:paddingRight="3dp">
+        android:paddingRight="3dp"
+        android:paddingTop="9dp">
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/text_issued_date"
@@ -153,19 +148,18 @@
 
             <EditText
                 android:id="@+id/date_issued_edit_text"
+                style="@android:style/Widget.DeviceDefault.Light.Spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Issued Date"
-                style="@android:style/Widget.DeviceDefault.Light.Spinner"
-                android:drawableLeft="@drawable/ic_date_range_black_24dp"
-                android:drawableTint="@color/lightgrey"
-                android:drawableStart="@drawable/ic_date_range_black_24dp"
-                android:drawablePadding="4dp"
                 android:clickable="true"
+                android:drawableLeft="@drawable/ic_date_range_black_24dp"
+                android:drawablePadding="4dp"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:drawableTint="@color/lightgrey"
                 android:editable="false"
                 android:focusable="false"
-                android:textSize="18dp"
-                />
+                android:hint="Issued Date"
+                android:textSize="18dp" />
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
 
@@ -188,9 +182,9 @@
                 android:id="@+id/amount_Edit_Text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edt_bg_selector"
                 android:hint="Amount"
-                android:inputType="numberDecimal"
-                android:background="@drawable/edt_bg_selector"/>
+                android:inputType="numberDecimal" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
@@ -212,9 +206,9 @@
                 android:id="@+id/cheque_no_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:background="@drawable/edt_bg_selector"
                 android:hint="Cheque Number"
-                android:background="@drawable/edt_bg_selector"/>
+                android:inputType="number" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
@@ -224,8 +218,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:paddingBottom="7dp"
-        >
+        android:paddingBottom="7dp">
 
 
         <Spinner
@@ -233,8 +226,7 @@
             style="?android:attr/spinnerDropDownItemStyle"
             android:layout_width="match_parent"
             android:layout_height="36dp"
-            android:layout_gravity="center"
-            android:entries="@array/status" />
+            android:layout_gravity="center" />
 
     </LinearLayout>
 
@@ -256,9 +248,9 @@
                 android:id="@+id/notes_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edt_bg_selector"
                 android:hint="Notes"
-                android:inputType="textCapWords"
-                android:background="@drawable/edt_bg_selector"/>
+                android:inputType="textCapWords" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>

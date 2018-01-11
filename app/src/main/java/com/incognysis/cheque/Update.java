@@ -27,7 +27,7 @@ import java.util.Calendar;
 
 public class Update extends AppCompatActivity {
 
-    EditText givento, amount, chequeno, notes, takenfrom,bank;
+    EditText givento, amount, chequeno, notes, takenfrom, bank;
     public static EditText issued_date, entry_date;
     Spinner type, status;
     SwitchCompat reminder;
@@ -48,7 +48,7 @@ public class Update extends AppCompatActivity {
         issued_date = (EditText) findViewById(R.id.date_issued_edit_text);
         entry_date = (EditText) findViewById(R.id.entry_date_edit_text);
         chequeno = (EditText) findViewById(R.id.cheque_no_edit_text);
-        bank=(EditText) findViewById(R.id.bank_edit_text);
+        bank = (EditText) findViewById(R.id.bank_edit_text);
         notes = (EditText) findViewById(R.id.notes_edit_text);
         type = (Spinner) findViewById(R.id.type_spinner);
         status = (Spinner) findViewById(R.id.status_spinner);
@@ -117,31 +117,31 @@ public class Update extends AppCompatActivity {
         }
 
 
-        amount.addTextChangedListener(new TextWatcher() {
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count,
-                                          int after) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                if (!s.toString().startsWith("₹ ")) {
-                    amount.setText("₹ ");
-                    Selection.setSelection(amount.getText(), amount.getText().length());
-
-                }
-
-            }
-        });
+//        amount.addTextChangedListener(new TextWatcher() {
+//
+//            @Override
+//            public void onTextChanged(CharSequence s, int start, int before, int count) {
+//                // TODO Auto-generated method stub
+//
+//            }
+//
+//            @Override
+//            public void beforeTextChanged(CharSequence s, int start, int count,
+//                                          int after) {
+//                // TODO Auto-generated method stub
+//
+//            }
+//
+//            @Override
+//            public void afterTextChanged(Editable s) {
+//                if (!s.toString().startsWith("₹ ")) {
+//                    amount.setText("₹ ");
+//                    Selection.setSelection(amount.getText(), amount.getText().length());
+//
+//                }
+//
+//            }
+//        });
 
 
         ////set the switch to ON
@@ -192,8 +192,6 @@ public class Update extends AppCompatActivity {
         });
 
 
-
-
         status.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             public void onItemSelected(AdapterView<?> parent, View v, int pos, long id) {
@@ -229,21 +227,63 @@ public class Update extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (sp1.equalsIgnoreCase("debit")) {
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, bank.getText().toString(), givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
-                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
 
-                } else if (sp1.equalsIgnoreCase("credit")) {
-                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, bank.getText().toString(), takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
-                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
+                if (sp1.equalsIgnoreCase("debit")) {
+                    if (bank.getText().toString().trim().length()==0) {
+                        bank.setError("Empty Field!");
+                    }
+                    if (givento.getText().toString().trim().equalsIgnoreCase("")) {
+                        givento.setError("Empty Field!");
+                    }
+
+                    if (entry_date.getText().toString().trim().equalsIgnoreCase("")) {
+                        entry_date.setError("Empty Field!");
+                    }
+
+                    if (issued_date.getText().toString().trim().equalsIgnoreCase("")) {
+                        issued_date.setError("Empty Field!");
+                    }
+
+                    if (amount.getText().toString().trim().equalsIgnoreCase("")) {
+                        amount.setError("Empty Field!");
+                    }
+
+                    if (chequeno.getText().toString().trim().equalsIgnoreCase("")) {
+                        chequeno.setError("Empty Field!");
+                    }
+//                    else {
+//                        db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, bank.getText().toString(), givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+//                                chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
+//                        finish();
+//                    }
+
                 }
-//                else {
-//                    db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, sp2, givento.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
-//                            chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
-//
-//                }
-                // Toast.makeText(getApplicationContext(), givento.getText().toString(), Toast.LENGTH_SHORT).show();
-                finish();
+                else if (sp1.equalsIgnoreCase("credit")) {
+                    if (bank.getText().toString().trim().equalsIgnoreCase("")) {
+                        bank.setError("Empty Field!");
+                    }
+                    if (takenfrom.getText().toString().trim().equalsIgnoreCase("")) {
+                        takenfrom.setError("Empty Field!");
+                    }
+                    if (entry_date.getText().toString().trim().equalsIgnoreCase("")) {
+                        entry_date.setError("Empty Field!");
+                    }
+                    if (issued_date.getText().toString().trim().equalsIgnoreCase("")) {
+                        issued_date.setError("Empty Field!");
+                    }
+                    if (amount.getText().toString().trim().equalsIgnoreCase("")) {
+                        amount.setError("Empty Field!");
+                    }
+                    if (chequeno.getText().toString().trim().equalsIgnoreCase("")) {
+                        chequeno.setError("Empty Field!");
+                    }
+//                    else {
+//                        db.updateCheque(new cheque(Integer.parseInt(id.getText().toString()), sp1, bank.getText().toString(), takenfrom.getText().toString(), entry_date.getText().toString(), issued_date.getText().toString(), amount.getText().toString(),
+//                                chequeno.getText().toString(), sp3, notes.getText().toString(), rem_status));
+//                        finish();
+//                    }
+                }
+
             }
         });
 
@@ -267,22 +307,16 @@ public class Update extends AppCompatActivity {
         }
 
         public void populateSetDate(int year, int month, int day) {
-            if(month<10 && day < 10) {
-                issued_date.setText("0"+day + "/0" + month + "/" + year);
+            if (month < 10 && day < 10) {
+                issued_date.setText("0" + day + "/0" + month + "/" + year);
 
-            }
-            else if ( month<10)
-            {
+            } else if (month < 10) {
                 issued_date.setText(day + "/0" + month + "/" + year);
 
-            }
-            else if (month>10 && day<10)
-            {
-                issued_date.setText("0"+day + "/" + month + "/" + year);
+            } else if (month > 10 && day < 10) {
+                issued_date.setText("0" + day + "/" + month + "/" + year);
 
-            }
-            else
-            {
+            } else {
                 issued_date.setText(day + "/" + month + "/" + year);
 
             }
@@ -310,21 +344,15 @@ public class Update extends AppCompatActivity {
 
         public void populateSetDate(int year, int month, int day) {
 
-            if(month<10 && day < 10) {
-                entry_date.setText("0"+day + "/0" + month + "/" + year);
+            if (month < 10 && day < 10) {
+                entry_date.setText("0" + day + "/0" + month + "/" + year);
 
-            }
-            else if ( month<10)
-            {
+            } else if (month < 10) {
                 entry_date.setText(day + "/0" + month + "/" + year);
 
-            }
-            else if (month>10 && day<10)
-            {
-                entry_date.setText("0"+day + "/" + month + "/" + year);
-            }
-            else
-            {
+            } else if (month > 10 && day < 10) {
+                entry_date.setText("0" + day + "/" + month + "/" + year);
+            } else {
                 entry_date.setText(day + "/" + month + "/" + year);
             }
 
